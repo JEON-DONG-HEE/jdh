@@ -1,0 +1,2384 @@
+@charset "utf-8";
+/* *********************************************
+Project ===== Hyundai Motor Group
+FileName === module.css
+Author ===== name
+Date ======= 2014-03-13
+Last ======= 2014-03-13
+********************************************* */
+
+
+/* --------------------------------------------
+ * heading
+/* ------------------------------------------ */
+h1.h1-a1 {font-size:25px;font-family:HDharmonyM;color:#333;background-color:#fff;padding:24px 0 31px 24px;border-bottom:1px solid #eee;font-weight:normal;}
+h1.h1-a2 {padding:50px 0 15px 50px;font-size:25px !important;font-family:HDharmonyM;font-weight:normal;color:#333;background:#fff;}
+h1.h1-a3 {padding:25px 0 0 25px;font-family:HDharmonyM;font-size:25px;font-weight:normal;color:#333;}
+
+h1.h1-view1 {padding:35px 50px 0;height:90px;background:#fff;font-size:25px;font-weight:normal;color:#333;line-height:30px;font-family:'HDHarmonyL';letter-spacing:-1px;}
+h1.h1-view2 {padding:40px 200px 0 50px;height:90px;background:#fff;font-size:25px;font-weight:normal;color:#333;line-height:30px;font-family:'HDHarmonyL';letter-spacing:-1px;position:relative;}
+h1.h1-view2 strong {position:absolute;right:14px;top:3px;}
+h1.h1-view3 {margin-bottom:20px;font-size:25px;font-weight:normal;color:#333;line-height:30px;font-family:'HDHarmonyM';letter-spacing:-1px;}
+
+h1.h1-aside1 {font-family:'HDHarmonyM';position:relative;font-size: 16px;font-weight:normal;letter-spacing:-1px;color:#333;background:#fff;padding:11px 15px;}
+h1.h1-aside1 span {position:absolute;top:11px;right:20px;font-size:14px;color:#00287a;}
+
+h2.h2-a1 {padding:50px 0 0 50px;font-size:16px;font-weight:normal;line-height:22px;color:#333;}
+h2.h2-a2 {padding:50px 0 15px 0;font-size:25px;font-family:HDharmonyM;font-weight:normal;color:#333;} /* 2018 신기술추가  */
+
+h2.h2-view1 {padding-bottom:25px;font-weight:normal;font-size:20px;color:#333;line-height:1.3em;}
+h2.h2-view2 {padding:50px 0 15px 50px;font-family:HDharmonyM;font-size:20px;font-weight:normal;color:#333;}
+
+h3.h3-a1 {padding:50px 0 15px 0;font-size:20px;font-family:HDharmonyM;font-weight:normal;color:#333;} /* 2018 신기술추가  */
+h3.h3-view1 {padding:45px 0 15px 0;font-size:22px;font-family:HDharmonyM;font-weight:normal;color:#333;} /* 2018 신기술추가  */
+
+/* --------------------------------------------
+ * 뉴스레터 배너형식 
+/* ------------------------------------------ */
+div.newsletter_aside a {display:block; font-family:'HDHarmonyL';font-size: 13px;letter-spacing:-1px;color:#666;background:#fff;padding:15px 10px 15px 45px;margin-bottom:12px;background:#fff url('/images/comm/ico/ico_newsletter.gif') 12px 12px no-repeat;}
+/* //141217 추가 */
+
+/* --------------------------------------------
+ * ui달력
+/* ------------------------------------------ */
+img.ui-datepicker-trigger {vertical-align:middle;background:#fff;margin-left:-2px;cursor:pointer;}
+img.ui-datepicker-trigger:hover {background:#f5f5f5}
+
+.ui-widget-header {color: #333;font-size:20px;font-family: 'HDHarmonyM';}
+.ui-widget-header a {color: #222222; }
+.ui-widget-header span {display:inline-block;vertical-align:middle}
+
+.ui-datepicker {width:310px;padding:15px;display: none;background:#fff;}
+.ui-datepicker .ui-datepicker-header {position: relative;padding: .2em ; }
+.ui-datepicker .ui-datepicker-title {height:40px;padding-top:10px;text-align: center;}
+.ui-datepicker .ui-datepicker-title select {font-size: 1em;margin: 1px 0; }
+.ui-datepicker .ui-datepicker-prev {position: absolute;top: 10px;left: 40px;}
+.ui-datepicker .ui-datepicker-next {position: absolute;top: 10px;right: 40px;}
+.ui-datepicker .ui-datepicker-prev span {background:url(https://www.hyundai.co.kr/images/comm/btn/btn-calendar-pre.gif) no-repeat;width:30px;height:30px;display:inline-block;font-size:0;}
+.ui-datepicker .ui-datepicker-prev span:hover {background:url(https://www.hyundai.co.kr/images/comm/btn/btn-calendar-pre-on.gif) no-repeat;}
+.ui-datepicker .ui-datepicker-next span {background:url(https://www.hyundai.co.kr/images/comm/btn/btn-calendar-nxt.gif) no-repeat;width:30px;height:30px;display:inline-block;;font-size:0;}
+.ui-datepicker .ui-datepicker-next span:hover {background:url(https://www.hyundai.co.kr/images/comm/btn/btn-calendar-nxt-on.gif) no-repeat;}
+.ui-datepicker table {width: 100%;font-size: .9em;border-collapse: collapse;margin: 0 0 .4em; }
+.ui-datepicker table th {padding: .7em .3em;    text-align: center;color:#333;  font-family: HDHarmonyL;font-size:14px;border-bottom: 1px solid #eee; text-transform:uppercase; }
+.ui-datepicker table th:first-child {color:red}
+.ui-datepicker table td:first-child a{color:red}
+
+.ui-datepicker table td {border: 0;padding: 0px;    font-family: HDHarmonyM;    font-size:13px;     color:#333;     text-align:center;  width:14%;  border-bottom:1px solid #eee; }
+.ui-datepicker table td span,
+.ui-datepicker table td a { display: block;padding: 13px 0;text-align: right;   text-decoration: none;  text-align:center; }
+.ui-datepicker .ui-datepicker-buttonpane {/**/display:none;background-image: none;margin: .7em 0 0 0;padding: 0 .2em;border-left: 0;border-right: 0;border-bottom: 0; }
+.ui-datepicker-year {padding-right:10px;}
+.ui-datepicker-month {}
+
+.ui-state-default {color:#eee;}
+.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight {background: #dfe9ff;color: #00287a; }
+.ui-state-highlight a, .ui-widget-content .ui-state-highlight a, .ui-widget-header .ui-state-highlight a {color: #363636;}
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover {background: #dfe9ff;    font-weight: normal;    color: #212121; }
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {background: #00287a;font-weight: normal; color: #fff;text-align:center;text-decoration:underline; }
+
+.ui-datepicker .font-highlight {text-decoration:underline;font-weight:bold;}
+
+/* --------------------------------------------
+ * ul | thumbnail
+/* ------------------------------------------ */
+/* ul.thumbnail-a1 */
+ul.thumbnail-a1 {width:984px;overflow:hidden;}
+ul.thumbnail-a1 li {float:left;width:237px;height:363px;position:relative;overflow:hidden;margin-left:12px;margin-bottom:20px;background:url(https://www.hyundai.co.kr/images/comm/bg/bg-detail.gif) 202px 331px no-repeat #fff;}
+ul.thumbnail-a1 li.first{margin-left:0px;}
+ul.thumbnail-a1 li dl {margin-top:330px;margin-left:15px;cursor:pointer;}
+ul.thumbnail-a1 li dl dt {display:block;overflow:hidden;margin-bottom:20px;padding-right:44px;font-size:16px;line-height:21px;color:#333;text-overflow:ellipsis;white-space:nowrap;} /* 200218 edit */
+ul.thumbnail-a1 li dl dt span {font-size:14px;color:#666;margin-left:10px;}
+ul.thumbnail-a1 li dl dd {font-size:14px;color:#666;line-height:21px;}
+ul.thumbnail-a1 li dl dd.ellipsis {display:block;width:220px;height:42px;}/* 200218 add */
+ul.thumbnail-a1 li dl dd img {border-bottom:1px solid #eee;}
+ul.thumbnail-a1 li dl dd.overlay {overflow:hidden;position:absolute;top:0;left:0;}
+ul.thumbnail-a1 li dl dd.overlay span {display:block;width:237px;height:363px;}
+ul.thumbnail-a1 li dl dd.overlay a {font-size:0}
+ul.thumbnail-a1 li.on {background:#fff;}
+ul.thumbnail-a1 li.on a {display:block;position:absolute;top:0;left:0;width:100%;height:100%}
+ul.thumbnail-a1 li.on dl dd.overlay span.down-load {display:block;width:237px;height:17px;padding-top:145px;padding-bottom:75px;background:url(https://www.hyundai.co.kr/images/comm/btn/btn-download.png) 100px 91px no-repeat;font-size:16px;color:#fff;text-align:center;position:absolute;top:0;left:0}
+ul.thumbnail-a1 li.on dl dd.overlay span.bg-block{width:100%;height:237px;background:#000}
+ul.thumbnail-a1 li.on dl dd.overlay span img{opacity:5;filter:alpha(opacity=50);}
+ul.thumbnail-a1 li.nodata {width:100%;height:auto;min-height:0px;text-align:center;background:url(https://www.hyundai.co.kr/images/comm/ico/ico-nodata.png) center 40px no-repeat #FFF;padding:105px 0 40px 0;font-family:HDharmonyM;color:#333;font-size:16px;border-bottom:1px solid #eee;margin:0;}
+
+/* ul.thumbnail-a2 */
+ul.thumbnail-a2 {display:inline-block;width:100%;}
+ul.thumbnail-a2 li {float:left;margin-left:12px;background:#fff;}
+ul.thumbnail-a2 li a {position:relative;width:237px;min-height:201px;display:block;}
+ul.thumbnail-a2 li a:hover {background:url(https://www.hyundai.co.kr/images/comm/bg/bg-line2.gif) repeat-x left bottom;}
+ul.thumbnail-a2 li a strong.tit {display:block;padding:7px 8px;font-size:12px;line-height:12px;position:absolute;top:0;left:0;color:#fff;background:#333;}
+ul.thumbnail-a2 li a span.tag {display:block;position:absolute;top:0;left:0;width:85px;height:21px;font-family:dotum;font-size:12px;line-height:21px;text-align:center;color:#fff;background:#333;} /* 170915 추가 */
+ul.thumbnail-a2 li a span.txt {display:block;height:58px;padding:8px 25px 0 12px;font-family:dotum;font-size:12px;line-height:21px;color:#333;font-weight:bold;}
+ul.thumbnail-a2 li a span.txt2 {display:block;padding:12px;font-family:dotum;font-size:12px;line-height:21px;color:#333;height:21px;font-weight:bold;}
+ul.thumbnail-a2 li a span.data {padding:0 0 11px 12px;font-family:dotum;font-size:12px;color:#666;line-height:21px;display:inline-block;}
+ul.thumbnail-a2 li a span.data em {padding-left:8px;} /* 170915 추가 */
+ul.thumbnail-a2 li a span.data2 {padding:8px 0 0 12px;font-family:dotum;font-size:12px;color:#666;line-height:21px;display:inline-block;}
+ul.thumbnail-a2 li:first-child {margin-left:0;}
+
+/* thumbnail-a3 */
+ul.thumbnail-a3 {display:inline-block;width:100%;}
+ul.thumbnail-a3 li {width:246px;height:184px;float:left;overflow:hidden;position:relative;}
+ul.thumbnail-a3 li a {display:block;}
+ul.thumbnail-a3 li a strong.video {display:block;position:absolute;top:0;right:0;width:25px;height:24px;font-size:0;line-height:0;background:url(https://www.hyundai.co.kr/images/comm/ico/ico-movie.gif) 4px 6px no-repeat #fff;}
+ul.thumbnail-a3 li a span.pic {display:block;}
+ul.thumbnail-a3 li a span.pic img {display:block;}
+ul.thumbnail-a3 li a div.txt {width:220px;height:70px;padding:13px 13px 0 13px;background-color:#fff;position:absolute;bottom:-85px;left:0;}
+ul.thumbnail-a3 li a div.txt strong {background:none;display:block;font-family:dotum;font-weight:normal;font-size:12px;color:#666;margin-bottom:3px;height:20px;}
+ul.thumbnail-a3 li a div.txt span {display:block;height:37px;font-family:dotum;line-height:21px;color:#333;font-weight:bold;}
+ul.thumbnail-a3 li a div.txt .ico{position:absolute;top:11px;right:13px;}
+
+
+/* thumbnail-a4 */
+ul.thumbnail-a4 {display:inline-block;width:100%;}
+ul.thumbnail-a4 li {float:left;width:328px;height:317px;}
+ul.thumbnail-a4 li a {display:inline-block;background:#fff;position:relative;}
+ul.thumbnail-a4 li a:hover {background:#fff url(https://www.hyundai.co.kr/images/comm/bg/bg-line2.gif) repeat-x left bottom;}
+ul.thumbnail-a4 li a span.pic {width:328px;height:236px;}
+ul.thumbnail-a4 li a span.pic img {display:block;border-bottom:1px solid #eee;}
+ul.thumbnail-a4 li a strong{display:block;font-family:HDharmonyM;font-size:16px;color:#333;padding:20px 25px 40px;font-weight:normal;}
+
+/* thumbnail-a5 */
+ul.thumbnail-a5 {overflow:hidden;background-color:#eee;}
+ul.thumbnail-a5 li {position:relative;float:left;width:328px;height:326px;background:#fff;overflow:hidden;margin-bottom:1px;}
+ul.thumbnail-a5 li a {display:block;}
+ul.thumbnail-a5 li a span.tag {display:block;position:absolute;top:0;left:0;height:21px;padding:0 10px;font-family:dotum;font-size:12px;line-height:21px;text-align:center;color:#fff;background:#0078d7;} /* 2018 신기술추가 */
+ul.thumbnail-a5 li a span.item {display:block;}
+ul.thumbnail-a5 li a span.item img {display:block;}
+ul.thumbnail-a5 li a div.over-share {position:absolute;bottom:-56px;left:0;background:#fff;width:100%;padding-bottom:15px;}
+ul.thumbnail-a5 li.on a div.over-share {bottom:0px;}
+ul.thumbnail-a5 li a div.over-share span.department {padding:18px 0 10px 23px;display:block;font-family:dotum;font-size:12px;color:#747474;}
+ul.thumbnail-a5 li a div.over-share span.name {padding-left:23px;padding-bottom:48px;font-family:dotum;display:block;font-size:12px;color:#333;font-weight:bold;}
+ul.thumbnail-a5 li a div.over-share span.link{padding:0 15px 0 23px;font-size:14px;color:#666;background:url(https://www.hyundai.co.kr/images/comm/bu/bu-arrow6.gif) no-repeat right 4px;}
+
+/* 141229 sns 추가 */
+ul.thumbnail-a6 {display:inline-block; width:100%;}
+ul.thumbnail-a6 li {float:left; width:246px; font-family:dotum;color:#747474;font-size:12px;line-height:21px;} /* height:280px;  */
+ul.thumbnail-a6 li a {position:relative; display:inline-block;  width:246px; min-height:140px; margin-right:12px;}
+/* ul.thumbnail-a6 li a:hover {background:#fff url(https://www.hyundai.co.kr/images/comm/bg/bg-line2.gif) repeat-x left bottom;} */
+ul.thumbnail-a6 li a span.txt {display:block; height:100px; padding:20px 20px;font-family:dotum;font-size:12px;line-height:21px;color:#fff;}
+ul.thumbnail-a6 li a span strong.tit {display:block; font-family:HDHarmonyM; font-size:16px; line-height:18px; color:#fff;}
+ul.thumbnail-a6 li a span p.desc {display:block; margin-top:5px; font-family:HDHarmonyL; font-size:14px; line-height:16px; color:#fff; letter-spacing:-1px;}
+ul.thumbnail-a6 li a span p.f {position: absolute; right:29px; bottom:0px; width:33px; height:74px;} 
+ul.thumbnail-a6 li a span p.tw {position: absolute; right:18px; bottom:14px; width:63px; height:51px;} 
+ul.thumbnail-a6 li a span p.ins {position: absolute; right:23px; bottom:17px; width:55px; height:54px;} 
+ul.thumbnail-a6 li a span p.goo {position: absolute; right:22px; bottom:13px; width:59px; height:58px;} 
+ul.thumbnail-a6 li a span p.n_po {position: absolute; right:22px; bottom:13px; width:47px; height:59px;} 
+ul.thumbnail-a6 li a span p.tumb {position: absolute; right:32px; bottom:21px; width:35px; height:61px;} 
+ul.thumbnail-a6 li a span p.ka {position: absolute; right:32px; bottom:18px; width:33px; height:59px;} 
+ul.thumbnail-a6 li a span p.yt {position: absolute; right:20px; bottom:19px; width:69px; height:49px;} 
+/* } */    /* 151110 삭제 */
+/* //141229 sns 추가 */
+
+/* thumbnail-b1 */
+ul.thumbnail-b1 li {min-height:180px;;background:#fff;border-bottom:1px solid #eee;}
+ul.thumbnail-b1 li.bg {background:#fff;}
+ul.thumbnail-b1 li a {display:block;position:relative;height:180px;padding-left:345px;}
+ul.thumbnail-b1 li a strong.tit {display:block;height:85px;padding-top:22px;padding-right:80px;font-size:20px;font-weight:normal;color:#000;font-family:HDHarmonyM;}
+ul.thumbnail-b1 li a strong.tit span {display:block;margin-top:6px;font-size:14px;color:#747474;font-weight:normal;}
+ul.thumbnail-b1 li a span.pic {position:absolute;left:0;top:0;}
+ul.thumbnail-b1 li a div.txt {padding-right:25px;font-style:normal;line-height:21px;color:#747474;font-family:'돋움', dotum;font-size:13px;overflow:hidden;height:70px;} /* 160121 수정*/ /* 151216 수정 : 폰트변경 */
+ul.thumbnail-b1 li.on {background:#f8f8f8}
+ul.thumbnail-b1 li.nodata {height:auto;min-height:0px;text-align:center;background:url(https://www.hyundai.co.kr/images/comm/ico/ico-nodata.png) center 40px no-repeat #FFF;padding:105px 0 40px 0;font-family:HDharmonyM;color:#333;font-size:16px;border-bottom:1px solid #eee;}
+ul.thumbnail-b1 li a strong.tit span.ico {display:block;width:62px;height:43px;font-size:0;line-height:0;position:absolute;top:10px;right:14px;background:url(https://www.hyundai.co.kr/images/comm/ico/ico-group.png) 0 0 no-repeat;}
+ul.thumbnail-b1 li a strong.tit span.ico.engineering {background-position:11px 0px;}
+ul.thumbnail-b1 li a strong.tit span.ico.card {background-position:11px -43px;}
+ul.thumbnail-b1 li a strong.tit span.ico.construction {background-position:11px -86px;}
+ul.thumbnail-b1 li a strong.tit span.ico.steel {background-position:11px -129px;}
+ul.thumbnail-b1 li a strong.tit span.ico.car {background-position:11px -172px;}
+ul.thumbnail-b1 li a strong.tit span.ico.etc {background-position:11px -215px;}
+ul.thumbnail-b1 li a strong.tit span.ico.logo {background-position:11px -257px;}
+ul.thumbnail-b1 li a strong.tit span.state {display:block; position:absolute;top:10px;right:14px; width:62px; color:#fff; font:12px "돋움",dotum; text-align:center; line-height:23px; background:#00287a;}
+ul.thumbnail-b1 li a strong.tit span.state.end {color:#666; background:#eee;}
+
+/* ul.thumbnail-c1 */
+ul.thumbnail-c1 li {margin-top:1px;background:#fff;}
+ul.thumbnail-c1 li:first-child {margin-top:8px;}
+ul.thumbnail-c1 li a {display:block;height:262px;}
+ul.thumbnail-c1 li a:hover {background:url(https://www.hyundai.co.kr/images/comm/bg/bg-line2.gif) repeat-x 0 bottom;}
+ul.thumbnail-c1 li a img {display:block;}
+ul.thumbnail-c1 li a strong{display:block;font-family:'HDHarmonyM';font-size:14px;line-height:20px;font-weight:normal;color:#333;padding:12px 15px 0; height:45px;}
+ul.thumbnail-c1 li a span {font-size:13px;color:#747474;padding:0 15px 16px;display:inline-block;}
+
+/* 170915 추가 */
+ul.thumbnail-c2 li {margin-top:1px;background:#fff;}
+ul.thumbnail-c2 li:first-child {margin-top:8px;}
+ul.thumbnail-c2 li a {display:block;position:relative;height:230px;overflow:hidden;}
+ul.thumbnail-c2 li a:hover {background:url(/images /comm/bg/bg-line2.gif) repeat-x left bottom;}
+ul.thumbnail-c2 li a img {display:block;}
+ul.thumbnail-c2 li a strong.tit {display:block;font-family:dotum;font-size:12px;font-weight:bold;color:#333;line-height:18px;padding:12px 15px 0;height:42px;}
+ul.thumbnail-c2 li a span.data {display:block;font-family:dotum;font-size:12px;color:#666;padding:15px 15px 15px;line-height:1;}
+/* //170915 추가 */
+
+/* thumbnail-d1
+ul.thumbnail-d1 {display:inline-block;width:984px;}
+ul.thumbnail-d1 li {float:left;width:237px;margin-left:12px;margin-bottom:20px;}
+ul.thumbnail-d1 li.first {margin-left:0;}
+ul.thumbnail-d1 li a img {display:block;}
+ul.thumbnail-d1 li.nodata {float:none;clear:both;width:984px;margin-left:0;text-align:center;background:url(https://www.hyundai.co.kr/images/comm/ico/ico-nodata.png) center 40px no-repeat #FFF;padding:105px 0 40px 0;font-family:HDharmonyM;color:#333;font-size:16px;}
+*/
+
+/* thumbnail-d2 */
+ul.thumbnail-d2 {display:inline-block;width:984px;}
+ul.thumbnail-d2 li {float:left;}
+ul.thumbnail-d2 li.first {margin-left:0;}
+ul.thumbnail-d2 li a img {display:block;}
+ul.thumbnail-d2 li.nodata {width:984px;margin:0 auto;text-align:center;background:url(https://www.hyundai.co.kr/images/comm/ico/ico-nodata.png) center 40px no-repeat #FFF;padding:105px 0 40px 0;font-family:HDharmonyM;color:#333;font-size:16px;}
+
+
+/* --------------------------------------------
+ * ul | list
+/* ------------------------------------------ */
+/* list-a1 */
+ul.list-a1 {background:#fff;zoom:1;}
+ul.list-a1 li {border-bottom:1px solid #c8c8c8;position:relative;padding:27px 35px 21px 35px;}
+ul.list-a1 li:hover {background:#f8f8f8;}
+ul.list-a1 li a {display:block;font-size:14px;color:#747474;line-height:21px;width:700px;height:84px;overflow:hidden;}
+ul.list-a1 li a strong {display:block;padding-bottom:17px;font-size:16px;color:#333;font-weight:normal;font-family:HDHarmonyM;}
+ul.list-a1 li a span {position:absolute;top:27px;right:35px;font-size:14px;}
+ul.list-a1 li.nodata {height:auto;min-height:0px;text-align:center;background:#fff url(https://www.hyundai.co.kr/images/comm/ico/ico-nodata.png) center 40px no-repeat;padding:105px 0 40px 0;font-family:HDharmonyM;color:#333;font-size:16px;border-bottom:1px solid #c8c8c8;}
+ul.list-a1 li.nodata:hover {background:#fff url(https://www.hyundai.co.kr/images/comm/ico/ico-nodata.png) center 40px no-repeat;padding:105px 0 40px 0;}
+
+
+/* list-a2 */
+ul.list-a2 {margin-top:8px;}
+ul.list-a2 li{padding:15px 15px 25px;background:#fff;margin-top:1px;}
+ul.list-a2 li.on {background:#f8f8f8}
+ul.list-a2 li span.career {font-family:'HDharmonyM';font-size:14px;color:#333;padding-bottom:7px;display:inline-block;}
+ul.list-a2 li span.career span.dday {margin-left:12px;}
+ul.list-a2 li span.date {font-size:13px;color:#747474;display:block;padding-bottom:10px;}
+ul.list-a2 li span.end {color:#747474;}
+ul.list-a2 li strong.tit {font-family:'HDharmonyM';font-size:14px;font-weight:normal;color:#333;line-height:21px;}
+ul.list-a2 li.nodata {font-family:'HDharmonyM';font-size:14px;color:#333;padding:30px 15px;background:#fff !important;}
+
+/* player-a1 */
+ul.player-a1 {}
+ul.player-a1 li {width:492px;float:left;border-top:1px solid #eee;position:relative}
+ul.player-a1 li div a{width:492px;height:277px;display:block;background:url(https://www.hyundai.co.kr/images/comm/btn/btn_player.png) no-repeat center;position:absolute;top:0;left:0;font-size:0}
+ul.player-a1 li dl {font-family:'HDharmonyM';padding:30px 10px 0px 30px;height:130px}
+ul.player-a1 li dl dt {font-size:20px;color:#333;padding-bottom:18px}
+ul.player-a1 li dl dd {padding:0 0 5px 10px;font-family:HDHarmonyL;font-size:14px;background:url(https://www.hyundai.co.kr/images/comm/ico/ico-dot.gif) no-repeat 0 5px;}
+ul.player-a1 li.line-sum {width:100%;display:inline-block}
+ul.player-a1 li.line-sum a {width:100%;height:366px}
+/* txt-a1 */
+ul.txt-a1 li {margin-top:10px;padding-left:10px;background:url(https://www.hyundai.co.kr/images/comm/bu/bu-dot1.gif) no-repeat 0 5px;}
+ul.txt-a1 li:first-child {margin-top:0;}
+
+
+/* --------------------------------------------
+ * dl | list
+/* ------------------------------------------ */
+/* txt-a2 */
+dl.txt-a2 dt {padding:0 0 15px 10px;font-family:'HDharmonyM';font-size:16px;color:#333;}
+dl.txt-a2 dd {padding:0 0 10px 10px;font-size:14px;color:#747474;background:url(https://www.hyundai.co.kr/images/comm/bu/bu-dot1.gif) no-repeat 0 5px;}
+
+
+/* --------------------------------------------
+ * ul | tab
+/* ------------------------------------------ */
+/* tab-a1 */
+ul.tab-a1 {width:984px;clear:both;margin:0 auto;overflow:hidden;margin-bottom:12px;background:#fff;}
+ul.tab-a1 li {float:left;background:#fff url(https://www.hyundai.co.kr/images/comm/bg/bg-tab.gif) no-repeat left top;}
+ul.tab-a1 li a {display:block;height:33px;padding-top:16px;text-align:center;color:#666;font-size:16px;font-family:HDHarmonyM;}
+ul.tab-a1 li:hover a {height:31px;border-bottom:2px solid #00287a;color:#00287a;}
+ul.tab-a1 li.on a {height:31px;border-bottom:2px solid #00287a;color:#00287a;}
+ul.tab-a1 li:first-child {margin-left:0;background:none;}
+    .num2 a {width:492px;}
+    .num3 a {width:328px;}
+    .num4 a {width:246px;}
+    .num5 a {width:196px;}
+    .num6 a {width:164px;}
+    .num8 a {width:123px;} /* 190507 추가 */
+    
+/* tab-b1 */
+/* ul.tab-b1 {margin-right:50px;background:#fff;overflow:hidden;}
+ul.tab-b1 li {float:left;margin-left:75px;}
+ul.tab-b1 li a {display:inline-block;height:29px;padding-top:16px;text-align:center;color:#666;font-family:HDHarmonyM;font-size:16px;}
+ul.tab-b1 li a:hover {height:27px;border-bottom:2px solid #00287a;color:#00287a;}
+ul.tab-b1 li.on a {height:27px;border-bottom:2px solid #00287a;color:#00287a;}
+ul.tab-b1 li:first-child {margin-left:0;} */
+
+
+/* --------------------------------------------
+ * view | group
+/* ------------------------------------------ */
+/* view-cont-a1 */
+div.view-area {padding:35px 50px 50px 50px;background:#fff;}
+div.view-area p.view-cont {font-size:14px;line-height:1.8em;color:#747474;}
+div.downfile {padding:30px 50px; border-top:1px solid #eee;}
+div.downfile p {font-weight:bold; padding-bottom:15px; color:#333;}
+
+/* view-cont-a2 */
+dl.view-cont-a2 {padding:60px 100px;background:#fff;}
+dl.view-cont-a2 dt {padding-bottom:30px;font-size:20px;color:#333;font-family:HDHarmonyM;}
+dl.view-cont-a2 dd {font-size:14px;line-height:1.8em;}
+dl.view-cont-a2 .noti-780 {width:780px} /* 180822 추가 */
+
+/* file */
+dl.file {display:inline-block;width:100%;clear:both;position:relative;border-top:1px solid #eee;}
+dl.file dt {padding:30px 0 0  50px;margin-bottom:15px;color:#333;font-size:14px;font-family:'HDHarmonyM';}
+dl.file dd {padding:0 0 30px 50px;}
+dl.file dd ul li{margin-top:10px;color:#747474;}
+dl.file dd ul li a {font-size:14px;color:#747474;font-family:'HDHarmonyL';}
+dl.file dd ul li:first-child {margin-top:0;}
+
+/* title_wrap */
+.title_wrap {position:relative; width:984px;}
+.title_wrap .txt_wrap {position:absolute; left:25px; top:60px; color:#000;}
+.title_wrap .txt_wrap h2 {font-size:32px; margin-bottom:10px;}
+.title_wrap .txt_wrap p {font-size:18px;}
+
+/* mediapole_wrap : 설문조사폼 */
+.mediapole_wrap {padding:30px 50px;}
+.mediapole_wrap dt {font-size:20px; color:#333; font-family:HDharmonyM, dotum, Arial, Helvetica, sans-serif; margin-bottom:30px;}
+.mediapole_wrap dd {font-size:14px; color:#333; margin:0 0 20px 30px;}
+.mediapole_wrap dd label {margin-left:5px;}
+.mediapole_wrap dd input[type=text] {width:540px; height:18px; border:1px solid #c8c8c8; background:#fff; margin-right:5px;} /*160215 수정*/
+.mediapole_wrap dd .input_f {margin-top:10px;}
+.mediapole_wrap dd .input_f:after{content:""; display:block; clear:both;}
+.mediapole_wrap dd .input_f .txt_input {float:left;}
+.mediapole_wrap dd .input_f .file_input {float:left; position:relative; width:79px; height:22px; overflow:hidden; margin-right:5px;}
+.mediapole_wrap dd .input_f .file_input button {position:absolute; top:0; width:79px; height:22px; font-size:12px; color:#333; border:1px solid #c8c8c8; background:#fff;}
+.mediapole_wrap dd .input_f .file_input input {
+    position:absolute; right:0; top:0; opacity: 0; 
+    filter: alpha(opacity=0); 
+    -ms-filter: "alpha(opacity=0)"; 
+    -moz-opacity: 0;
+}
+.mediapole_wrap dd .btn-add {width:79px; height:22px; font-size:12px; color:#fff; line-height:20px; background:#747474;} 
+.mediapole_wrap dd .txt_guide {font:12px "돋움",Dotum; color:#747474;}
+.mediapole_wrap dd .pic_list:after{content:""; display:block; clear:both;}
+.mediapole_wrap dd .pic_list {display:block; height:auto; overflow:hidden;}
+.mediapole_wrap dd .pic_list li {float:left; width:192px; margin-right:15px; margin-bottom:20px;}
+.mediapole_wrap dd .pic_list li:last-child {margin-bottom:0px;}
+.mediapole_wrap dd .pic_list li img {width:192px; margin-top:10px;}
+/* 170103 추가 */
+.mediapole_data_wrap {padding:10px 25px;}
+.mediapole_data_wrap div.su_box {font-size:16px; color:#333; font-family:HDharmonyM, dotum, Arial, Helvetica, sans-serif;}
+.mediapole_data_wrap div.su_box .selectBox-dropdown {border:1px solid #c8c8c8;}
+.mediapole_data_wrap div.su_box div {display:inline-block;padding-left:65px;}
+.mediapole_data_wrap div.su_box div:first-child {padding-left:0;}
+.mediapole_data_wrap div.su_box div label {padding-right:10px;}
+.mediapole_data_wrap div.su_box .local {display:block;padding:10px 0 0;}
+.mediapole_data_wrap div.su_box .local label {padding-right:5px;font-size:14px;color:#747474;}
+/* //170103 추가 */
+
+/* --------------------------------------------
+ * btn
+/* ------------------------------------------ */
+div.btn-wrap {position:relative;display:inline-block;width:100%;background:#fff;text-align:center;border-bottom:1px solid #eee;margin-bottom:-3px;*margin-bottom:0}
+div.btn-wrap .fl a {border-right:1px solid #eee;margin-right:-3px;}
+div.btn-wrap .fr a {border-left:1px solid #eee;margin-left:-3px;}
+button span, a.btn-b2 span {visibility:hidden;width:0;height:0;font-size:0;line-height:0;}
+
+button.btn-button {background:#747474;color:#fff;font-family:HDHarmonyL;width:70px;height:40px;font-size:14px;display:inline-block;}
+button.btn-button:hover {background:#333;}
+button.btn-button.type01 {width:auto; padding:0 20px;}
+button.calendar-off {width:40px;height:40px;background:#fff url(https://www.hyundai.co.kr/images/comm/ico/ico-h40.png) no-repeat -3px -82px !important;}
+button.calendar-on {width:40px;height:40px;background:#747474 url(https://www.hyundai.co.kr/images/comm/ico/ico-h40.png) no-repeat -4px -123px !important;}
+
+a.btn-a1 {background:#747474 url(https://www.hyundai.co.kr/images/comm/ico/ico-h40.png) no-repeat 0 0;color:#fff;font-size:14px;display:inline-block;text-align:center;min-width:95px;height:29px;padding:11px 15px 0 43px;vertical-align:middle;}
+a.btn-a1:hover {background:#333 url(https://www.hyundai.co.kr/images/comm/ico/ico-h40.png) no-repeat 0 0;}
+a.btn-a2 {background:#fff url(https://www.hyundai.co.kr/images/comm/ico/ico-h50.png) no-repeat 0 0;color:#333;font-size:14px;display:inline-block;text-align:center;min-width:95px;height:27px;padding:13px 15px 0 43px;vertical-align:middle;}
+a.btn-a2:hover {background:#f8f8f8 url(https://www.hyundai.co.kr/images/comm/ico/ico-h50-over.png) no-repeat 0 0;color:#00287a;}
+
+a.btn-b1 {background:#fff url(https://www.hyundai.co.kr/images/comm/ico/ico-h50.png) no-repeat 0 0;color:#333;font-size:14px;font-family:HDHarmonyM;display:inline-block;text-align:center;min-width:24px;height:33px;padding:17px 18px 0 50px;vertical-align:middle;}
+a.btn-b1:hover {background:#f8f8f8 url(https://www.hyundai.co.kr/images/comm/ico/ico-h50-over.png) no-repeat 0 0;color:#00287a;}
+a.btn-b2 {background:#fff url(https://www.hyundai.co.kr/images/comm/ico/ico-h50.png) no-repeat 0 0;display:inline-block;width:49px !important;height:50px;vertical-align:middle;}/* 151119 수정 */
+a.btn-b2:hover {background:#f8f8f8 url(https://www.hyundai.co.kr/images/comm/ico/ico-h50-over.png) no-repeat 0 0;}
+a.btn-b3 {background:#fff url(https://www.hyundai.co.kr/images/comm/ico/ico-h50.png) no-repeat 0 0;color:#333;font-size:14px;font-family:HDHarmonyM;display:block;text-align:center;min-width:24px;height:33px;padding-top:17px;vertical-align:middle;}
+a.btn-b3:hover {background:#f8f8f8 url(https://www.hyundai.co.kr/images/comm/ico/ico-h50-over.png) no-repeat 0 0;color:#00287a;}
+
+a.btn-c1 {background:#747474 ;color:#fff;font-size:14px;display:inline-block;text-align:center;min-width:164px;height:29px;padding:11px 0 0 0;vertical-align:middle;}
+a.btn-c1:hover {background:#333 !important;}
+button.btn-c1 {background:#747474 ;font-family:HDHarmonyL;color:#fff;font-size:14px;display:inline-block;text-align:center;min-width:164px;height:40px;padding:0;vertical-align:middle;}
+button.btn-c1:hover {background:#333;}
+
+a.broad-txt {background:#fff url(https://www.hyundai.co.kr/images/comm/ico/ico-h50.png) no-repeat 74px -459px;color:#333;font-size:14px;font-family:HDHarmonyM;display:inline-block;text-align:center;min-width:24px;height:33px;padding:17px 48px 0 18px;vertical-align:middle;}
+a.broad-txt:hover {color:#00287a !important;background:#f8f8f8 url(https://www.hyundai.co.kr/images/comm/ico/ico-h50-over.png) no-repeat 74px -459px;}
+a.broad-txt.on {color:#00287a;background:#fff url(https://www.hyundai.co.kr/images/comm/ico/ico-h50.png) no-repeat 74px -408px;border-bottom:1px solid #fff;margin-bottom:-1px;}
+a.broad-txt.on:hover {background:#f8f8f8 url(https://www.hyundai.co.kr/images/comm/ico/ico-h50.png) no-repeat 74px -408px;}
+
+a.btn-more {background:#fff;color:#333;font-size:14px;font-family:HDHarmonyM;display:inline-block;text-align:center;width:100%;height:33px;padding:17px 0 0 0;}
+a.btn-more:hover {color:#00287a;background:#f8f8f8;}
+a.btn-moreview {font-family:dotum;font-size:12px;position:absolute;top:33px;right:25px;background:url(https://www.hyundai.co.kr/images/comm/btn/btn-moreview.gif) right 2px no-repeat;padding-right:13px;color:#00287a;}
+a.btn-moreview:hover {text-decoration:underline;}
+
+a.btn-sns-more {background:#fff;color:#666;font-size:18px;font-family:HDHarmonyL;display:inline-block;text-align:center;width:100%;height:43px;padding:17px 0 0 0;}
+a.btn-sns-more:hover {color:#00287a;background:#f8f8f8;}
+
+a.btn-shortcut {padding:12px 10px 12px 35px;display:inline-block;font-family:dotum;font-size:12px;color:#747474;line-height:14px;background:#fff url(https://www.hyundai.co.kr/images/comm/btn/btn-shortcut.gif) no-repeat 12px 12px;border:1px solid #c8c8c8;}
+a.btn-shortcut:hover {background:#f8f8f8 url(https://www.hyundai.co.kr/images/comm/btn/btn-shortcut2.gif) no-repeat 12px 12px;color:#00287a;}
+a.btn-shortcut2 {padding:12px 12px 12px 37px;display:inline-block;font-family:dotum;font-size:12px;color:#747474;line-height:14px;background:#fff url(https://www.hyundai.co.kr/images/comm/btn/btn-shortcut.gif) no-repeat 12px 12px;border:1px solid #c8c8c8;}
+a.btn-shortcut2:hover {background:#f8f8f8 url(https://www.hyundai.co.kr/images/comm/btn/btn-shortcut2.gif) no-repeat 12px 12px;color:#00287a;}
+a.btn-shortcut3 {padding:12px 25px 12px 28px;display:inline-block;font-family:dotum;font-size:12px;color:#333;line-height:12px;border:1px solid #c8c8c8;letter-spacing:0;} /* 190507 추가 */
+a.btn-shortcut3:after {display:inline-block;clear:both;content:"";width:6px;height:12px;padding-left:10px;background:#fff url('/images/comm/btn/btn-shortcut3.png') no-repeat 8px 1px;}/* 190507 추가 */
+
+/* ico-40 */
+.participate {background-position:0 0 !important;   }
+.organization {background-position:0px -41px !important;}
+.shortcut {background-position:0px -164px !important;}
+
+/* ico-50 */
+.print {background-position:0 0 !important;}
+.zoomin {background-position:0 -51px !important;}
+.zoomout {background-position:0 -102px !important;}
+.list {background-position:0 -151px !important;}
+.facebook {background-position:0 -204px !important;}
+.twitter {background-position:0 -255px !important;}
+.google {background-position:0 -306px !important;}
+.urlcopy {background-position:0 -663px !important;} /* 191126 추가 */
+.top {background-position:0 -358px !important;background-color:#fff !important;position:absolute;left:329px;top:0;}
+.top2 {background-position:0 -358px !important;background-color:#fff !important;}
+.top3 {background-position:435px -358px !important;}
+.top4 {background-position:310px -358px !important;}
+.top5 {background-position:355px -358px !important;}
+.cal {background-position:-3px -82px !important;}
+.plus {background-position:0px -510px !important;}
+.organization2 {background-position:-3px -155px !important;}
+
+a.facebook:hover {background-color:#3b5998;}
+a.twitter:hover {background-color:#32a7e0;}
+a.google:hover {background-color:#dd4b39;}
+a.plus:hover {background-color:#00287a;}
+a.urlcopy:hover {background-color:#00287a;} /* 191126 추가 */
+/* --------------------------------------------
+ * paginate
+/* ------------------------------------------ */
+div.paginate {width:100%;display:inline-block;font-size:0;text-align:center;background:#fff;}
+div.paginate span.pre, div.paginate span.nxt {display:inline-block;vertical-align:middle;}
+div.paginate span.pre a, div.paginate span.nxt a, div.paginate span.pre span, div.paginate span.nxt span {margin:0 3px;}
+div.paginate span.pre span img, div.paginate span.nxt span img {opacity:0.4;filter:alpha(opacity=40);}
+div.paginate span.list {display:inline-block;}
+div.paginate span.list a {width:50px;height:19px;margin:0 4px;padding:16px 0 15px;display:inline-block;vertical-align:middle;font-family:'HDHarmonyM';font-size:16px;color:#747474;background:#fff;}
+div.paginate span.list a:hover {padding:16px 0 12px;color:#00287a;border-bottom:3px solid #00287a;}
+div.paginate span.list strong {width:50px;height:16px;padding:16px 0 15px;margin:0 0 0 12px;display:inline-block;vertical-align:middle;font-family:'HDHarmonyM';font-size:16px;color:#00287a;background:#fff;border-bottom:3px solid #00287a;font-weight:normal;}
+
+
+/* --------------------------------------------
+ * pre-nxt
+/* ------------------------------------------  */
+ul.pre-nxt {background:#fff;width:100%;}
+ul.pre-nxt li {height:32px;padding:18px 0 0 47px;font-size:14px;color:#747474;border-top:1px solid #eee;background:url('/images/comm/bu/bu-arrow2-top.gif') no-repeat 19px 22px;}
+ul.pre-nxt li strong {padding:0 11px 0 0;font-size:14px;color:#333;font-weight:normal;font-family:HDHarmonyM;min-width: 57px;display: inline-block;}
+ul.pre-nxt li a{padding:0 0 0 0;font-size:14px;color:#747474;display:inline-block;width:520px;height:18px;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;vertical-align:middle;}
+ul.pre-nxt li a span.fc333 {color:#333;}
+ul.pre-nxt li.pre {height:31px;}
+ul.pre-nxt li.nxt {background:url('/images/comm/bu/bu-arrow2-bot.gif') no-repeat 19px 22px;}
+ul.pre-nxt li.pre.on {background:#f8f8f8 url('/images/comm/bu/bu-arrow2-top.gif') no-repeat 19px 22px;}
+ul.pre-nxt li.nxt.on {background:#f8f8f8 url('/images/comm/bu/bu-arrow2-bot.gif') no-repeat 19px 22px;}
+
+
+/* --------------------------------------------
+ * gallery
+/* ------------------------------------------  */
+div.gallery-a1 {position:relative;width:652px}
+div.gallery-a1 ul.photo {width:652px;height:367px;overflow:hidden;position:relative;border-bottom:1px solid #c8c8c8}
+div.gallery-a1 ul.photo li {position:absolute;top:0;left:0;opacity:0;filter:alpha(opacity=0);}
+div.gallery-a1 ul.photo li.on {z-index:10;opacity:1;filter:alpha(opacity=100);}
+div.gallery-a1 div.thumb {width:652px;background:#fff}
+div.gallery-a1 div.thumb div.thumb_list {width:536px;height:94px;overflow:hidden;position:relative;margin-left:58px}
+div.gallery-a1 div.thumb ul {width:5000px;position:absolute;top:11px;left:0px}
+div.gallery-a1 div.thumb ul li {float:left;margin-right:8px;width:128px;height:72px;}
+div.gallery-a1 div.thumb ul li a {display:inline-block;position:relative}
+div.gallery-a1 div.thumb ul li a span.on {background:#00287a;width:128px;height:3px;display:block;position:absolute;bottom:-8px;left:0}
+div.gallery-a1 div.thumb a.pre,
+div.gallery-a1 div.thumb span.pre {position:absolute;top:380px;left:19px;z-index:100;display:block}
+div.gallery-a1 div.thumb a.nxt,
+div.gallery-a1 div.thumb span.nxt {position:absolute;top:380px;right:19px;z-index:100}
+
+
+/* --------------------------------------------
+ * scroll
+/* ------------------------------------------  */
+div.scroll-wrap {background:#fff;padding:3px 3px 3px 12px;}
+div.scroll-wrap div {overflow-x:hidden;overflow-y:auto;height:auto;}
+
+
+/* --------------------------------------------
+ * desc
+/* ------------------------------------------  */
+p.desc-tit {float:left;padding:18px 0 0 50px;font-size:14px;color:#333;font-family:'HDHarmonyM';}
+p.desc-tit strong {font-weight:normal;}
+p.desc-tit strong span {padding-left:8px;margin-left:8px;background:url(https://www.hyundai.co.kr/images/comm/bu/line1.gif) no-repeat left 0;font-weight:normal;}
+p.desc-tit span.data {padding-left:15px;color:#747474;font-family:'HDHarmonyL';letter-spacing:-1px;}
+p.desc-tit span.count {padding-left:14px;color:#747474;}
+
+p.desc-a1 {font-family:dotum;font-size:12px;color:#747474;line-height:21px;}
+p.desc-b1 {padding:50px 0 0 50px;font-family:HDHarmonyM;font-size:20px;line-height:26px;color:#333;}
+p.desc-c1 {padding:50px;font-family:dotum;font-size:12px;color:#747474;line-height:21px;}
+p.desc-d1 {padding:50px 0;font-family:dotum;font-size:12px;color:#747474;line-height:21px;} /* 2018 신기술추가 */
+
+p.desc-search {font-size:16px;color:#666;width:984px;margin:0 auto;margin-top:15px;margin-bottom:40px;}
+p.desc-search strong {font-family:HDharmonyM;color:#333;font-weight:normal;}
+p.desc-search em {font-family:HDharmonyM;color:#333;}
+
+p.desc-search span {display:inline-block; overflow:hidden; font-family:HDHarmonyL; font-size:14px;}
+p.desc-search span a {display:inline-block; padding:11px 0; width:164px; height:18px; background:#8a8a8a; line-height:18px; color:#fff; text-align:center;}
+p.desc-search span a.link {margin-right:9px;}
+p.desc-search span a.newsletter {margin-right:0px;}
+/* --------------------------------------------
+ * select-affiliates
+/* ------------------------------------------  */
+div.select-affiliates {position:relative;width:984px;margin:0 auto 15px;background:#fff;display:none;}
+div.select-affiliates ul.affiliates {padding:20px 30px;overflow:hidden;}
+div.select-affiliates ul.affiliates>li {float:left;width:120px;margin-left:14px;}
+div.select-affiliates ul.affiliates>li:first-child {margin-left:0;}
+div.select-affiliates ul.affiliates li strong {font-family:'HDharmonyM';font-size:16px;font-weight:normal;color:#333;margin-bottom:13px;display:inline-block;}
+div.select-affiliates ul.affiliates li ul li {padding:6px 0;}
+div.select-affiliates ul.affiliates li ul li a {font-size:13px;color:#747474;display:inline-block;}
+div.select-affiliates ul.affiliates li ul li a:hover {color:#00287a;text-decoration:underline;}
+div.select-affiliates p.txt {font-size:14px;color:#747474;padding:13px 30px;overflow:hidden;}
+div.select-affiliates p.txt a {position:absolute;right:0;bottom:0;width:40px;height:40px;display:block;font-size:0;line-height:0;background:url(https://www.hyundai.co.kr/images/comm/btn/btn-close3.gif) no-repeat;}
+div.select-affiliates span.arrow {position:absolute;right:147px;top:-9px;width:17px;height:9px;display:inline-block;background:url(https://www.hyundai.co.kr/images/comm/bu/bu-arrow4.gif) no-repeat;}
+
+
+/* --------------------------------------------
+ * notice
+/* ------------------------------------------  */
+dl.notice {width:984px;font-family:dotum;font-size:12px;overflow:hidden;background:#fff;}
+dl.notice dt{width:110px;float:left;border-bottom:1px solid #eee;padding:15px 30px;color:#333;}
+dl.notice dt.on, dl.notice dd.on {background:#f8f8f8}
+dl.notice dd{width:814px;float:left;border-bottom:1px solid #eee;padding:15px 0;color:#747474;position:relative}
+dl.notice dd a {color:#747474}
+dl.notice dd span {position:absolute;top:13px;right:10px}
+
+
+/* --------------------------------------------
+ * table - board
+/* ------------------------------------------  */
+/* board-list-a1 */
+table.board-list-a1{width:984px;background:#fff;}
+table.board-list-a1 thead th{background:#d7d7d7;color:#333;padding:22px 0 22px 30px;text-align:left;font-weight:normal;font-size:14px;font-family:HDharmonyM;}
+table.board-list-a1 tbody th {color:#747474;font-size:14px;padding:17px 0 17px 30px;border-bottom:1px solid #eeeeee;font-weight:normal;text-align:left;}
+table.board-list-a1 tbody td {color:#747474;font-size:14px;padding:17px 0 17px 30px;border-bottom:1px solid #eeeeee}
+table.board-list-a1 tbody tr.on th, table.board-list-a1 tbody tr.on td {background:#f8f8f8}
+table.board-list-a1 tbody tr.nodata.on td {background:#fff url(https://www.hyundai.co.kr/images/comm/ico/ico-nodata.png) center 40px no-repeat;}
+table.board-list-a1 tbody td a {color:#747474;}
+table.board-list-a1 tbody td strong {width: 50px;color:#333;display:inline-block;font-weight:bold;}
+table.board-list-a1 tbody td.fc333 a {color:#333;}
+table.board-list-a1 tbody tr.nodata {text-align:center;}
+table.board-list-a1 tbody tr.nodata td {background:url(https://www.hyundai.co.kr/images/comm/ico/ico-nodata.png) center 40px no-repeat;padding:105px 0 40px 0;font-family:HDharmonyM;color:#333;font-size:16px;}
+table.board-list-a1 tbody td strong.end{color:#747474;}
+
+/* board-list-a2 */
+table.board-list-a2 thead th{padding:13px 5px;background:#d7d7d7;font-family:HDharmonyM;font-size:14px;font-weight:normal;text-align:center;color:#333;}
+table.board-list-a2 tbody td,
+table.board-list-a2 tfoot td {padding:13px 5px;background:#fff;font-size:14px;text-align:center;color:#747474;border-bottom:1px solid #eee;}
+
+table.board-list-a1.nf thead th {font-family:dotum;font-weight:bold;font-size:12px;}
+table.board-list-a1.nf tbody th {font-family:dotum;font-weight:normal;font-size:12px;}
+table.board-list-a1.nf tbody td {font-family:dotum;font-size:12px;}
+table.board-list-a1.nf tbody td.typo-333 {color:#333;font-weight:bold;}
+
+
+/* 160519 추가 */
+/* board-list-a3 */
+table.board-list-a3{width:984px;background:#fff;}
+table.board-list-a3 thead th{padding:22px 0 22px 10px;border-top:2px solid #00287a;border-bottom:1px solid #747474;font-family:dotum;font-weight:bold;font-size:12px;color:#00287a;text-align:left;} /* 160620 수정 */
+table.board-list-a3 tbody td {position:relative;padding:17px 0 17px 30px;border-bottom:1px solid #eeeeee;font-family:dotum;font-size:12px;color:#747474;}
+table.board-list-a3 tbody td.typo-333 {padding-left:90px;color:#333;font-weight:bold;}
+table.board-list-a3 tbody td.typo-444 {padding-left:50px;color:#333;font-weight:bold;} /* 160620 추가 */
+table.board-list-a3 tbody tr.list_bg {background:#fafafa;}
+table.board-list-a3 tbody tr.list_line {border-bottom:1px solid #747474;}
+table.board-list-a3 tbody tr.list_line td {border:none;}
+table.board-list-a3 tbody tr td span {display:block;position:absolute;left:50px;top:3px;width:35px;height:30px;} /* 160620 수정 */
+table.board-list-a3 tbody tr td.r_icon span {left:10px;}  /* 160620 추가 */
+table.board-list-a3 tbody tr td span.automotive {background:url(https://www.hyundai.co.kr/images/comm/ico/ico-automotive.png) no-repeat left 14px;}
+table.board-list-a3 tbody tr td span.steel {background:url(https://www.hyundai.co.kr/images/comm/ico/ico-steel.png) no-repeat left 14px;}
+table.board-list-a3 tbody tr td span.construction {background:url(https://www.hyundai.co.kr/images/comm/ico/ico-construction.png) no-repeat left 14px;}
+table.board-list-a3 tbody tr td span.part {background:url(https://www.hyundai.co.kr/images/comm/ico/ico-part.png) no-repeat left 14px;}
+table.board-list-a3 tbody tr td span.finance {background:url(https://www.hyundai.co.kr/images/comm/ico/ico-finance.png) no-repeat left 14px;}
+table.board-list-a3 tbody tr td span.others {background:url(https://www.hyundai.co.kr/images/comm/ico/ico-others.png) no-repeat left 14px;}
+/* //160519 추가 */
+
+/* --------------------------------------------
+ * chart-a1
+/* ------------------------------------------  */
+table.chart-a1 thead th {padding:12px 0 12px 20px;font-family:'HDharmonyM';font-size:14px;font-weight:normal;color:#333;text-align:left;background:#d7d7d7;}
+table.chart-a1 tbody th {padding:20px 0 20px 10px;font-family:'돋움',Dotum;font-size:12px;font-weight:normal;color:#747474;text-align:center;background:#fff;border-bottom:1px solid #eee;vertical-align:middle;}
+table.chart-a1 tbody td {padding:16px 0 16px 10px;font-family:'돋움',Dotum;font-size:12px;color:#747474;text-align:left;line-height:21px;background:#fff;border-bottom:1px solid #eee;vertical-align:top;}
+table.chart-a1 tbody td ul.txt-a1 li{margin-top:0;background-position:0 8px;}
+
+
+/* --------------------------------------------
+ * visual
+/* ------------------------------------------ */
+.visual-careers1 {background:url(https://www.hyundai.co.kr/images/comm/bg/visual-careers1.jpg) no-repeat center top;}
+.visual-careers2 {background:url(https://www.hyundai.co.kr/images/comm/bg/visual-careers2.jpg) no-repeat center top;}
+.visual-careers4 {background:url(https://www.hyundai.co.kr/images/comm/bg/visual-careers4.jpg) no-repeat center top;}
+.visual-careers5 {background:url(https://www.hyundai.co.kr/images/comm/bg/visual-careers5.jpg) no-repeat center top;}
+.visual-talent1 {background:url(https://www.hyundai.co.kr/images/comm/bg/visual-talent1.jpg) center top no-repeat;}
+.visual-csr1 {background:url(https://www.hyundai.co.kr/images/comm/bg/visual-csr1.jpg) no-repeat center top;}
+.visual-csr2 {background:url(https://www.hyundai.co.kr/images/comm/bg/visual-csr2.jpg) no-repeat center top;}
+.visual-csr3 {background:url(https://www.hyundai.co.kr/images/comm/bg/visual-csr3.jpg) no-repeat center top;}
+.visual-csr4 {background:url(https://www.hyundai.co.kr/images/comm/bg/visual-csr4.jpg) no-repeat center top;}
+.visual-csr5 {background:url(https://www.hyundai.co.kr/images/comm/bg/visual-csr5.jpg) no-repeat center top;}
+.visual-csr6 {background:url(https://www.hyundai.co.kr/images/comm/bg/visual-csr6.jpg) no-repeat center top;}
+
+.visual-about1 {background:url(https://www.hyundai.co.kr/images/comm/bg/visual-history.jpg) no-repeat center top;}
+.visual-about2 {background:url(https://www.hyundai.co.kr/images/comm/bg/visual-about2.jpg) no-repeat center top;}
+.visual-about3 {background:url(https://www.hyundai.co.kr/images/comm/bg/visual-about3.jpg) no-repeat center top;}
+.visual-about4 {background:url(https://www.hyundai.co.kr/images/comm/bg/visual-about4.jpg) no-repeat center top;}
+.visual-about5 {background:url(https://www.hyundai.co.kr/images/comm/bg/visual-about5.jpg) no-repeat center top;}
+.visual-about6 {background:url(https://www.hyundai.co.kr/images/comm/bg/visual-about6.jpg) no-repeat center top;}
+.visual-about7 {background:url(https://www.hyundai.co.kr/images/comm/bg/visual-about7.jpg) no-repeat center top;}
+.visual-about8 {background:url(https://www.hyundai.co.kr/images/comm/bg/visual-about8.jpg) no-repeat center top;}
+.visual-about9 {background:url(https://www.hyundai.co.kr/images/comm/bg/visual-about9.jpg) no-repeat center top;}
+.visual-about10 {background:url(https://www.hyundai.co.kr/images/comm/bg/visual-about10.jpg) no-repeat center top;}
+.visual-about11 {background:url(https://www.hyundai.co.kr/images/comm/bg/visual-about11.jpg) no-repeat center top;}
+.visual-about12 {background:url(https://www.hyundai.co.kr/images/comm/bg/visual-about12.jpg) no-repeat center top;}
+.visual-about13 {background:url(https://www.hyundai.co.kr/images/comm/bg/visual-about13.jpg) no-repeat center top;} /* 160115 추가 */
+
+.visual-motor {background:url(https://www.hyundai.co.kr/images/comm/bg/visual-motors.jpg) no-repeat center top;} /* 180813 추가 */
+
+.visual-sns1 {background:url(https://www.hyundai.co.kr/images/comm/bg/visual-sns1.jpg) no-repeat center top;}
+
+/* automotive */
+.visual-hyundai-motor {background:url(https://www.hyundai.co.kr/images/affiliates/automotive/visual-hyundai-motor.jpg) no-repeat center top;}
+.visual-kia-motors {background:url(https://www.hyundai.co.kr/images/affiliates/automotive/visual-kia-motors.jpg) no-repeat center top;}
+
+/* steel */
+.visual-steel {background:url(https://www.hyundai.co.kr/images/affiliates/steel/visual-steel.jpg) no-repeat center top;}
+.visual-hysco {background:url(https://www.hyundai.co.kr/images/affiliates/steel/visual-hysco.jpg) no-repeat center top;}
+.visual-bngsteel {background:url(https://www.hyundai.co.kr/images/affiliates/steel/visual-bngsteel.jpg) no-repeat center top;}
+.visual-special-steel {background:url(https://www.hyundai.co.kr/images/affiliates/steel/visual-special-steel.jpg) no-repeat center top;} /* 150331 : 그룹사 추가 */
+
+/* construction */
+.visual-engineering-construction {background:url(https://www.hyundai.co.kr/images/affiliates/construction/visual-engineering-construction.jpg) no-repeat center top;}
+.visual-engineering {background:url(https://www.hyundai.co.kr/images/affiliates/construction/visual-engineering.jpg) no-repeat center top;}
+.visual-engineering-steel {background:url(https://www.hyundai.co.kr/images/affiliates/construction/visual-engineering-steel.jpg) no-repeat center top;}
+.visual-architects-engineers {background:url(https://www.hyundai.co.kr/images/affiliates/construction/visual-architects-engineers.jpg) no-repeat center top;}
+.visual-city-corporation {background:url(https://www.hyundai.co.kr/images/affiliates/construction/visual-city-corporation.jpg) no-repeat center top;}
+
+/* part */
+.visual-mobis {background:url(https://www.hyundai.co.kr/images/affiliates/part/visual-mobis.jpg) no-repeat center top;}
+.visual-wia {background:url(https://www.hyundai.co.kr/images/affiliates/part/visual-wia.jpg) no-repeat center top;}
+.visual-powertech {background:url(https://www.hyundai.co.kr/images/affiliates/part/visual-powertech.jpg) no-repeat center top;}
+.visual-dymos {background:url(https://www.hyundai.co.kr/images/affiliates/part/visual-dymos.jpg) no-repeat center top;}
+.visual-kefico {background:url(https://www.hyundai.co.kr/images/affiliates/part/visual-kefico.jpg) no-repeat center top;}
+.visual-autron {background:url(https://www.hyundai.co.kr/images/affiliates/part/visual-autron.jpg) no-repeat center top;}
+.visual-mnsoft {background:url(https://www.hyundai.co.kr/images/affiliates/part/visual-mnsoft.jpg) no-repeat center top;}
+.visual-wisco {background:url(https://www.hyundai.co.kr/images/affiliates/part/visual-wisco.jpg) no-repeat center top;}
+.visual-mseat {background:url(https://www.hyundai.co.kr/images/affiliates/part/visual-mseat.jpg) no-repeat center top;}
+.visual-metia {background:url(https://www.hyundai.co.kr/images/affiliates/part/visual-metia.jpg) no-repeat center top;}
+.visual-ihl {background:url(https://www.hyundai.co.kr/images/affiliates/part/visual-ihl.jpg) no-repeat center top;}
+.visual-partecs {background:url(https://www.hyundai.co.kr/images/affiliates/part/visual-partecs.jpg) no-repeat center top;}
+
+/* finance */
+.visual-capital {background:url(https://www.hyundai.co.kr/images/affiliates/finance/visual-capital.jpg) no-repeat center top;}
+.visual-card {background:url(https://www.hyundai.co.kr/images/affiliates/finance/visual-card.jpg) no-repeat center top;}
+.visual-commercial {background:url(https://www.hyundai.co.kr/images/affiliates/finance/visual-commercial.jpg) no-repeat center top;}
+.visual-hmc-investment {background:url(https://www.hyundai.co.kr/images/affiliates/finance/visual-hmc-investment.jpg) no-repeat center top;}
+.visual-life {background:url(https://www.hyundai.co.kr/images/affiliates/finance/visual-life.jpg) no-repeat center top;}
+.visual-git {background:url(https://www.hyundai.co.kr/images/affiliates/finance/visual-gif.jpg) no-repeat center top;} /* 170712 추가 */
+
+/* others */
+.visual-gmarine {background:url(https://www.hyundai.co.kr/images/affiliates/others/visual-gmarine.jpg) no-repeat center top;} /* 180305 추가 */
+.visual-glovis {background:url(https://www.hyundai.co.kr/images/affiliates/others/visual-glovis.jpg) no-repeat center top;}
+.visual-rotem {background:url(https://www.hyundai.co.kr/images/affiliates/others/visual-rotem.jpg) no-repeat center top;}
+.visual-innocean-worldwide {background:url(https://www.hyundai.co.kr/images/affiliates/others/visual-innocean-worldwide.jpg) no-repeat center top;}
+.visual-haevichi {background:url(https://www.hyundai.co.kr/images/affiliates/others/visual-haevichi.jpg) no-repeat center top;}
+.visual-autoever {background:url(https://www.hyundai.co.kr/images/affiliates/others/visual-autoever.jpg) no-repeat center top;}
+.visual-ngv {background:url(https://www.hyundai.co.kr/images/affiliates/others/visual-ngv.jpg) no-repeat center top;}
+.visual-cni {background:url(https://www.hyundai.co.kr/images/affiliates/others/visual-cni.jpg) no-repeat center top;}
+.visual-seosan {background:url(https://www.hyundai.co.kr/images/affiliates/others/visual-seosan.jpg) no-repeat center top;}
+
+/* 2018 신기술추가 */
+/* techInnovation */
+.visual-autonomous {background:url(https://www.hyundai.co.kr/images/techinnovation/visual-autonomous.jpg) no-repeat center top;}
+.visual-connectivity {background:url(https://www.hyundai.co.kr/images/techinnovation/visual-connectivity.jpg) no-repeat center top;}
+.visual-electrification {background:url(https://www.hyundai.co.kr/images/techinnovation/visual-electrification.jpg) no-repeat center top;}
+.visual-advancedmaterials  {background:url(https://www.hyundai.co.kr/images/techinnovation/visual-advancedmaterials.jpg) no-repeat center top;}
+.visual-smarthome  {background:url(https://www.hyundai.co.kr/images/techinnovation/visual-smarthome.jpg) no-repeat center top;}
+.visual-energy  {background:url(https://www.hyundai.co.kr/images/techinnovation/visual-energy.jpg) no-repeat center top;} /* 20180913-1 수정 */
+.visual-energy-1  {background:url(https://www.hyundai.co.kr/images/strategic/visual-energy.jpg) no-repeat center top;} /* 20180913-1 추가 */
+.visual-etc  {background:url(https://www.hyundai.co.kr/images/techinnovation/visual-etc.jpg) no-repeat center top;}
+.visual-strategic  {background:url(https://www.hyundai.co.kr/images/strategic/visual-strategic.jpg) no-repeat center top;}
+.visual-ai  {background:url(https://www.hyundai.co.kr/images/strategic/visual-ai.jpg) no-repeat center top;}
+.visual-mobility  {background:url(https://www.hyundai.co.kr/images/strategic/visual-mobility.jpg) no-repeat center top;}
+.visual-automotive  {background:url(https://www.hyundai.co.kr/images/strategic/visual-automotive.jpg) no-repeat center top;}
+.visual-fcev {background:url(https://www.hyundai.co.kr/images/techinnovation/visual-fcev.jpg) no-repeat center top;} /* 190507 추가 *//* 수소전기차 */
+/* //2018 신기술추가 */
+
+
+/* --------------------------------------------
+ * 미디어센터 slide-wrap */
+/* ------------------------------------------ */
+div.slide-wrap button {position:absolute;top:159px;display:block;width:50px;height:50px;margin:0;padding:0;border:0;background-color:transparent;z-index:100;}
+div.slide-wrap button.btn-slide-pre {left:0;}
+div.slide-wrap button.btn-slide-nxt {right:0;}
+/* div.slide-wrap button.off {cursor:default;opacity:0.3;filter:alpha(opacity=30);} */
+div.slide-wrap div.controls {position:absolute;right:36px;bottom:22px;width:984px;text-align:right;z-index:101;}
+div.slide-wrap div.controls > span {display:inline-block;width:47px;padding:16px 0;margin-left:3px;cursor:pointer;overflow:hidden;}
+div.slide-wrap div.controls > span > span {width:47px;height:3px;background:#747474;display:inline-block;overflow:hidden;z-index:102;float:left;}
+div.slide-wrap div.controls > span.on > span {background:#00287a;}
+div.slide-wrap div.controls > span > span a {display:block;width:47px;height:4px;font-size:0;line-height:0;}
+div.slide-wrap div.controls > span:first-child {margin-left:0;}
+.txt-broad {padding:30px 35px 30px 50px !important;display:none;font-size:14px;line-height:24px;}
+
+div.slide-wrap {position:relative;width:984px;height:367px;margin:0 auto;background:#fff;}
+div.slide-wrap div.slide-container {position:relative;width:984px;height:367px;overflow:hidden;}
+div.slide-wrap div.slide-container ul.slide-show {position:absolute;top:0;left:0;width:100000px;height:367px;overflow:hidden;}
+div.slide-wrap div.slide-container ul.slide-show li {float:left;width:984px;height:367px;}
+div.slide-wrap div.slide-container ul.slide-show li a {position:relative;display:inline-block;padding-left:688px;width:296px;height:367px;z-index:3}
+div.slide-wrap div.slide-container ul.slide-show li a strong.tit {display:block;width:220px;height:113px;margin:40px 0;line-height:25px;font-size:25px;font-weight:normal;color:#333;font-family:HDHarmonyM;}
+div.slide-wrap div.slide-container ul.slide-show li a strong.tit span {display:block;margin-bottom:6px;font-size:14px;color:#747474;font-weight:normal;}
+div.slide-wrap div.slide-container ul.slide-show li a span.pic {position:absolute;left:0;top:0;}
+div.slide-wrap div.slide-container ul.slide-show li a span.txt {display:block;width:220px;height:130px;font-style:normal;line-height:24px;color:#333;font-size:16px;overflow:hidden;}
+
+
+/* --------------------------------------------
+ * total-search */
+/* ------------------------------------------ */
+fieldset.total-search {background-color:#fff;width:100%;} /* 151110 수정 */
+fieldset.total-search div {width:984px;margin:0 auto;padding:58px 0 60px;}
+fieldset.total-search div input {width:864px;background:url(https://www.hyundai.co.kr/images/comm/bg/bg-total-search.png) left 0 no-repeat;font-family:HDharmonyM;font-size:36px;color:#333;margin:0;padding:0px 0 0px 10px;}
+fieldset.total-search div button {width:39px;height:39px;padding:0;margin:0 66px 0 0;background:url(https://www.hyundai.co.kr/images/comm/btn/btn-search2.png) 0 0 no-repeat;line-height:0;font-size:0;}
+
+
+/* --------------------------------------------
+ * 그룹사
+/* ------------------------------------------ */
+/* 완성차 - Hyundai-Motor-Company  */
+div.submain-affiliates1 {background-color:#FFF;height:492px;position:relative;}
+div.submain-affiliates1  p img {display:block;}
+div.submain-affiliates1  dl {padding:23px 35px;}
+div.submain-affiliates1  dl dt {font-family:HDharmonyM;font-size:20px;color:#333;margin-bottom:10px;}
+div.submain-affiliates1  dl dd {font-family:dotum;font-size:12px;color:#747474;line-height:21px;}
+div.submain-affiliates1  ul {max-width:420px;position:absolute;top:357px;right:15px;}
+div.submain-affiliates1  ul li {float:left;}
+div.submain-affiliates1  ul li a {font-family:dotum;color:#333;text-align:left;width:140px;margin-bottom:12px;font-size:12px;display:inline-block;font-weight:bold;}
+div.submain-affiliates1  ul li a:hover {color:#00287a;text-decoration:underline;}
+
+div.affiliates-intro {overflow:hidden;background:#fff;}
+div.affiliates-intro h1 {float:left;width:154px;height:112px;text-align:center;}
+div.affiliates-intro h1 img {vertical-align:middle;}
+div.affiliates-intro table.chart {float:left;width:829px;vertical-align:top;}
+div.affiliates-intro table.chart tbody th {padding:3px 0 3px 25px;font-family:dotum;font-size:12px;font-weight:bold;line-height:21px;vertical-align:top;color:#333;text-align:left;border-left:1px solid #eee;line-height:23px;}
+div.affiliates-intro table.chart tbody td {padding:3px 10px;font-family:dotum;font-size:12px;color:#747474;text-align:left;vertical-align:top;line-height:21px;}
+div.affiliates-intro table.chart tbody td a {color:#00287a;}
+div.affiliates-intro table.chart tbody td a:hover {text-decoration:underline;}
+div.affiliates-intro table.chart tbody td a img {vertical-align:middle;}
+div.affiliates-intro table.chart tbody td a.download {background:url(https://www.hyundai.co.kr/images/comm/btn/btn-shortcut2.gif) no-repeat right;padding-right:20px}
+div.affiliates-intro table.chart tbody td.social a {float:left;margin-right:4px;margin-top:-2px;}
+div.affiliates-intro table.chart tr.first th, table.chart tr.first td {padding-top:20px !important;}
+div.affiliates-intro table.chart tr.middle th {padding:3px 0 3px 25px;}
+div.affiliates-intro table.chart tr.middle td {padding:3px 10px;}
+div.affiliates-intro table.chart tr.last th, div.affiliates-intro table.chart tr.last td {padding-bottom:20px !important;}
+
+div.description {position:relative;overflow:hidden;border-top:1px solid #eee;background:#fff;}
+div.description dl {padding:30px 36px;}
+div.description dl dt {padding-bottom:10px;font-family:'HDharmonyM';font-size:20px;font-weight:normal;color:#333;letter-spacing:-1px;line-height:26px;display:block;}
+div.description dl dt sub {position:relative; bottom:4px; line-height:12px;}/* 150603 추가 */
+div.description dl dt.fs25 {line-height:30px;}
+div.description dl dd {font-family:dotum;font-size:12px;color:#747474;line-height:21px;letter-spacing:-0.025em;} /* 180813 수정 */
+div.description dl.fl dd.btn a.btn-shortcut2 {position:absolute;left:35px;bottom:35px;}
+div.description dl.fr dd.btn a.btn-shortcut2 {position:absolute;left:690px;bottom:35px;}
+div.description img {vertical-align:middle;display:block;} /* 181026 수정 *//* 190305 수정 */
+div.description a {display:block;} /* 181026 추가 */
+
+div.description.line-total dl {overflow:hidden;min-height:99px}
+div.description.line-total dl dt{width:297px;padding-bottom:0px}
+div.description.line-total dl dd{width:574px;float:left}
+div.description.line-total dl dd.full {width:100%;} /* 170620 추가 */
+
+/* 181127 추가 */
+/* 그룹홈페이지최신화 아이콘 추가 : 그룹연혁 아이콘 사용 */
+div.description dl dt.steel {padding:0 0 0 40px;background:url('/images/comm/ico/ico-steel.png') no-repeat 0 3px;}
+div.description dl dt.construction {padding:0 0 0 40px;background:url('/images/comm/ico/ico-construction.png') no-repeat 0 3px;}
+div.description dl dt.part {padding:0 0 0 40px;background:url('/images/comm/ico/ico-part.png') no-repeat 0 3px;}
+div.description dl dt.finance {padding:0 0 0 40px;background:url('/images/comm/ico/ico-finance.png') no-repeat 0 3px;}
+div.description dl dt.others {padding:0 0 0 40px;background:url('/images/comm/ico/ico-others.png') no-repeat 0 3px;}
+
+.affiliates-slide-area {position:relative;width:984px;overflow:hidden;}
+.affiliates-slide-area .affiliates-slide {position:relative;bottom:0;left:0;height:133px;overflow:hidden;}
+.affiliates-slide-area .affiliates-slide:after {display:block;clear:both;content:"";}
+.affiliates-slide-area .affiliates-slide li {float:left;padding-right:12px;}
+.affiliates-slide-area .affiliates-slide li a {display:block;}
+.affiliates-slide-area .affiliates-slide li a img {width:237px;height:133px;}
+.affiliates-slide-area .affiliates-slide-btn {display:none;}
+.affiliates-slide-area .affiliates-slide-btn a {position:absolute;bottom:50px;}
+.affiliates-slide-area .affiliates-slide-btn a.slide-btn-pev {left:0;}
+.affiliates-slide-area .affiliates-slide-btn a.slide-btn-nxt {right:0;}
+/* //181127 추가 */
+
+div.img-area {padding:29px;overflow:hidden;}
+div.img-area img {float:left;margin:6px;}
+img {vertical-align:top;}
+
+/* 170915 추가 */
+/* HMG 저널 버튼 추가 */
+div.description div.hmg-btn-wrap a {float:left;}
+div.description.hmg-view dl {padding:65px 70px 49px;width:450px;}
+div.description.hmg-view div.hmg-btn-wrap {margin:65px 70px 49px 0;}
+div.description.affiliates dl {padding:64px 70px;width:480px;}
+/* 스포츠 구단 */
+header.title div.hmg-btn-wrap {margin:26px 70px 49px 0;}
+/* 모터스 라인 */
+.article-default div.hmg-bnr-wrap {height:145px;margin:20px 0 24px 0;padding:35px 0 0 350px;background:url('/images/MediaCenter/bg_hmg_bnr.gif');}
+.article-default div.hmg-bnr-wrap p.tit {margin:0 0 20px 0;font-size:24px;font-family:HDharmonyM;color:#002c5f;letter-spacing:-0.04em;}
+.article-default div.hmg-bnr-wrap p.txt {margin:0 0 10px 0;font-size:16px;}
+/* 180813 추가 */
+.motors-btn-wrap:after {display:block;clear:both;content:"";}
+.motors-android {margin-left:16px;}
+.motors-android img {margin-left:9px;}
+.motors-ios .btn-ios {display:inline-block;height:20px;margin:7px 0 0 1px;padding:3px 0 0 23px;background:url('/images/MediaCenter/ico-ios.gif') no-repeat;font-weight:bold;line-height:20px;font-size:11px;color:#747474;letter-spacing:0;}
+.motors-android .btn-android {display:inline-block;height:20px;margin:7px 0 0 0;padding:3px 0 0 20px;background:url('/images/MediaCenter/ico-android.gif') no-repeat;font-weight:bold;line-height:20px;font-size:11px;color:#747474;letter-spacing:0;}
+/* //180813 추가 */
+/* 그룹사 */
+div.hmg-btn-wrap.group {height:96px;padding:0 36px;border-top:1px solid #eee;background-color:#fff;}
+div.hmg-btn-wrap.group p.info-txt {position:relative;margin-top:35px;padding:5px 0 0 32px;font-size:18px;line-height:18px;font-family:'HDharmonyM';color:#666;letter-spacing:-1px;}
+div.hmg-btn-wrap.group p.info-txt:before {display:block;content:'';position:absolute;top:1px;left:0;width:22px;height:23px;background:url('/images/comm/ico/ico_hmg.gif') no-repeat;}
+div.hmg-btn-wrap.group p.info-txt span {color:#1772e5;}
+div.hmg-btn-wrap.group div {margin:23px 0 0 0;}
+div.hmg-btn-wrap.group a {display:inline-block;}
+/* //170915 추가 */
+
+/* --------------------------------------------
+/* careers
+/* ------------------------------------------ */
+/* person-txt(인재채용) */
+ul.person-txt {overflow:hidden;border-top:1px solid #e9e9e9;}
+ul.person-txt li {float:left;width:328px;height:348px;}
+ul.person-txt li:hover {background:url(https://www.hyundai.co.kr/images/comm/bg/bg-line2.gif) repeat-x left bottom;}
+ul.person-txt li a{display:block;}
+ul.person-txt li a strong {font-size:16px;color:#333;padding:23px 0 0 25px;display:block;font-family:HDharmonyM;font-weight:normal;line-height:23px;}
+ul.person-txt li a span.txt {padding:5px 25px 0 25px;font-family:dotum;font-size:12px;color:#747474;display:block;line-height:21px;}
+
+/* 161118 추가 */
+/* 인재채용 - 게시판 */
+.recruit_temp {margin-bottom:10px; font-family: HDharmonyL,dotum,Arial,Helvetica,sans-serif;}
+.recruit_temp .recruit_info {padding-bottom:8px; text-align:right; font:14px/18px; color:#747474; line-height:21px;}
+.recruit_temp .recruit_info .comp_name {font-weight:bold; color:#333;}
+.recruit_temp .quali_table {font:11px/18px Malgun Gothic,Dotum,sans-serif; color:#595959; border-collapse:collapse;}
+.recruit_temp .quali_table tr.theads th{font-weight:bold; text-align:center; color:#fff; background:#9ca8b4; border-right:1px solid #fff; padding:8px 0;}
+.recruit_temp .quali_table tr.theads th:first-child{border-left:1px solid #9ca8b4;}
+.recruit_temp .quali_table tr.theads th.last{border-right:1px solid #9ca8b4;}
+.recruit_temp .quali_table tr.tbodys th{color:#000; text-align:center; background:#fff; border:1px solid #9ca8b4; padding:8px 0;}
+.recruit_temp .quali_table td{text-align:center; background:#fff; border:1px solid #9ca8b4; padding:8px 2px;}
+.recruit_temp .quali_table td.t_left{text-align:left; padding-left:10px; letter-spacing:-0.8px;}
+.recruit_temp .parttime_faq{margin-top:30px; padding-top:30px; border-top:1px solid #eee; font:14px/18px; color:#747474;}
+.recruit_temp .parttime_faq dl {padding-top:40px; }
+.recruit_temp .parttime_faq dl.first {padding-top:0; }
+.recruit_temp .parttime_faq dt{padding-bottom:15px; font-size:16px; line-height:20px; font-weight:bold; color:#333;}
+.recruit_temp .parttime_faq dd{margin-left:10px; font-size:13px; line-height:20px;color:#747474; line-height:20px; padding:0;}
+.recruit_temp .parttime_faq dd span {margin-left:-10px; background:none; top:0;}
+.recruit_temp .parttime_faq dd span.sub{margin-left:5px;}
+.recruit_temp .parttime_faq dd span.sub2{margin-left:63px;}
+.recruit_temp .parttime_faq dd a:link {color:#747474;}
+.recruit_temp .parttime_faq dd span.color{margin:0;color:#ff0000;}
+.recruit_temp .parttime_faq.bor_n{padding-top:0;margin-top:0;border-top:none;}
+.recruit_temp .mt30{margin-top:30px;}
+.recruit_temp .mt10{margin-top:10px;}
+.recruit_temp .ml10 {margin-left:10px;}
+.recruit_temp p{margin-left:10px;font-size:13px; line-height:18px;color:#747474; line-height:20px; padding:0;}
+.recruit_temp .quali_table td.t_left.txt li {text-indent:-4px;padding-left:7px;} /* 161212 추가 */
+.recruit_temp .quali_table td.t_left.txt  span {display:inline-block;width:4px;} /* 161212 추가 */
+/* //161118 추가 */
+
+/* talent(인재상) */
+div.visual-talent {width:100%;height:380px;padding:65px 0;background:#fff url(https://www.hyundai.co.kr/images/careers/bg-visual-talent.gif) no-repeat top center}
+ul.talent {padding-left:50px;overflow:hidden;background-color:#fff;}
+ul.talent > li {float:left;width:295px;padding-top:166px;height:164px;position:relative;}
+ul.talent > li strong {display:block;font-size:16px;color:#747474;padding-top:25px;font-weight:normal;}
+ul.talent > li span.pic{height:166px;display:block;position:absolute;top:0;left:0;}
+ul.talent > li.long {height:304px;}
+ul.talent > li ul {overflow:hidden;}
+ul.talent > li ul li {float:left;margin-top:15px;width:145px;}
+ul.talent > li ul li a {font-family:dotum;font-size:12px;color:#333;}
+ul.talent > li ul li a:hover {color:#00287a;text-decoration:underline;}
+
+/* Human-Resource-Development */
+ul.curriculum {padding:0 0 50px 50px;overflow:hidden;}
+ul.curriculum li {position:relative;float:left;width:137px;padding:155px 40px 0 0;font-family:dotum;color:#747474;font-size:12px;line-height:21px;}
+ul.curriculum li strong {padding-bottom:5px;display:block;font-family:HDharmonyM;font-size:16px;font-weight:normal;color:#333;}
+ul.curriculum li span.photo {position:absolute;left:0;top:0;}
+
+ul.careers-role {overflow:hidden;padding:0 20px 0 70px;}
+ul.careers-role li {float:left;text-align:center;width:273px;padding:75px 12px 0 13px;font-family:dotum;color:#747474;font-size:12px;line-height:21px;}
+ul.careers-role li.first {background:url(https://www.hyundai.co.kr/images/careers/careers-list-1.gif) no-repeat top center;}
+ul.careers-role li.second {background:url(https://www.hyundai.co.kr/images/careers/careers-list-2.gif) no-repeat top center;}
+ul.careers-role li.third {background:url(https://www.hyundai.co.kr/images/careers/careers-list-3.gif) no-repeat top center;}
+
+div.visual-study {width:100%;height:307px;background:url(https://www.hyundai.co.kr/images/careers/bg-study.gif) no-repeat top center;margin-top:50px}
+ol.selection-step {overflow:hidden;padding:0 20px 0 30px;}
+ol.selection-step li {float:left;text-align:center;width:160px;padding-right:25px;font-size:14px;line-height:23px;background:url(https://www.hyundai.co.kr/images/careers/bg-allow-right.gif) no-repeat right center;margin-top:20px}
+ol.selection-step li.last {background:none}
+ol.selection-step li span {display:block;padding-top:73px;font-family:dotum;font-size:12px;color:#333;font-weight:bold;}
+ol.selection-step li span.step01 {background:url(https://www.hyundai.co.kr/images/careers/selection-step1.gif) no-repeat top center}
+ol.selection-step li span.step02 {background:url(https://www.hyundai.co.kr/images/careers/selection-step2.gif) no-repeat top center}
+ol.selection-step li span.step03 {background:url(https://www.hyundai.co.kr/images/careers/selection-step3.gif) no-repeat top center}
+ol.selection-step li span.step04 {background:url(https://www.hyundai.co.kr/images/careers/selection-step4.gif) no-repeat top center}
+ol.selection-step li span.step05 {background:url(https://www.hyundai.co.kr/images/careers/selection-step5.gif) no-repeat top center}
+/* 사회공헌 */
+.visual-csr3 article.article-default div.description:first-child {border-top:none;}
+
+div.view-box {position:relative;clear:both;padding:50px 49px;height:auto;border-top:1px solid #eee;display:none;}
+div.view-box ul.list-view-wrap{display:inline-block;width:100%;}
+div.view-box ul.list-view-wrap li.list-wrap {float:left;width:295px;}
+div.view-box ul.list-view-wrap li.list-wrap h2 {margin-bottom:10px;color:#333;font-size:16px;font-family:HDharmonyM;font-weight:normal;}
+div.view-box ul.list-view-wrap li.list-wrap ul.list-dot {padding:0 20px 35px 0;}
+div.view-box ul.list-view-wrap li.list-wrap ul.tp1 {height:96px;}
+div.view-box ul.list-view-wrap li.list-wrap ul.tp2 {height:120px;}
+div.view-box ul.list-view-wrap li.list-wrap ul.tp3 {height:144px;}
+div.view-box ul.list-view-wrap li.list-wrap ul.tp4 {height:192px;}
+div.view-box ul.list-view-wrap li.list-wrap ul.tp5 {height:216px;}
+div.view-box ul.list-view-wrap li.list-wrap ul.list-dot li {padding-left:10px;font-family:dotum;font-size:12px;color:#747474;line-height:21px;background:url(https://www.hyundai.co.kr/images/comm/bu/bu-dot3.gif) no-repeat left 9px;}
+
+div.view-box div.month-action {margin-top:60px;}
+div.view-box div.month-action h3 {font-size:20px;font-family:HDharmonyM;color:#333;}
+div.view-box div.month-action div.active-box {margin-top:35px;width:100%;display:inline-block;}
+div.view-box div.month-action div.active-box ul {float:left;width:442px;background:url(https://www.hyundai.co.kr/images/comm/bg/bg-line.gif) repeat-y 46px 0;}
+div.view-box div.month-action div.active-box ul li {clear:both;margin-top:25px;}
+div.view-box div.month-action div.active-box ul li strong {display:inline-block;width:49px;padding-top:3px;font-size:16px;font-weight:normal;color:#333;font-family:HDharmonyM;background:url(https://www.hyundai.co.kr/images/comm/bg/bg-dot.gif) no-repeat right 7px;vertical-align:top;}
+div.view-box div.month-action div.active-box ul li span {display:inline-block;padding-left:11px;font-family:dotum;font-size:12px;color:#747474;line-height:21px;vertical-align:top;}
+div.view-box div.month-action div.active-box ul li:first-child {margin-top:0;}
+
+button.btn-open {position:absolute;bottom:10px;right:16px;display:block;width:50px;height:50px;background:url(https://www.hyundai.co.kr/images/comm/btn/btn-openclose.gif) no-repeat 0 0;font-size:0;line-height:0;}
+button.btn-open:hover {background:url(https://www.hyundai.co.kr/images/comm/btn/btn-openclose-on.gif) no-repeat 0 0;}
+button.btn-open.on {background-position:0 -51px;}
+
+/* 160519 추가 */
+.visual-csr4 article.article-default div.description {height:auto;border-top:none;border-bottom:1px solid #eee;background-color:#f6f6f6;}
+.visual-csr4 article.article-default div.description dl {height:98px;padding:33px 35px 0 35px;}
+.visual-csr4 article.article-default div.description a.download {display:inline-block;margin: 2px 0 0 15px;}
+
+/* 170802 수정 : 사회공헌 업데이트 */
+.visual-csr4 div.view-box-block {clear:both;padding:50px 49px 62px;height:auto;border-top:1px solid #eee;background-color:#fff;overflow:hidden;}
+.visual-csr4 div.view-box-block ul.list-view-wrap {display:inline-block;width:100%;}
+.visual-csr4 div.view-box-block ul.list-view-wrap:after {display:block;clear:both;content:"";}
+.visual-csr4 div.view-box-block ul.list-view-wrap li.list-wrap {float:left;width:295px;}
+.visual-csr4 div.view-box-block ul.list-view-wrap li.list-wrap h2 {margin-bottom:8px;color:#333;font-size:16px;font-family:HDharmonyM;font-weight:normal;letter-spacing:-1px;}
+.visual-csr4 div.view-box-block ul.list-view-wrap li.list-wrap h2 a.shortcut {display:inline-block;padding-right:20px;font-family:HDHarmonyL;font-size:14px;color:#00287a;background:url(https://www.hyundai.co.kr/images/comm/btn/btn-shortcut2.gif) no-repeat right 3px !important;}
+.visual-csr4 div.view-box-block ul.list-view-wrap li.list-wrap h2 a.shortcut:hover {text-decoration:underline;}
+.visual-csr4 div.view-box-block ul.list-view-wrap li.list-wrap ul.list-dot {padding:0 20px 0 0;}
+/* 180824 수정 */
+.visual-csr4 div.view-box-block ul.list-view-wrap li.list-wrap ul.tp1 {height:225px;}
+.visual-csr4 div.view-box-block ul.list-view-wrap li.list-wrap ul.tp2 {height:250px;}
+.visual-csr4 div.view-box-block ul.list-view-wrap li.list-wrap ul.tp3 {height:260px;}
+.visual-csr4 div.view-box-block ul.list-view-wrap li.list-wrap ul.tp4 {height:330px;}
+/* //180824 수정 */
+.visual-csr4 div.view-box-block ul.list-view-wrap li.list-wrap ul.list-dot li {margin-bottom:11px;padding-left:10px;background:url(https://www.hyundai.co.kr/images/comm/bu/bu-dot3.gif) no-repeat left 9px;font-size:12px;font-family:dotum;color:#747474;line-height:21px;}
+.visual-csr4 div.view-box-block ul.list-view-wrap li.list-wrap ul.list-dot li span.company-name {font-weight:bold;}
+
+.visual-csr4 div.view-box {position:relative;clear:both;margin-top:-26px;padding:0 49px 62px;height:auto;border-top:none;background-color:#fff;display:none;}
+.visual-csr4 div.view-box ul.list-view-wrap{display:inline-block;width:100%;}
+.visual-csr4 div.view-box ul.list-view-wrap li.list-wrap {float:left;width:295px;}
+.visual-csr4 div.view-box ul.list-view-wrap li.list-wrap h2 {margin-bottom:8px;color:#333;font-size:16px;font-family:HDharmonyM;font-weight:normal;letter-spacing:-1px;}
+.visual-csr4 div.view-box ul.list-view-wrap li.list-wrap ul.list-dot {padding:0 20px 0 0;}
+/* 180824 추가 */
+.visual-csr4 div.view-box ul.list-view-wrap li.list-wrap h2 a.shortcut {display:inline-block;padding-right:20px;font-family:HDHarmonyL;font-size:14px;color:#00287a;background:url(https://www.hyundai.co.kr/images/comm/btn/btn-shortcut2.gif) no-repeat right 3px !important;}
+.visual-csr4 div.view-box ul.list-view-wrap li.list-wrap h2 a.shortcut:hover {text-decoration:underline;}
+/* //180824 추가 */
+/* 180824 수정 */
+.visual-csr4 div.view-box ul.list-view-wrap li.list-wrap ul.tp1 {height:175px;}
+.visual-csr4 div.view-box ul.list-view-wrap li.list-wrap ul.tp2 {height:190px;}
+.visual-csr4 div.view-box ul.list-view-wrap li.list-wrap ul.tp3 {height:205px;}
+.visual-csr4 div.view-box ul.list-view-wrap li.list-wrap ul.tp4 {height:215px;}
+.visual-csr4 div.view-box ul.list-view-wrap li.list-wrap ul.tp5 {height:225px;}
+.visual-csr4 div.view-box ul.list-view-wrap li.list-wrap ul.tp6 {height:235px;}
+.visual-csr4 div.view-box ul.list-view-wrap li.list-wrap ul.tp7 {height:245px;}
+.visual-csr4 div.view-box ul.list-view-wrap li.list-wrap ul.tp8 {height:260px;}
+.visual-csr4 div.view-box ul.list-view-wrap li.list-wrap ul.tp9 {height:285px;}
+/* //180824 수정 */
+.visual-csr4 div.view-box ul.list-view-wrap li.list-wrap ul.list-dot li {margin-bottom:11px;padding-left:10px;font-family:dotum;font-size:12px;color:#747474;line-height:21px;background:url(https://www.hyundai.co.kr/images/comm/bu/bu-dot3.gif) no-repeat left 9px;}
+.visual-csr4 div.view-box ul.list-view-wrap li.list-wrap ul.list-dot li:first-child {margin-bottom:11px;}
+.visual-csr4 div.view-box ul.list-view-wrap li.list-wrap ul.list-dot li span.company-name {font-weight:bold;}
+/* //170802 수정 : 사회공헌 업데이트 */
+
+/* 180824 수정 */
+.visual-csr4 button.btn-open {position:absolute;left:0;bottom:0;display:block;width:984px;height:65px;background:#fff url(https://www.hyundai.co.kr/images/comm/btn/btn-openclose2.gif) no-repeat 390px 27px;font-weight:bold;font-size:12px;font-family:dotum;text-align:center;color:#00287a;}
+.visual-csr4 button.btn-open:hover {position:absolute;left:0;bottom:0;display:block;width:984px;height:65px;background:#fff url(https://www.hyundai.co.kr/images/comm/btn/btn-openclose2.gif) no-repeat 390px 27px;}
+.visual-csr4 button.btn-open.on {background:url(https://www.hyundai.co.kr/images/en-web/comm/btn/btn-openclose2_on.gif) no-repeat 390px 27px;} 
+.visual-csr4 button.btn-open.bp-dream {background-position:385px 27px;}
+.visual-csr4 button.btn-open.bp-dream.on {background-position:385px 27px;}
+.visual-csr4 button.btn-open.bp-green {background-position:385px 27px;}
+.visual-csr4 button.btn-open.bp-green.on {background-position:385px 27px;}
+/* //180824 수정 */
+/* //160519 추가 */
+
+h2.csr-result-tit {font-family:HDharmonyM;font-size:25px;color:#333;font-weight:normal;padding:70px 0 35px 50px;}
+ul.csr-result-cont {overflow:hidden;}
+/* 160519 수정 */
+ul.csr-result-cont li {float:left;width:492px;}
+ul.csr-result-cont li.list1 {width:100%;height:934px;background:url(https://www.hyundai.co.kr/images/csr/csr-performance1.jpg) no-repeat 0 0;} 
+ul.csr-result-cont li.list2 {width:100%;height:930px;background:url(https://www.hyundai.co.kr/images/csr/csr-performance2.jpg) no-repeat 0 0;}
+/* 170802 수정 : 사회공헌 업데이트 */
+ul.csr-result-cont li.list3 {width:100%;height:768px;background:url(https://www.hyundai.co.kr/images/csr/csr-performance3.jpg) no-repeat 0 0;} /* 180824 수정 */
+ul.csr-result-cont li.list4 {width:100%;height:1105px;background:url(https://www.hyundai.co.kr/images/csr/csr-performance4.jpg) no-repeat 0 0;} /* 180824 수정 */
+ul.csr-result-cont li.list5 {height:532px;background:url(https://www.hyundai.co.kr/images/csr/csr-performance5.jpg) no-repeat 0 0;}
+ul.csr-result-cont li.list6 {height:532px;background:url(https://www.hyundai.co.kr/images/csr/csr-performance6.jpg) no-repeat 0 0;}
+/* //170802 수정 : 사회공헌 업데이트 */
+ul.csr-result-cont li.list7 {height:494px;background:url(https://www.hyundai.co.kr/images/csr/csr-performance7.jpg) no-repeat 0 0;}
+ul.csr-result-cont li.list8 {height:494px;background:url(https://www.hyundai.co.kr/images/csr/csr-performance8.jpg) no-repeat 0 0;}
+ul.csr-result-cont li.list9 {background:url(https://www.hyundai.co.kr/images/csr/csr-result9.jpg) no-repeat 0 0;}
+ul.csr-result-cont li.list10 {background:url(https://www.hyundai.co.kr/images/csr/csr-result10.jpg) no-repeat 0 0;}
+ul.csr-result-cont li dl {padding:50px 50px 0 50px;}
+ul.csr-result-cont li dl dt {font-family:HDharmonyM;font-size:16px;line-height:23px;color:#333;font-weight:normal;margin-bottom:310px;}
+ul.csr-result-cont li dl dd {font-family:HDharmonyL;font-size:14px;line-height:23px;color:#747474;}
+/* 160519 수정 */
+ul.csr-result-cont li div.list_tit {padding:50px 50px 0 50px;font-family:HDharmonyM;font-size:16px;line-height:23px;color:#333;font-weight:normal;margin-bottom:210px;} /* 180824 수정 */ /* 160519 추가 */
+
+/* --------------------------------------------
+ * about-us
+/* ------------------------------------------ */
+/* philosophy */
+ul.philosophy-list1 {padding:50px 0 100px 50px;overflow:hidden;}
+ul.philosophy-list1 li {float:left;width:295px;font-size:14px;line-height:23px;letter-spacing:-1px;}
+ul.philosophy-list1 li strong {padding-bottom:10px;font-family:HDharmonyM;font-size:16px;font-weight:normal;color:#333;display:block;}
+ul.philosophy-list1 li span.txt {min-height:95px;padding-right:30px;display:block;font-family:dotum;font-size:12px;color:#747474;line-height:21px;}
+ul.philosophy-list1 li span.photo {padding-top:30px;display:block;}
+
+ul.philosophy-list2 {padding:40px 0 0 50px;margin-bottom:100px;overflow:hidden;}
+ul.philosophy-list2 li {float:left;width:140px;margin-right:44px;font-family:dotum;font-size:12px;color:#747474;line-height:21px;}
+ul.philosophy-list2 li strong {padding-top:70px;margin-bottom:10px;display:block;font-family:HDharmonyM;font-size:16px;font-weight:normal;color:#00287a;background:url(https://www.hyundai.co.kr/images/about-us/ico-Philosophy1.png) no-repeat;}
+ul.philosophy-list2 li.core1 strong {background-position:0 0;}
+ul.philosophy-list2 li.core2 strong {background-position:-145px 0;}
+ul.philosophy-list2 li.core3 strong {background-position:-290px 0;}
+ul.philosophy-list2 li.core4 strong {background-position:-435px 0;}
+ul.philosophy-list2 li.core5 strong {background-position:-580px 0;}
+
+ul.philosophy-list3 {overflow:hidden;}
+ul.philosophy-list3 li {position:relative;float:left;width:328px;padding-bottom:35px;font-size:14px;line-height:23px;letter-spacing:-1px;}
+ul.philosophy-list3 li:hover {background:url(https://www.hyundai.co.kr/images/comm/bg/bg-line2.gif) repeat-x left bottom;}
+ul.philosophy-list3 li a strong {padding:15px 0 0 25px;font-family:HDharmonyM;font-size:16px;font-weight:normal;color:#333;display:block;}
+ul.philosophy-list3 li a span.txt {padding:3px 30px 0 25px;display:block;font-family:dotum;font-size:12px;line-height:21px;color:#747474;}
+
+dl.philosophy-desc {padding:100px 50px;overflow:hidden;}
+dl.philosophy-desc dt {float:left;font-family:HDharmonyM;font-size:20px;color:#333;line-height:26px;font-weight:normal;margin-top:3px;}
+dl.philosophy-desc dd {float:right;width:685px;font-family:dotum;font-size:12px;color:#747474;line-height:21px;}
+dl.philosophy-desc dd strong {font-weight:normal;}
+dl.philosophy-desc dd ul {margin:20px 0 0 15px;}
+dl.philosophy-desc dd ul li {padding-left:8px; background:url(https://www.hyundai.co.kr/images/comm/bu/bu-dot4.gif) no-repeat left 9px;}
+
+
+/* history */
+dl.history-txt {text-align:center;margin-top:50px;color:#333}
+dl.history-txt dt {font-family:HDharmonyM;font-size:25px;}
+dl.history-txt dd {margin-top:10px}
+dl.history-txt dd.year {font-size:16px}
+dl.history-txt dd.txt {font-size:14px;color:#747474;line-height:23px}
+
+div.history-photo img{vertical-align:middle;}
+table.history-register {margin-bottom:50px;}
+table.history-register tbody tr th {padding:40px 0 50px 50px;border-top:1px solid #eee;font-family:HDHarmonyM;font-size:36px;font-weight:normal;color:#333;text-align:left;vertical-align:top;}
+table.history-register tbody tr td {text-align:left;vertical-align:top;}
+table.history-register tbody tr.first td {padding-top:30px;border-top:1px solid #eee;}
+table.history-register tbody tr.first td dl {border-top:0 none;}
+table.history-register tbody tr.last td {padding-bottom:35px;}
+table.history-register tbody tr td dl {padding:7px 0 7px 82px;margin-right:50px;border-top:1px solid #eee;font-size:14px;line-height:21px;overflow:hidden;}
+table.history-register tbody tr td dl dt {float:left;width:145px;padding:5px 0 4px 0;color:#333;}
+table.history-register tbody tr td dl dd {color:#747474;padding:5px 0 4px 165px;word-break:break-word;letter-spacing:-0.05em;}/* 190411 수정 */
+table.history-register tbody tr td dl dd.middle {height:42px;}
+table.history-register tbody tr td dl.automotive {background:url(https://www.hyundai.co.kr/images/comm/ico/ico-automotive.png) no-repeat left 14px;}
+table.history-register tbody tr td dl.steel {background:url(https://www.hyundai.co.kr/images/comm/ico/ico-steel.png) no-repeat left 14px;}
+table.history-register tbody tr td dl.construction {background:url(https://www.hyundai.co.kr/images/comm/ico/ico-construction.png) no-repeat left 14px;}
+table.history-register tbody tr td dl.part {background:url(https://www.hyundai.co.kr/images/comm/ico/ico-part.png) no-repeat left 14px;}
+table.history-register tbody tr td dl.finance {background:url(https://www.hyundai.co.kr/images/comm/ico/ico-finance.png) no-repeat left 14px;}
+table.history-register tbody tr td dl.others {background:url(https://www.hyundai.co.kr/images/comm/ico/ico-others.png) no-repeat left 14px;}
+table.history-register tbody tr td dl.hmg {background:url(https://www.hyundai.co.kr/images/comm/ico/ico-hmg.png) no-repeat left 17px;}
+
+
+div.history-slide {width:984px;height:50px;margin:0 auto 10px;background:#fff;overflow:hidden;position:relative}/* 200213 edit */
+div.history-slide a {float:left}
+div.history-slide a.pre {padding-right:64px} /* 190201 수정 */
+div.history-slide a.nxt {position:absolute;top:0;right:0}
+div.history-slide a.txt {font-size:16px;font-family:HDharmonyM;color:#747474;display:inline-block;padding:18px 8px 11px;border-bottom:3px solid #fff;}
+div.history-slide a.txt.on {color:#00287a;border-bottom:3px solid #00287a;}
+div.history-slide div.slide-area {float:left;overflow:hidden;width:550px;height:50px;position:relative;margin-right:50px;margin-left:50px;} /* 200213 edit */
+div.history-slide div.slide-area ul {position:absolute;top:0;left:0;width:2000px;}/* 200213 edit */
+div.history-slide div.slide-area ul li {float:left;margin-right:43px}/* 200213 edit */
+div.history-slide div.slide-area ul li a {display:inline-block;padding:18px 3px 11px;border-bottom:3px solid #fff;font-size:16px;font-family:HDharmonyM;color:#747474;}/* 200213 edit */
+div.history-slide div.slide-area ul li a.on {color:#00287a;border-bottom:3px solid #00287a;}
+div.history-slide div.slide-area ul li span {display:inline-block;padding:25px 20px 0;}
+div.history-slide a.past:before {content:'~';padding-right:5px;}/* 190626 추가 */
+
+
+/* Financial-Information */
+div.chart-items {overflow:hidden;border-bottom:1px solid #eee;}
+div.chart-items ul {float:right;padding:20px 25px;}
+div.chart-items ul li {float:left;margin-right:20px;font-size:14px;}
+div.chart-items ul li img {margin-right:8px;vertical-align:-2px;}
+
+ul.performance-info {overflow:hidden; position:relative;}/* 150423 수정 */
+ul.performance-info li{float:left;width: 327px;padding: 50px 0px 100px;border-left:1px solid #eee;}
+ul.performance-info li:first-child {border-left:0;}
+ul.performance-info li dl {font-family:HDHarmonyM;color:#333;margin-bottom:45px;}
+ul.performance-info li dl dt {font-size:20px;margin-bottom:15px;padding: 0 40px;}
+ul.performance-info li dl dd {font-size:16px;padding: 0 40px;}
+ul.performance-info li dl dd em {font-size:35px;}
+ul.performance-info li dl dd.chart {margin-top:35px;text-align:center;padding: 0;}
+ul.performance-info li table {width: 241px;margin: 0 auto;border-bottom:1px solid #eee;}
+ul.performance-info li table thead th {padding:24px 0 22px;font-family:HDHarmonyM;font-size:14px;font-weight:normal;text-align:right;color:#333;border-top:1px solid #eee;}
+ul.performance-info li table tbody td {padding:9px 0 8px;font-size:14px;text-align:right;}
+ul.performance-info li table tfoot td {padding:18px 0 25px;font-size:14px;text-align:right;color:#333;}
+ul.performance-info li p.unit {padding-top:15px;font-size:14px;text-align:right;padding-right:40px;}
+ul.performance-info li p.standard {position:absolute;bottom:20px;right:20px;font-size:14px;}/* 150423 추가 */
+
+/* Performance */
+ul.performance-list1 {margin-top:60px;}
+ul.performance-list1 li a {height:485px;display:block;border-top:1px solid #eee;}
+ul.performance-list1 li a:hover {height:482px;border-bottom:3px solid #00287a;}
+ul.performance-list1 li a strong {padding:24px 24px 0;display:block;font-family:HDHarmonyM;font-size:16px;font-weight:normal;color:#333;}
+ul.performance-list1 li a span.txt {padding:10px 24px;display:block;font-size:14px;line-height:23px;}
+
+ul.performance-list2 li {float:left;background:#fff;}
+ul.performance-list2 li a {width:328px;height:288px;display:block;border-top:1px solid #eee;}
+ul.performance-list2 li a:hover {height:285px;border-bottom:3px solid #00287a;}
+ul.performance-list2 li a strong {padding:24px 24px 0;display:block;font-family:HDHarmonyM;font-size:16px;font-weight:normal;color:#333;}
+ul.performance-list2 li a span.txt {padding:10px 24px;display:block;font-size:14px;line-height:23px;}
+
+/* --------------------------------------------
+ * 글로벌사업
+/* ------------------------------------------ */
+
+/* global-list */
+div.global-list {overflow:hidden;}
+div.global-list div.item {position:relative;width:320px;float:left;margin:0 0 20px 12px;padding-bottom:2px;background:#fff;}
+div.global-list div.item:hover {background:#fff url(https://www.hyundai.co.kr/images/comm/bg/bg-line2.gif) repeat-x left bottom;}
+div.global-list div.first {margin-left:0;}
+div.global-list div.item a {display:inline-block;cursor:pointer;}
+div.global-list div.item-cont {width:984px;height:490px;background:#fff;position:relative;margin:-10px 0 20px;clear:both;}
+
+/* --------------------------------------------
+ * csr
+/* ------------------------------------------ */
+/* sub-main */
+ul.csr-box1 {overflow:hidden;}
+ul.csr-box1 li {float:left;width:492px;height:375px;}
+ul.csr-box1 li:hover {background:url(https://www.hyundai.co.kr/images/comm/bg/bg-line2.gif) repeat-x left bottom;}
+ul.csr-box1 li a {display:inline-block;}
+ul.csr-box1 li a strong {padding:20px 0 15px 25px;display:block;font-family:HDharmonyM;font-size:16px;font-weight:normal;color:#333;}
+ul.csr-box1 li a span.txt {padding:0 25px;font-family:dotum;font-size:12px;color:#747474;display:block;}
+
+ul.csr-box2 li a {height:468px;display:inline-block;}
+ul.csr-box2 li a:hover {background:url(https://www.hyundai.co.kr/images/comm/bg/bg-line2.gif) repeat-x left bottom;}
+ul.csr-box2 li a strong {padding:20px 0 15px 25px;display:block;font-family:HDharmonyM;font-size:16px;font-weight:normal;color:#333;}
+ul.csr-box2 li a span.txt {padding-left:25px;font-family:dotum;font-size:12px;color:#747474;}
+
+/* CSR-Foundation */
+div.foundation-info {padding:35px 0 0 50px;}
+div.foundation-info p.tit {padding-bottom:10px;font-family:HDharmonyM;font-size:16px;color:#333}
+div.foundation-info p.tit strong {;font-weight:normal;}
+div.foundation-info p.desc {font-family:dotum;font-size:12px;line-height:21px;color:#747474;}
+
+h2.foundation-h2 {font-size:20px;color:#333;padding:40px 0 30px 50px;font-family:HDharmonyM;font-weight:normal;}
+
+div.foundation-desc {margin-left:50px;}
+div.foundation-desc > ul {overflow:hidden;}
+/* 160714 수정 */
+div.foundation-desc > ul > li {float:left;width:442px;min-height:500px;} /* 180824 수정 */
+div.foundation-desc ul li div.tit p {padding:32px 0 10px;font-family:HDharmonyM;font-size:16px;color:#333;font-weight:normal;}
+div.foundation-desc ul li div.desc {width:410px;font-family:dotum;font-size:12px;color:#747474;line-height:22px;letter-spacing:-1px;}
+div.foundation-desc ul li div.desc ul {margin-top:15px;}
+div.foundation-desc ul li div.desc ul li {padding-left:10px;background:url(https://www.hyundai.co.kr/images/comm/bu/bu-dot1.gif) no-repeat 0 9px;} 
+/* //160714 수정 */
+/* 160714 추가 */
+div.foundation-desc > ul > li:last-child {min-height:500px;}
+div.foundation-desc ul li div.desc.col_2 {width:884px;}
+div.foundation-desc ul li div.desc ul li span{font-weight:bold;}
+/* //160714 추가 */
+ul.business-line {padding:0 0 50px 50px;overflow:hidden;}
+ul.business-line li {position:relative;float:left;width:181px;padding:145px 40px 0 0;font-size:14px;line-height:23px;}
+ul.business-line li strong {padding-bottom:10px;display:block;font-family:HDharmonyM;font-size:16px;font-weight:normal;color:#333;}
+ul.business-line li span.photo {position:absolute;left:0;top:0;}
+
+/* CSR-System */
+div.visual-world {width:100%;margin-top:80px;}/* 170802 수정 */
+/* 170802 추가 */
+div.visual-world > h2 {font-size:25px;text-align:center;color:#004181;}
+div.visual-world .system-list {margin:30px 0 65px;}
+div.visual-world .system-list ul {overflow:hidden;margin:0 65px;}
+div.visual-world .system-list ul li {float:left;margin-left:10px;}
+div.visual-world .system-list ul li:first-child {margin-left:0;}
+div.visual-world .system-list ul li > p {padding-top:15px;font-family:dotum;font-size:12px;line-height:21px;color:#747474;text-align:center;}
+/* //170802 추가 */
+
+div.tab-area > div {display:none}
+div.tab-area {position:relative;}
+div.tab-area h2 {position:absolute;top:-48px;}
+/* 160519 수정 */
+div.tab-area h2.tab-easy {right:390px;}
+div.tab-area h2.tab-safe {right:255px;}
+div.tab-area h2.tab-happy {right:45px;} /* 170802 수정 */
+div.tab-area h2.tab-green {right:150px;} /* 170802 수정 */
+/* //160519 수정 */
+
+/* 160519 추가 */
+div.tab-area h2.tab-dream {right:640px;} 
+div.tab-area h2.tab-next {right:505px;} 
+div.tab-area h2.tab-person {right:345px;}
+div.tab-area h2.tab-culturehand {right:195px;}
+div.tab-area h2.tab-communication {right:45px;}
+/* //160519 추가 */
+
+div.tab-area h2.tab-society {right:500px;}
+div.tab-area h2.tab-global {right:330px;}
+div.tab-area h2.tab-culture {right:195px;}
+div.tab-area h2.tab-csr {right:45px;}
+div.tab-area h2 a {padding:10px 5px 8px;display:inline-block;text-align:center;font-family:HDHarmonyM;font-size:16px;font-weight:normal;color:#747474;}
+div.tab-area h2 a:hover {padding:10px 5px 6px;border-bottom:2px solid #00287a;color:#00287a;}
+div.tab-area h2 a.on {padding:10px 5px 6px;border-bottom:2px solid #00287a;color:#00287a;}
+
+div.system-box1 {padding:45px 50px 100px;overflow:hidden;}
+div.system-box1 p.txt {float:right;width:370px;padding:60px 40px 0 20px;font-family:dotum;font-size:12px;line-height:21px;} /* 170802 수정 */
+div.system-box1 p.photo {float:left;}
+
+div.system-box2 {padding:40px 50px 45px;overflow:hidden;}
+div.system-box2 p.txt {width:580px;padding-top:30px;font-family:dotum;font-size:12px;line-height:21px;} /* 160519 수정 */
+div.system-box2 p.txt strong {display:block;margin-bottom:10px;font-family:HDharmonyM;font-size:20px;font-weight:normal;color:#333;letter-spacing:-1px;}
+
+div.system-wrap {position:relative;border-top:1px solid #eee;border-bottom:1px solid #eee;overflow:hidden;}
+div.system-wrap div.focus-wrap {overflow:hidden;position:relative;width:984px;height:325px;}  /* 170802 수정 */
+div.system-wrap div.focus-wrap ul {position:absolute;left:0;top:0;width:9000px;display:inline-block;}
+div.system-wrap div.focus-wrap ul li {float:left;display:block;width:984px;height:277px;}
+div.system-wrap div.focus-wrap ul li div.photo {float:left;}
+div.system-wrap div.focus-wrap ul li dl {float:left;padding:20px 0 0 35px;width:390px;line-height:22px;} /* 160519 수정 */
+div.system-wrap div.focus-wrap ul li dl dt {font-family:HDharmonyM;font-size:16px;color:#333;margin-bottom:10px;} /* 160519 수정 */
+div.system-wrap div.focus-wrap ul li dl dt a.shortcut {padding:5px 20px 5px 0;margin-left:20px;font-family:HDHarmonyL;font-size:14px;color:#00287a;background:url(https://www.hyundai.co.kr/images/comm/btn/btn-shortcut2.gif) no-repeat right 5px !important;}
+div.system-wrap div.focus-wrap ul li dl dt a.shortcut:hover {text-decoration:underline;}
+div.system-wrap div.focus-wrap ul li dl dd {position:relative;font-family:dotum;font-size:12px;color:#747474;line-height:21px;margin-bottom:7px;letter-spacing:-1px;} /* 170802 수정 */
+
+div.system-wrap div.focus-wrap ul li dl dd strong{position:absolute;left:0;top:0;font-size:12px;font-weight:bold;color:#333;line-height:1;display:inline-block;}
+div.system-wrap div.focus-wrap ul li dl dd.desc {padding-left:0;}
+div.system-wrap div.focus-wrap ul li dl dd .bold{font-weight:bold;color:#00287a;} /* 170802 추가 */
+
+div.system-wrap button {position:absolute;width:50px;height:50px;padding:0;margin:0;z-index:10;font-size:0;line-height:0;background:none;}
+div.system-wrap button.btn-slide-pre {left:0;top:115px;}
+div.system-wrap button.btn-slide-nxt {right:0;top:115px;}
+/* div.system-wrap button.off {cursor:default;opacity:0.3;filter:alpha(opacity=30);}*/
+div.system-wrap button img {vertical-align:middle;}
+
+/* 171121 추가 */
+div.system-wrap button span {display:block; visibility:visible;  width:100%; height:100%; text-indent:-9999px;} 
+div.system-wrap button.btn-slide-pre span {background:url(https://www.hyundai.co.kr/images/comm/btn/btn_slide_pre.gif) no-repeat 0 0;}
+div.system-wrap button.btn-slide-nxt span {background:url(https://www.hyundai.co.kr/images/comm/btn/btn_slide_nxt.gif) no-repeat 0 0; }
+/* //171121 추가 */
+
+div.system-wrap div.page {position:absolute;left:527px;top:285px;width:100%;z-index:20;zoom:1;} /* 170802 수정 */
+div.system-wrap div.page > span {display:inline-block;width:65px;padding:16px 0;margin-right:2px;cursor:pointer;overflow:hidden;}
+div.system-wrap div.page > span > span {display:inline-block;height:3px;width:65px;background:#747474;float:left;}
+div.system-wrap div.page > span > span > a {display:block;width:65px;height:4px;font-size:0;line-height:0;}
+div.system-wrap div.page > span.on > span {background:#00287a;}
+
+/* 160519 추가 */
+div.system-wrap2 {position:relative;overflow:hidden;}
+div.system-wrap2 div.focus-wrap div.photo {float:left;margin-left:50px;}
+div.system-wrap2 div.focus-wrap dl {float:left;padding-left:35px;width:420px;line-height:22px;}
+div.system-wrap2 div.focus-wrap dl dt {font-family:HDharmonyM;font-size:20px;line-height:26px;color:#333;margin-bottom:10px;} /* 170802 수정 */
+div.system-wrap2 div.focus-wrap dl dd.desc {font-family:dotum;font-size:12px;} /* 160620 추가 */
+div.system-wrap2 div.focus-wrap dl dd a.shortcut {display:inline-block;padding:5px 20px 5px 0;margin:8px 0 13px;font-family:HDHarmonyL;font-size:14px;color:#00287a;background:url(https://www.hyundai.co.kr/images/comm/btn/btn-shortcut2.gif) no-repeat right 7px !important;}
+div.system-wrap2 div.focus-wrap dl dd a.shortcut:hover {text-decoration:underline;}
+div.system-wrap2 div.focus-wrap dl dd.stats{height:44px;margin-bottom:10px;padding-left:57px;font-family:HDharmonyM;font-size:26px;color:#58595b;background:url(https://www.hyundai.co.kr/images/csr/ico_move.gif) no-repeat;} /* 180824 수정 */
+div.system-wrap2 div.focus-wrap dl dd.stats span{display:block;margin-bottom:5px;font-size:11px;line-height:11px;font-family:HDHarmonyL;}
+div.system-wrap2 div.focus-wrap dl dd.stats.group {background-position:0 0;}
+div.system-wrap2 div.focus-wrap dl dd.stats.project {background-position:0 -54px;}
+div.system-wrap2 div.focus-wrap dl dd.stats.money {background-position:0 -109px;}
+/* //160519 추가 */
+
+table.activity-list {margin:30px 0 100px 0;}
+table.activity-list tr.on td {background:#fff !important;}
+
+/* CSR-Performanc */
+div.csr-magazine {overflow:hidden;}
+div.csr-magazine a {display:block;}
+div.csr-magazine a img {vertical-align:middle;float:left;}
+div.csr-magazine a span {float:left;width:109px;height:200px;padding:20px 24px;font-family:HDHarmonyM;font-size:16px;color:#333;background:#fff;border-left:1px solid #eee;display:block;vertical-align:middle;}
+
+/* --------------------------------------------
+ * 라이브러리
+/* ------------------------------------------ */
+
+/* library-list-a1 */
+div.library-list-a1 {width:984px;display:inline-block;}
+div.library-list-a1 div.item {position:relative;width:237px;float:left;margin:0 0 20px 12px;overflow:hidden}
+div.library-list-a1 div.first {margin-left:0;}
+div.library-list-a1 div.item a {display:inline-block;height:178px;cursor:pointer;}
+div.library-list-a1 div.item a span.pic {}
+div.library-list-a1 div.item a strong.video {display:block;position:absolute;top:0;right:0;width:25px;height:24px;font-size:0;line-height:0;background:url(https://www.hyundai.co.kr/images/comm/ico/ico-movie.gif) 4px 6px no-repeat #fff;}
+div.library-list-a1 div.item a div.txt {width:211px;height:70px;padding:13px 13px 0 13px;background-color:#fff;position:absolute;bottom:-85px;left:0;}
+div.library-list-a1 div.item a div.txt strong {display:block;display:block;font-family:dotum;font-weight:normal;font-size:12px;color:#666;margin-bottom:3px;height:20px;}
+div.library-list-a1 div.item a div.txt span {display:block;height:37px;font-family:dotum;line-height:21px;color:#333;font-weight:bold;}
+div.library-list-a1 div.item a div.txt .ico{position:absolute;top:0px;right:13px;} /* 2014-07-15 개발 수정 */
+div.library-list-a1 div.item a span.bar {position:absolute;left:0;bottom:0;background:#00287a;display:inline-block;width:100%;height:3px;opacity:0;filter:alpha(opacity=0);}
+div.library-list-a1 div.item.on a div.txt {color:#666;}
+div.library-list-a1 div.item.on a div.txt strong {color:#666;}
+div.library-list-a1 div.item.on a span.bar {position:absolute;left:0;bottom:0;background:#00287a;display:inline-block;width:100%;height:3px;}
+div.library-list-a1 div.item-cont {width:984px;height:490px;background:#fff;position:relative;margin:-10px 0 20px;clear:both;}
+
+/* 2014-07-15 개발 수정 */
+div.library-list-a1 div.item span.ico {display:block;width:62px;height:43px;font-size:0;line-height:0;position:absolute;top:10px;right:14px;background:url(https://www.hyundai.co.kr/images/comm/ico/ico-group.png) 0 0 no-repeat;}
+div.library-list-a1 div.item span.ico.engineering {background-position:11px 0px;}
+div.library-list-a1 div.item span.ico.card {background-position:11px -43px;}
+div.library-list-a1 div.item span.ico.construction {background-position:11px -86px;}
+div.library-list-a1 div.item span.ico.steel {background-position:11px -129px;}
+div.library-list-a1 div.item span.ico.car {background-position:11px -172px;}
+div.library-list-a1 div.item span.ico.etc {background-position:11px -215px;}
+div.library-list-a1 div.item span.ico.logo {background-position:11px -257px;}
+
+
+ul.thumbnail-a3 li a div.txt span.ico{position:absolute;top:0px;right:13px;}
+ul.thumbnail-a3 li a div.txt span.ico{display:block;width:62px;height:43px;font-size:0;line-height:0;position:absolute;top:0px;right:14px;background:url(https://www.hyundai.co.kr/images/comm/ico/ico-group.png) 0 0 no-repeat;}
+ul.thumbnail-a3 li a div.txt span.ico.engineering {background-position:11px 0px;}
+ul.thumbnail-a3 li a div.txt span.ico.card {background-position:11px -43px;}
+ul.thumbnail-a3 li a div.txt span.ico.construction {background-position:11px -86px;}
+ul.thumbnail-a3 li a div.txt span.ico.steel {background-position:11px -129px;}
+ul.thumbnail-a3 li a div.txt span.ico.car {background-position:11px -172px;}
+ul.thumbnail-a3 li a div.txt span.ico.etc {background-position:11px -215px;}
+ul.thumbnail-a3 li a div.txt span.ico.logo {background-position:11px -257px;}
+
+/* 2014-07-15 개발 수정 */
+
+div.item-gallery {position:relative;margin:0 65px -4px;display:inline-block;padding:20px 0;}
+div.item-cont a.close {position:absolute;top:12px;right:5px;padding:8px;display:inline-block;}
+div.item-gallery a.pre {position:absolute;top:204px;left:-50px;}
+div.item-gallery a.nxt {position:absolute;top:204px;right:-50px;}
+div.item-gallery div.photo {float:left;width:600px;height:400px;}
+div.item-gallery div.photo img {width:600px;height:400px;}
+div.item-gallery div.thum-area {position:relative;float:left;width:229px;height:398px;margin-left:25px;}
+div.item-gallery div.thum-area ul {margin-top:70px;}
+div.item-gallery div.thum-area ul li {float:left;margin:0 1px 1px 0;}
+div.item-gallery div.thum-area ul li a {position:relative;display:inline-block;}
+div.item-gallery div.thum-area ul li a img {width:71px;height:48px}
+div.item-gallery div.thum-area ul li a span {position:absolute;top:0;left:0;display:block;width:65px;height:42px;display:none;border:3px solid #00287a;}
+div.item-gallery div.thum-area dl {padding-top:30px;color:#333;}
+div.item-gallery div.thum-area dl dt {font-size:14px;}
+div.item-gallery div.thum-area dl dd {font-family:HDharmonyM;font-size:16px;margin-top:7px;line-height:23px;}
+
+div.item-player {position:relative;margin:0 50px -4px;display:inline-block;padding:40px 0;}
+div.item-player a.close {position:absolute;top:12px;right:-45px;padding:8px;display:inline-block;}
+div.item-player a.pre {position:absolute;top:204px;left:-35px;}
+div.item-player a.nxt {position:absolute;top:204px;right:-35px;}
+div.item-player div.play-wrap {float:left;width:640px;height:360px;}
+div.item-player div.photo {float:left;width:640px;height:360px;}
+div.item-player div.thum-area {position:relative;float:left;width:243px;height:358px;}
+div.item-player div.thum-area h4.tit {color:#333;font-size:16px;height:110px;margin:20px}
+div.item-player div.thum-area dl {padding:10px 20px 30px;color:#333;}
+div.item-player div.thum-area dl dt {font-size:14px;}
+div.item-player div.thum-area dl dd {font-family:HDharmonyM;font-size:16px;margin-top:7px;line-height:23px;}
+div.item-player div.txt-scroll {width:200px;height:200px; overflow:hidden; position:relative; padding-right:10px; margin:20px;text-align:left;font-family:Dotum;font-size:12px;line-height:20px;}
+
+/* 개인정보 취급 및 처리정책 */
+div.policy-menu {padding:60px 100px 50px 100px;background:#fff;height:175px;overflow:hidden;}
+div.policy-menu ul {width:390px;float:left;}
+/* 161108 추가 */
+div.policy-menu.high {height:200px;}
+div.policy-menu.high ul {width:430px;}
+div.policy-menu.high ul:first-child {width:350px;}
+div.policy-wrap > p{color:#747474;font-size:14px;line-height:22px;}
+/* //161108 추가 */
+div.policy-menu ul li {margin-bottom:10px;}
+div.policy-menu ul li a {font-size:14px;line-height:22px;color:#333;}
+div.policy-menu ul li a span {display:inline-block;width:25px;}
+div.policy-wrap {margin-top:20px; padding:70px 100px 70px 100px;background:#fff;}
+div.policy-wrap dl:first-child {padding-top:0;}
+dl.policy-cont {padding-top:30px; background:#fff;}
+dl.policy-cont dt {margin-bottom:15px;color:#333;font-size:20px;line-height:21px;font-family:HDharmonyM}
+dl.policy-cont dd {color:#747474;font-size:14px;line-height:22px;}
+dl.policy-cont dd ul {margin-top:7px;margin-left:20px;}
+dl.policy-cont dd ul li {padding-left:10px;text-indent:0px;background:url(https://www.hyundai.co.kr/images/comm/bu/bu-dot1.gif) no-repeat 0 9px;}
+dl.policy-cont dd ol {}
+dl.policy-cont dd ol > li {margin-top:7px;text-indent:-10px;padding-left:20px;}
+dl.policy-cont dd ol > li span {display:inline-block;width:10px;}
+dl.policy-cont dd ol > li > p {margin-top:7px;margin-left:15px;text-indent:0px;}
+dl.policy-cont dd strong {display:block;margin:7px 0 0 15px;font-weight:normal;text-indent:-15px;}
+table.policy-tb {margin-top:20px;}
+table.policy-tb thead tr th {padding:10px 5px;background:#d7d7d7;color:#333;font-size:14px;line-height:20px;font-family:HDharmonyM;font-weight:normal;text-align:center;}
+table.policy-tb tbody tr {border-bottom:1px solid #eee;}
+table.policy-tb tbody tr th, table.policy-tb tbody tr td {padding:10px 10px 10px 30px;color:#747474;font-size:13px;line-height:20px;vertical-align:top;text-indent:0;}
+table.policy-tb.ac tbody th, table.policy-tb.ac tbody td {padding:10px 5px;}
+
+.btn-white {display:inline-block;color:#333;font-size:13px;padding:13px;line-height:13px;border:1px solid #c8c8c8;}
+
+/* RSS */
+.bgfff50 {background:#fff;padding:50px;border-bottom:1px solid #eee;}
+h2.h2-rss {font-size:20px;line-height:26px;color:#333;font-family:HDharmonyM;font-weight:normal;}
+p.txt-rss {padding:15px 0 0 65px;font-size:14px;color:#747474;line-height:23px;background:url(https://www.hyundai.co.kr/images/comm/bg/bg-rss.gif) no-repeat 0 30px;}
+div.bgfff50 ul.down {overflow:hidden;}
+div.bgfff50 ul.down li {float:left;width:440px;}
+div.bgfff50 ul.down li h2 {margin-bottom:25px;}
+div.bgfff50 ul.down li p {font-size:14px;color:#747474;line-height:21px;}
+div.bgfff50 ul.down li p strong {display:inline-block;width:105px;font-weight:normal;}
+div.bgfff50 ul.url-copy {margin:30px 0 50px 0;}
+div.bgfff50 ul.url-copy li {position:relative;clear:both;padding:20px 20px 18px 20px; ;border-bottom:1px solid #eee;font-size:14px;}
+div.bgfff50 ul.url-copy li strong {width:110px;display:inline-block;font-weight:normal;color:#333;}
+div.bgfff50 ul.url-copy li a {display:inline-block;position:absolute;top:20px;right:20px;color:#00287a;padding-left:26px;background:url(https://www.hyundai.co.kr/images/comm/bu/bu-copy.gif) no-repeat 0 3px;}
+div.bgfff50 ul.url-copy li:first-child {border-top:1px solid #eee;}
+div.bgfff50 ul.url-copy li input {visibility:hidden;}
+
+
+/* --------------------------------------------
+ * 웹접근성안내
+/* ------------------------------------------ */
+/* 웹 접근성 우수사이트 */
+div.table-area {margin:0 50px;}
+div.table-area p.year {padding:30px 0 15px;font-size:14px;color:#333;}
+div.table-area p.unit {padding-top:15px;font-size:14px;text-align:right;color:#747474;}
+
+ul.accessibility {margin:35px 70px 90px 70px;overflow:hidden;}
+ul.accessibility li {float:left;width:180px;padding:75px 15px 0;font-size:14px;line-height:23px;letter-spacing:-1px;text-align:center;}
+ul.accessibility li.acc1 {background:url(https://www.hyundai.co.kr/images/comm/footer/bg-accessibility1.gif) no-repeat 78px 0;}
+ul.accessibility li.acc2 {background:url(https://www.hyundai.co.kr/images/comm/footer/bg-accessibility2.gif) no-repeat 75px 7px;}
+ul.accessibility li.acc3 {background:url(https://www.hyundai.co.kr/images/comm/footer/bg-accessibility3.gif) no-repeat 80px 0;}
+ul.accessibility li.acc4 {background:url(https://www.hyundai.co.kr/images/comm/footer/bg-accessibility4.gif) no-repeat 78px 2px;}
+ul.accessibility li strong {display:block;color:#333;font-weight:normal;}
+
+/* 웹사이트이용안내 */
+h1.h1-access a {position:absolute;width:245px;padding:93px 0 30px 0;display:block;color:#747474;border-top:1px solid #eee;border-left:1px solid #eee;background:#fff url(https://www.hyundai.co.kr/images/comm/footer/bg-howto.png) no-repeat;font-family:HDHarmonyM;font-size:16px;font-weight:normal;line-height:22px;letter-spacing:-1px;text-align:center;cursor:pointer;}
+h1.h1-access.on a {padding:93px 0 27px 0;color:#00287a;border-bottom:3px solid #00287a;background:#fff url(https://www.hyundai.co.kr/images/comm/footer/bg-howto-on.png) no-repeat;}
+h1.keyboard a {left:0;top:152px;background-position:0 0 !important;border-left:1px solid #fff;}
+h1.skip a {left:246px;top:152px;background-position:0 -139px !important;}
+h1.movie a {left:492px;top:152px;background-position:0 -278px !important;}
+h1.screen-reder a {left:738px;top:152px;background-position:0 -417px !important;}
+
+div.access-warp {padding-top:166px;display:none;}
+div.access-warp div.access-area {padding:50px 50px 100px;background:#fff;border-top:1px solid #eee;}
+div.access-warp div.access-area h2 {font-family:HDHarmonyM;font-size:25px;font-weight:normal;color:#333;}
+div.access-warp div.access-area dl {}
+div.access-warp div.access-area dl dt {font-family:HDHarmonyM;font-size:16px;line-height:22px;letter-spacing:-1px;color:#333;}
+div.access-warp div.access-area dl dd {padding-top:10px;font-size:14px;line-height:23px;letter-spacing:-1px;}
+div.access-warp div.access-area dl dd ol li {padding:10px 0 0 20px;text-indent:-20px;}
+div.access-warp div.access-area dl dd ol li:first-child {padding-top:0;}
+div.access-warp div.access-area dl dd ol li span {margin-right:5px;}
+div.access-warp div.access-area dl dd.photo {padding-top:30px;text-align:center;}
+
+/* 사이트맵 */
+p.desc-sitemap {padding:50px 100px 50px 100px;border-bottom:1px solid #eee;font-size:20px;line-height:26px;color:#333;background:#fff;}
+ul.sitemap {padding:50px 50px 50px 100px;background:#fff;overflow:hidden;border-bottom:1px solid #eee;font-size:20px;color:#333;font-family:HDharmonyM;}/* 190410 수정 */
+ul.sitemap li {float:left;width:166px;} /* 190410 수정 */
+ul.sitemap li a {display:inline-block;margin-bottom:30px;font-size:20px;color:#333;font-family:HDharmonyL;}
+ul.sitemap li ul.site-list1 li {height:auto !important;}
+ul.sitemap li ul.site-list1 li a {font-size:14px;color:#333;line-height:25px;margin-bottom:6px;}
+ul.sitemap li ul.site-list1 li ul {margin:-5px 0 5px;}
+ul.sitemap li ul.site-list1 li ul li {float:none;}
+ul.sitemap li ul.site-list1 li ul li a {color:#747474;font-size:14px;margin-bottom:0;font-family:HDharmonyL;background:url(https://www.hyundai.co.kr/images/comm/footer/bg-group-list-dotted.gif) no-repeat left center;padding-left:10px}
+ul.sitemap li.group-list {width:100% !important;height:auto !important;margin-top:60px} /* 160120 수정 */
+ul.sitemap li.group-list ul.site-list2 li {float:left;width:130px;height:auto}
+ul.sitemap li.group-list ul.site-list2 li a {font-size:14px;color:#333;font-family:HDharmonyL;margin-bottom:5px}
+ul.sitemap li.group-list ul.site-list2 li ul li a {color:#747474;background:url(https://www.hyundai.co.kr/images/comm/footer/bg-group-list-dotted.gif) no-repeat left center;padding-left:10px}
+ul.sitemap li.group-list ul.site-list2 li.last ul li {width:134px}
+
+/* 찾아오시는길 */
+div.map-wrap {padding:50px;position:relative;background:#fff;height:268px;;}
+div.map-wrap2 {padding:50px;position:relative;background:#fff;}
+div.map-wrap h2.h2-map {font-size:25px;color:#333;font-family:HDharmonyM;}
+div.map-wrap2 a.btn-print {padding:16px 12px 11px 37px !important;display:inline-block;font-size:14px;color:#333;background:#fff url(https://www.hyundai.co.kr/images/comm/btn/btn-print.gif) no-repeat 12px 13px !important;border:1px solid #c8c8c8;}
+
+dl.address-area {margin-top:65px;}
+dl.address-area dt {margin-bottom:10px;font-size:16px;color:#333;font-family:HDharmonyM;line-height:22px;}
+dl.address-area dd {margin-bottom:30px;font-size:14px;color:#747474;line-height:21px;}
+p.map {position:absolute;top:0;right:0;border-left:1px solid #eee;}
+
+table.map-tb {border-bottom:1px solid #eee;}
+table.map-tb thead th {padding:10px 5px;color:#333;font-size:14px;font-family:HDharmonyM;font-weight:normal;background:#d7d7d7;}
+table.map-tb tbody th {padding:15px 5px;text-align:center;font-weight:normal;font-size:12px;color:#747474;border-bottom:1px solid #eee;}
+table.map-tb tbody td {padding:15px 5px;font-size:12px;color:#747474;border-bottom:1px solid #eee;}
+
+/* 141224 추가04 */
+/* 151102 수정 */
+/* 171017 수정 : 웹접근성 span > div  */
+/* SNS */
+div.sns-wrap {padding:24px 0 12px 0;background-color:#fafafa;}
+ul.sns {padding:0 0 12px 25px; overflow:hidden;}
+ul.sns li {position:relative; float:left; font-family:dotum;color:#747474;font-size:12px;line-height:21px;}
+ul.sns li.empty {width:225px; min-height:270px; display:block; margin-right:12px; background-color:#f2f2f2 !important;} /* 190130 추가 */
+ul.sns li a {position:relative; width:225px; min-height:270px; display:block; margin-right:12px;}
+ul.sns li a div.txt {display:block;height:230px;padding:20px 20px;font-family:dotum;font-size:12px;line-height:21px;color:#fff;}
+ul.sns li a div strong.tit {display:block;font-weight:normal;font-family:HDHarmonyM; font-size:16px; line-height:18px; color:#fff; letter-spacing:-0.5px;} 
+ul.sns li a div p.desc {display:block; margin-top:5px; font-family:HDHarmonyL; font-size:14px; line-height:16px; color:#fff; letter-spacing:-1px;}
+ul.sns li a div p.f2 {position: absolute; left:88px; top:122px; width:76px; height:126px;} 
+ul.sns li a div p.tw2 {position: absolute; left:66px; top:138px; width:125px; height:104px;} 
+ul.sns li a div p.ins2 {position: absolute; left:72px; top:134px; width:113px; height:113px;} 
+ul.sns li a div p.goo2 {position: absolute; left:78px; top:134px; width:96px; height:103px;}
+/* 170217 수정 */
+ul.sns li a div p.n_po2 {position: absolute; left:80px; top:122px; width:101px; height:112px;} 
+ul.sns li a div p.tumb2 {position: absolute; left:83px; top:128px; width:78px; height:119px;} 
+ul.sns li a div p.brunch {position: absolute; left:90px; top:134px; width:74px; height:101px;} /* 171110 수정 */
+ul.sns li a div p.yt2 {position: absolute; left:62px; top:134px; width:139px; height:107px;} 
+ul.sns li a div p.blog {position: absolute; left:56px; top:107px; width:135px; height:137px;}
+ul.sns li a div p.tvcast {position: absolute; left:74px; top:120px; width:102px; height:122px;} 
+ul.sns li a div p.tvkakao {position: absolute; left:64px; top:125px; width:119px; height:119px;}
+ul.sns li a div p.hmgjournal {position: absolute; left:31px; top:137px; width:181px; height:91px;} 
+ul.sns li a div p.hmgtv {position: absolute; left:61px; top:137px; width:127px; height:91px;}
+ul.sns li a div p.daum1boon {position:absolute;left:70px;top:120px;width:140px;height:148px;} /* 190215 추가 */
+ul.sns li a div p.f3 {position: absolute; left:58px; top:123px; width:133px; height:138px;} 
+/* //170217 수정 */
+/* //171017 수정 : 웹접근성 span > div   */
+/* //151102 수정 */
+/* //141224 추가04 */
+
+/* --------------------------------------------
+ * modal
+/* ------------------------------------------ */
+div.underlay-wrapper {left: 0px; top: 0px; display: none; position: absolute;}
+div.underlay-wrapper div.underlay {left: 0px; top: 0px; position: fixed; z-index: 998;}
+div.underlay-wrapper div.underlay div.underlayer {background:#000; left: 0px; top: 0px; width: 100%; height: 100%; position: relative;}
+div.underlay-wrapper div.underlay div.dialog {width:1000px;overflow: hidden; position: absolute; z-index: 999;}
+div.underlay-wrapper div.underlay div.dialog span.semantic {left: -9999px; top: 0px; width: 1px; height: 1px; overflow: hidden; position: absolute;}
+div.underlay-wrapper div.underlay div.dialog div.dialog-wrapper-outer { background:#fff;padding: 10px; position: relative; -ms-zoom: 1;}
+div.underlay-wrapper div.underlay div.dialog div.dialog-wrapper-outer button.dialog-close {background:url(https://www.hyundai.co.kr/images/comm/btn/btn-library-close.gif) no-repeat;top:12px;width:22px;height:22px; right:15px; overflow: hidden; display: block; position: absolute; z-index: 1000;cursor: pointer;}
+div.underlay-wrapper div.underlay div.dialog div.dialog-wrapper-outer button.dialog-close span {left: -9999px; top: 0px; width: 1px; height: 1px; overflow: hidden; position: absolute;}
+div.underlay-wrapper div.underlay div.dialog div.dialog-wrapper-outer div.dialog-wrapper-inner {overflow: hidden; position: relative;}
+
+/* --------------------------------------------
+ * main
+/* ------------------------------------------ */
+h2.h2-main a {position:absolute;left:0;top:0;width:492px;padding:25px 0; /* background:#fff url(https://www.hyundai.co.kr/images/main/bg-ico.png) no-repeat; */ font-family:HDHarmonyM;font-size:20px;font-weight:normal;color:#747474;text-align:center;letter-spacing:-1px;display:block;border-left:1px solid #eee; text-indent:-999em; }
+/* h2.h2-main a.on {padding:25px; background:#fff url(https://www.hyundai.co.kr/images/main/bg-ico-on.png) no-repeat; border-bottom:3px solid #00287a; color:#00287a;} */
+h2.h2-main.global a {left:0;top:0; /* background-position:148px 21px;*/ background:url(https://www.hyundai.co.kr/images/main/future.gif) no-repeat 50% 50%;}
+h2.h2-main.global a.on {background:url(https://www.hyundai.co.kr/images/main/future_on.gif) no-repeat 50% 50%;}
+h2.h2-main.society a {left:492px;top:0; /* background-position:138px -44px;*/ background:url(https://www.hyundai.co.kr/images/main/world.gif) no-repeat 50% 50%;}
+h2.h2-main.society a.on {background:url(https://www.hyundai.co.kr/images/main/world_on.gif) no-repeat 50% 50%;}
+
+div.main-cont {padding-top:82px;display:none;}
+div.main-cont ul {margin-top:12px;display:inline-block;width:100%;}
+div.main-cont ul li{float:left;margin-left:12px;width:320px;}
+div.main-cont ul li a {display:block;background:#fff;}
+div.main-cont ul li a:hover {background:#fff url(https://www.hyundai.co.kr/images/comm/bg/bg-line2.gif) repeat-x left bottom;}
+div.main-cont ul li a strong {display:block;padding:25px 25px 5px 25px;font-size:18px;color:#333;font-family:HDharmonyM;line-height:28px;font-weight:normal;}
+div.main-cont ul li a > span {display:block;padding:0 25px;height:67px;font-size:14px;font-family:dotum;font-size:12px;color:#747474;line-height:21px;}
+div.main-cont ul li a > span > span {overflow:hidden;display:block;height:45px;}
+div.main-cont ul li:first-child {margin-left:0;}
+div.main-cont ul.clear li {width:486px;}
+
+/* 141224 추가05 */
+div .sns-area ul {display:block; height:auto;  width:100%; overflow:hidden;}
+div .sns-area ul:after {content:""; display:block; clear:both;}
+div .sns-area ul li{float:left; width:237px; min-height:140px; margin-left:12px; margin-bottom:12px; background:#000;}
+div .sns-area ul li:first-child {margin-left:0 !important; margin-bottom:0 !important;}
+div .sns-area ul li a {position:relative;width:237px; min-height:140px;display:block;}
+/* div .sns-area ul li span.txt a:hover {color:#00287a;} */
+div .sns-area ul li a span.txt {display:block; height:100px; padding:20px 20px;font-family:dotum;font-size:12px;line-height:21px;color:#fff;}
+div .sns-area ul li a span strong.tit {display:block; font-family:HDHarmonyM; font-size:16px; line-height:18px; color:#fff;}
+div .sns-area ul li a span p.desc {display:block; margin-top:5px; font-family:HDHarmonyL; font-size:14px; line-height:16px; color:#fff; letter-spacing:-1px;}
+div .sns-area ul li a span p.f {position: absolute; right:29px; bottom:0px; width:33px; height:74px;} 
+div .sns-area ul li a span p.tw {position: absolute; right:18px; bottom:14px; width:63px; height:51px;} 
+div .sns-area ul li a span p.ins {position: absolute; right:23px; bottom:17px; width:55px; height:54px;} 
+div .sns-area ul li a span p.goo {position: absolute; right:22px; bottom:13px; width:59px; height:58px;} 
+div .sns-area ul li a span p.n_po {position: absolute; right:22px; bottom:13px; width:47px; height:59px;} 
+div .sns-area ul li a span p.tumb {position: absolute; right:32px; bottom:21px; width:35px; height:61px;} 
+div .sns-area ul li a span p.ka {position: absolute; right:32px; bottom:18px; width:33px; height:59px;} 
+div .sns-area ul li a span p.yt {position: absolute; right:20px; bottom:19px; width:69px; height:49px;} 
+/* //141224 추가05 */
+
+/* Error */
+div.error-wrap {text-align:center;margin:100px 0 70px 0;padding:215px 30px 30px 30px;background:url(https://www.hyundai.co.kr/images/comm/bg/bg-error.gif) no-repeat 50% 0;}
+div.error-wrap p {font-size:16px;color:#747474;line-height:23px;font-family:HDharmonyL;}
+div.error-wrap p:first-child {margin-bottom:13px;font-size:25px;color:#333;line-height:30px;font-family:HDharmonyM;}
+a.btn-main {margin-top:30px;display:inline-block;padding:13px 13px 13px 39px;font-size:14px;color:#333;border:1px solid #c8c8c8;background:url(https://www.hyundai.co.kr/images/comm/btn/btn-home.gif) no-repeat 13px 13px;}
+
+div.error-ready {width:984px;height:871px;background:url(https://www.hyundai.co.kr/images/comm/bg/bg-error.jpg) no-repeat 0 0;}
+div.error-ready p {text-align:center;font-family:HDharmonyM;}
+div.error-ready p.etxt1 {font-size:36px;line-height:50px;color:#333;margin:115px 0 20px;}
+div.error-ready p.etxt2 {font-size:18px;line-height:25px;color:#747474;}
+
+
+/* --------------------------------------------
+ * 뉴스 & 라이브러리
+/* ------------------------------------------ */
+div.aff-banner {overflow:hidden;}
+div.aff-banner div.news {float:left;width:486px;}
+div.aff-banner div.library {float:left;margin-left:12px;width:486px;}
+div.aff-banner div.library ul.thumbnail-a2 span.txt2 {margin-top:29px;}
+div.aff-banner h2 {height:50px;font-family:HDHarmonyM;font-size:25px;color:#333;font-weight:normal;}
+
+/* 141224 추가06 */
+div .sns-link ul {display:block; height:auto;  width:100%; overflow:hidden;}
+div .sns-link ul:after {content:""; display:block; clear:both;}
+div .sns-link ul li{float:left; height:18px; padding: 15px 0px; font-family:'HDHarmonyL';font-size: 13px; letter-spacing:-1px;color:#666; text-align:center; border-top:1px solid #eee;}
+div .sns-link ul li a {vertical-align:middle; height:18px; display:inline-block; text-overflow: ellipsis;}
+div .sns-link ul li.link {width:325px; background:#fff url('/images/comm/ico/ico_sns.gif') 62px 12px no-repeat; border-right:1px solid #eee;}
+div .sns-link ul li.newsletter {width:326px; background:#fff url('/images/comm/ico/ico_newsletter.gif') 52px 12px no-repeat;}
+/* //141224 추가06 */
+
+/* 150312 추가 */
+.snsWrap {height:153px; padding:25px 0 28px; background-color:#fff;} /* 150330 수정 */
+/* 151102 수정 */
+.snsWrap h2 {margin:0 0 20px 25px;font-size:20px; font-family:HDharmonyM; color:#333; font-weight:normal;}
+.snsWrap ul {padding:0 12px;} /* 190215 수정 */
+.snsWrap ul li {float:left; width:96px;text-align:center; line-height:20px;}
+.snsWrap ul li a {display:block; padding:11px 0 10px;}
+.snsWrap ul li a .count {display:block; margin-top:8px; font-family:HDHarmonyM; font-size:16px; color:#000; letter-spacing:-1px;}
+/* 151102 수정 */
+.snsWrap ul li a .count em {display:block; font-family:HDHarmonyL; font-size:14px; color:#747474;}/* 151117 수정 */
+.snsWrap ul li a .tit {position:absolute !important;top:-999999px !important; left:0 !important; text-indent:-9999px; opacity:0; line-height:0 !important;} /* 171017 수정 */
+.snsWrap ul:after {content:""; display:block; clear:both;}
+.btnSnsView {display:block; width:100%; height:60px; background-color:#305091; font-family:HDHarmonyL; font-size:18px; color:#fff !important; text-align:center; line-height:64px; letter-spacing:-1px;}
+.btnSnsView span {font-size:16px;}
+.btnSnsView:hover, .btnSnsView:active, .btnSnsView:focus {background-color:#305091;}
+/* //150312 추가 */
+/* 150708 새우편번호 : 추가 */
+/* --------------------------------------------
+ * popup
+/* ------------------------------------------ */
+.layer-tip-wrap {position:relative}
+.layer-tip-wrap.on .layer-tip-area{display:block;}
+.layer-tip-area {position:absolute;display:none;left:0;bottom:25px;padding:5px;background:#5591c6;z-index:100000}
+.layer-tip-area .layerpopup-contents {margin-top:0; font-family:dotum;}
+.layer-tip-area .btn-area {margin-top:15px;text-align:center}
+.layer-tip-area .layerpopup-inner {position:relative;min-height:1%;background:#fff;padding:16px 15px;border:1px solid #4c82b2}
+.layer-tip-area .layerpopup-inner .close-area {position:absolute;bottom:-1px;right:-1px;width:96px;height:45px;background:#5591c6 url('/images/comm/layerpopup/bg_close_area_comment.gif') no-repeat}
+.layer-tip-area .layerpopup-inner .close-area-inner {position:relative;width:100%;height:45px;}
+.layer-tip-area .layerpopup-inner .close-area .close {position:absolute;right:0;bottom:0;width:9px;height:9px}
+.layer-tip-area .bul-arrow {display:block;width:16px;height:8px;position:absolute;left:29px;bottom:-14px;background:url('/images/comm/layerpopup/bul_allow_comment.png') no-repeat;}
+.layer-tip-area p {line-height:1.5}
+.tip-zipcode a.btn-tip-control em {color:#00287a;font-size:12px;font-family:dotum}
+.tip-zipcode .layer-tip-area {width:300px;left:65px;font-size:12px}
+/* //150708 새우편번호 */
+/* 151124 추가 : newsletter */
+.visual-mediacenter {background:url('/images/comm/bg/visual-mediacenter.jpg') no-repeat center top;}
+header.title.newsletter .selection {position:absolute;right:0;top:280px;}
+article.article-default .newsletter_area {background-color:#fff;padding:60px 92px;}
+.top6 {background-position:355px -358px !important;margin-left:80px;margin-right:80px;}
+/* //151124 추가 : newsletter */
+
+/* 160115 추가 */
+/* 그룹 홍보 영상 */
+div.promotion-list {overflow:hidden;}
+div.promotion-list div.item {position:relative;width:320px;float:left;margin:0 0 20px 12px;padding-bottom:2px;background:#fff;}
+div.promotion-list div.item:hover {background:#fff url(https://www.hyundai.co.kr/images/comm/bg/bg-line2.gif) repeat-x left bottom;}
+div.promotion-list div.first {margin-left:0;}
+div.promotion-list div.item a {display:inline-block;cursor:pointer;}
+div.promotion-list div.item-cont-fixed,div.promotion-list div.item-cont {width:984px;height:471px;background:#fff;position:relative;margin:0 0 20px;clear:both;}
+div.promotion-list div.item-player {position:relative;margin:0 50px -4px;display:inline-block;padding:40px 0 0 0;}
+div.promotion-list div.item-cont-fixed div.item-player div.thum-area dl {padding:0 20px 10px 26px;}
+div.promotion-list div.item-cont-fixed div.item-player div.thum-area dl dd {font-size:18px;}
+div.promotion-list div.item-player div.thum-area textarea {margin:0 0 0 14px;padding:7px 15px 0 12px;}
+
+div.promotion-list .btn {position:relative;top:0;left:50px;width:640px;height:30px;border-top:1px solid #575a5d;background-color:#262626;}
+div.promotion-list .btn a {display:inline-block;width:79px;height:20px;padding-top:10px;border-right:1px solid #575a5d;background-color:#575a5d;text-align:center;font-family:HDharmonyM;color:#fff;line-height:1;font-size:12px;vertical-align:top;}
+div.promotion-list .btn .down {float:right;border-left:1px solid #575a5d;}
+div.promotion-list .btn .down a {width:31px;height:30px;padding:0;background:#060606 url(https://www.hyundai.co.kr/images/comm/btn/btn_down.png) no-repeat 50% 50%;font-size:0;line-height:0;}
+div.promotion-list .btn .down a:hover {background-color:#060606;}
+div.promotion-list .btn a:hover, div.promotion-list .btn a.on {background-color:#0072cf;}
+/* //160115 추가 */
+
+/* 170912 추가 */
+/* --------------------------------------------
+ * 미디어 센터 > 미디어 채널
+/* ------------------------------------------ */
+.channel {} /* 191218 modify */
+.channel .channel-main {width:100%; height:669px; text-align:center; color:#333;letter-spacing: -1px;}/* 191218 modify */
+.channel .h1-title {padding-top:59px; font-size:25px; font-family:HDharmonyM;  line-height:30px; }
+.channel .channel-logo {padding:20px 0;}
+.channel .desc {font-size:14px; line-height:21px;}
+.channel .desc + .desc {margin-top:7px;}
+.channel .channel-btn {margin-top:21px;}
+.channel .channel-btn a {display:inline-block;}
+.channel .tag-zone {margin-top:12px; text-align:center;}/* 191218 modify */
+.channel .tag-inner {overflow:hidden; width:100%; height:56px; text-align:center;}
+.channel .list-tag {display:inline-block; position:relative; white-space:nowrap;letter-spacing: -1px;}/* 191218 modify */
+.channel .list-tag:after {display:block; clear:both; content:"";}
+.channel .list-tag li {float:left;}
+.channel .list-tag li a { font-size:14px; font-family:HDharmonyM; color:#fff;}
+.channel .sub-title {padding:23px 0 20px; font-size:25px; font-family:HDharmonyM; font-weight:400; line-height:30px; color:#333;} 
+.channel .list-zone {padding-bottom:28px;}
+.channel .list-zone .list-type3 {width:996px;}
+.channel .list-zone .list-type3:after {display:block; clear:both; content:"";}
+.channel .list-zone .list-type3 li { float:left; width:320px; margin:0 12px 12px 0;}
+.channel .list-type3 li a {position:relative; width:100%; background:#fff;}
+.channel .list-type3 li a .txt-wrap {position:relative;  padding:24px 26px 0; background:#fff; -webkit-box-sizing:border-box; box-sizing:border-box; }
+.channel .list-type3 li a .tit {font-size:18px; font-family:HDharmonyM; font-weight:400; }
+.channel .list-type3 li a .txt {margin-top:7px; font-size:13px;  font-family:dotum; color:#747474; line-height:21px;}
+
+/* Channel - JOURNAL */
+.channel.journal .channel-main {background:url(https://www.hyundai.co.kr/images/media/channel_bg_journal.jpg) no-repeat 0 0;}
+.channel.journal .tag-inner {background:#1772e5;}
+.channel.journal .list-tag li {margin-left:13px;line-height:56px;} /* 191128 modify */
+.channel.journal .list-tag li:first-child {margin-left:0px;}
+.channel.journal .list-tag li a:hover, 
+.channel.journal .list-tag li a:focus {padding-bottom:3px; border-bottom:1px solid #fff;}
+.channel.journal .list-type3 li a {display:block; overflow:hidden; height:386px;} /* 191223 modify */
+.channel.journal .list-type3 li a strong {position:absolute; top:0; left:0; width:85px; height:21px;font-size:12px;   font-family:dotum; font-weight:normal; color:#fff; line-height:21px; text-align:center; letter-spacing: 0; z-index:2;}
+.channel.journal .list-type3 li a strong.group {background:#0078d7;}
+.channel.journal .list-type3 li a strong.tech {background:#852eaa;}
+.channel.journal .list-type3 li a strong.sports {background:#a61406;}
+.channel.journal .list-type3 li a strong.people {background:#158376;}
+.channel.journal .list-type3 li a strong.life {background:#d93d1e;}
+.channel.journal .list-type3 li a strong.news {background:#0a3387;}
+.channel.journal .list-type3 li a .thumbnail {overflow:hidden; width:100%; height:240px;}
+.channel.journal .list-type3 li a .txt-wrap {height:173px;  -webkit-transition:all 200ms ease-out; -moz-transition:all 200ms ease-out; -o-transition:all 200ms ease-out; -ms-transition:all 200ms ease-out; transition:all 200ms ease-out;}/* 191223 modify */
+.channel.journal .list-type3 li a:hover .txt-wrap,
+.channel.journal .list-type3 li a:focus .txt-wrap {-ms-transform: translateY(-36px); -webkit-transform: translateY(-36px); transform: translateY(-36px);}
+
+/* Channel - TV */
+.channel.tv .channel-main {background:url(https://www.hyundai.co.kr/images/media/channel_bg_tv.jpg) no-repeat 0 0;}
+.channel.tv .tag-inner {padding:0 10px;background:#ff551e; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box; text-align:center;} /* 170920 수정 */
+.channel.tv .list-tag {display:inline-block;} /* 170920 수정 */
+.channel.tv .list-tag li {padding:13px 0 14px;}
+.channel.tv .list-tag li a {display:inline-block; padding:7px 10px 6px;}/* 190923 modify */
+.channel.tv .list-tag li a:hover,
+.channel.tv .list-tag li a:focus {border-radius:17px; color:#ff551e; background:#fff;}
+.channel.tv .list-type3 li a {display:block; width:100%; height:326px; -webkit-transition:all 0.5s linear; -moz-transition:all 0.5s linear; -o-transition:all 0.5s linear; -ms-transition:all 0.5s linear; transition:all 0.5s linear;}/*191227 -modify- */
+.channel.tv .list-type3 li a .thumbnail-box {position:relative; width:100%; height:100%;}
+.channel.tv .list-type3 li a .thumbnail {overflow:hidden; position:relative; width:100%; height:180px; background:#000;}
+.channel.tv .list-type3 li a .thumbnail:before {display:block; position:absolute; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,.5); opacity:0; webkit-transition:all 0.5s linear; -moz-transition:all 0.5s linear; -o-transition:all 0.5s linear; -ms-transition:all 0.5s linear; transition:all 0.5s linear; content:""; z-index:3;}
+.channel.tv .list-type3 li a .thumbnail:after { display: block; position: absolute; top: 50%; left: 50%; width: 35%; height: 62%; margin: -17% 0 0 -17%; background: url(../images/media/play_icon_tv.png) no-repeat 0 0; content: ""; z-index: 4; background-size: contain;} /* 200522 modify */
+.channel.tv .list-type3 li a .thumbnail img {width:100%; }
+.channel.tv .list-type3 li a .txt-wrap {height:126px;}/* 191223 modify */
+
+/* tv - thumbnail - effect */
+div#wrapper div#container section#contents article.article-default.visible {overflow:visible !important;}
+.channel.tv .list-tag li a {-webkit-transition:all 0.3s ease; -moz-transition:all 0.3s ease; -o-transition:all 0.3s ease; -ms-transition:all 0.3s ease; transition:all 0.3s ease;}
+.channel.tv .list-type3 li a:before, 
+.channel.tv .list-type3 li a:after,
+.channel.tv .list-type3 li a .thumbnail-box:before,
+.channel.tv .list-type3 li a .thumbnail-box:after {position:absolute; z-index:5; background:#444; content:""; -webkit-transition:all 0.5s ease; -moz-transition:all 0.5s ease; -o-transition:all 0.5s ease; -ms-transition:all 0.5s ease; transition:all 0.5s ease;}
+.channel.tv .list-type3 li a:hover, .channel.tv .list-type3 li a:focus {-webkit-box-shadow:0 0 10px rgba(0,0,0,.75); -moz-box-shadow:0 0 10px rgba(0,0,0,.75); -o-box-shadow:0 0 10px rgba(0,0,0,.75); -ms-box-shadow:0 0 10px rgba(0,0,0,.75); box-shadow:0 0 10px rgba(0,0,0,.75);}
+.channel.tv .list-type3 li a:before,
+.channel.tv .list-type3 li a:after {top:0; left:0; width:1px; height:0; opacity:0;}
+.channel.tv .list-type3 li a:hover:before, .channel.tv .list-type3 li a:focus:before {width:100%; height:1px;  opacity:1;}
+.channel.tv .list-type3 li a:hover:after, .channel.tv .list-type3 li a:focus:after {width:1px; height:100%;  opacity:1;}
+.channel.tv .list-type3 li a .thumbnail-box:before, 
+.channel.tv .list-type3 li a .thumbnail-box:after {bottom:0; right:0; width:0; height:1px;  opacity:0;}
+.channel.tv .list-type3 li a:hover .thumbnail-box:before, .channel.tv .list-type3 li a:focus .thumbnail-box:before {width:100%; height:1px;  opacity:1;}
+.channel.tv .list-type3 li a:hover .thumbnail-box:hover:after, .channel.tv .list-type3 li a:focus .thumbnail-box:after  {width:1px; height:100%;   opacity:1;}
+.channel.tv .list-type3 li a:hover .thumbnail:before, .channel.tv .list-type3 li a:focus .thumbnail:before {opacity:1;}
+/* // tv - thumbnail - effect */
+
+/* //170912 추가 */
+
+/* 2018 신기술추가 */
+/* --------------------------------------------
+ * 기술혁신
+/* ------------------------------------------ */
+.techInnovation-desc {margin-top:0 !important; padding:0 40px; border-top:1px solid #eee; background:#fff;}
+.techInnovation-desc.type-1 {border-top: none;}
+/* 타이틀 */
+.h-tit {font-weight:normal; color:#333;}
+h2.h-tit {font-size:25px;}
+.h-tit.type-1 {display:block; margin:25px 0; padding:30px 36px; line-height:30px; font-family:'HDharmonyM'; font-weight:normal; color:#333; letter-spacing:-1px; text-align:center;}
+.h-tit.type-2 {margin:45px 0 25px 0;font-family:'HDharmonyM';font-weight:normal;line-height:32px;color:#666;letter-spacing:-0.03em;text-align:center;} /* 190507 추가 */
+h3.h-tit {font-size:20px;}
+div.description dl.title-news {padding:70px 0 0; }
+div.description dl.title-news dt {padding-bottom:44px; text-align:center;}
+
+/* 영상 */
+.btn-mov {display:block; position:relative;width:100%; height:100%;}
+.btn-mov:before {position:absolute; left:50%; top:50%; width:85px; height:85px; margin:-42px 0 0 -42px; background:url(https://www.hyundai.co.kr/images/techinnovation/ico-play1.png) no-repeat 0 0; content:""; } /* 20180913 */
+.btn-mov.ico-small:before {width:62px; height:62px; margin:-31px 0 0 -31px; background:url(https://www.hyundai.co.kr/images/techinnovation/ico-play2.png) no-repeat 0 0; }
+.play-mov:before {display:none;}
+.video-set {width:100%;}
+.video-set .video-wrap {height:554px; background:#000; color:#fff; text-align:center;} 
+.video-set .youtube-inner {width:100%; height:100%} 
+.video-set .action .js-toggle {display:none; width:100%; height:50px; line-height:50px; font-family:dotum; font-weight:bold; font-size:12px; color:#fff; text-align:center; background:#333; }
+.video-set .action .js-toggle span { display:inline-block; position:relative; padding-right:25px; }
+.video-set .action .js-toggle span:after {display:inline-block; position:absolute; top:17px; right:2px; width:8px; height:8px; border-right:2px solid #fff; border-bottom:2px solid #fff; content: ""; 
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.video-set .action .js-toggle.close span:after {top:22px;
+    -o-transform: rotate(225deg); 
+    -ms-transform: rotate(225deg); 
+    -moz-transform: rotate(-225deg); 
+    -webkit-transform: rotate(225deg); 
+    transform: rotate(225deg);}
+.video-set .action .js-toggle.active {display:block;}
+.video-set .subtitle {display:none; background:#222;}
+.video-set .subtitle.in {display: block;}
+.video-set .subtitle textarea {width:100%; padding:40px; line-height:21px; border: none; }
+.subtitle_con {overflow-y:auto; max-height:90px; padding:40px; line-height:21px; font-family:dotum; color:#999; } /* scrollbar-face-color:#3e3e3e; scrollbar-track-color:#0e0e0e;scrollbar-arrow-color:#afafaf; */ 
+.subtitle_con {scrollbar-3dLight-Color: #0e0e0e; scrollbar-arrow-color: #afafaf; scrollbar-Face-Color: #3e3e3e; scrollbar-Track-Color: #0e0e0e; scrollbar-DarkShadow-Color: #0e0e0e; scrollbar-Highlight-Color: #0e0e0e; scrollbar-Shadow-Color: #0e0e0e}
+.subtitle_con::-webkit-scrollbar {width:15px; background:#0e0e0e}
+.subtitle_con::-webkit-scrollbar-track {background:#0e0e0e;}
+.subtitle_con::-webkit-scrollbar-thumb {background:#3e3e3e;}
+.video-size1 {width:605px;}
+.video-size1 .video-set .video-wrap {height:343px;}
+/* 도트 리스트 */
+.list-dot-txt {display:inline-block; vertical-align:top;}
+.list-dot-txt li {padding-left:10px; line-height:20px; margin-top:6px; font-family:dotum; font-size:12px;color:#666; background:url(https://www.hyundai.co.kr/images/comm/bu/bu-dot5.gif) no-repeat 2px 8px;}
+.list-dot-txt.size-2:after {display:block; clear:both; visibility:hidden; height:0; content:'';}
+.list-dot-txt.size-2 li {display:block; float:left; width: 160px;}
+.list-dot-txt.size-2 li:nth-child(2n + 1) {clear:both;}
+.list-dot-txt li:first-child {margin-top:0;}
+.list-dot-txt li.first {margin-top:0;}
+.list-dot-txt li.list-row span {display:inline-block; padding-top:8px;}
+.list-dot-txt.type1 {width:49.8%;}
+.list-dot-txt.type1 li {vertical-align:top;}
+.list-dot-txt.type2 {width:100%;}
+.list-dot-txt.type2 li {display:inline-block; width:31.8%;vertical-align:top;}
+.list-dot-txt .txt-exp {display: block; position: relative; margin-top: 5px; padding-left: 10px;}
+.list-dot-txt .txt-exp:before {display: block; position: absolute; top: 0; left: 0; content: '-';}
+
+.list-txt2 {font-family:dotum;font-size:12px;color:#747474;line-height:20px;}/* 190524 추가 */
+.list-txt2 li {padding:0 0 0 10px}/* 190524 추가 */
+.list-txt2 li:before {content:'*';display:inline-block;text-indent:-10px;} /* 190524 추가 */
+
+/* 190604 추가 */
+.list-txt3 {font-family:dotum;font-size:12px;color:#747474;line-height:20px;}
+.list-txt3 li {position:relative;padding:0 0 0 15px;}
+.list-txt3 li .indent {display:inline-block;position:absolute;top:0;left:0;}
+/* //190604 추가 */
+
+/*  list box */
+.tech-list-box {overflow:hidden;clear:both;} /* 기본 상하 이미지 텍스트  구조 */
+.tech-list-box > li {position:relative;float:left; }
+.tech-list-box > li .photo {display:block;}
+.tech-list-box > li .photo + p {padding-top:18px;}
+.tech-list-box > li p {font-family:dotum; color:#747474; font-size:12px; line-height:21px;}
+.tech-list-box > li strong {padding-bottom:8px;display:block;font-family:HDharmonyM;font-size:16px;font-weight:normal;color:#000;}
+.tech-list-box > li .sub {font-size:14px; letter-spacing:-1px;}
+.tech-list-box > li.last {height:auto; margin-bottom:0;}
+.tech-list-box li.full {width:100%;}
+.tech-list-box li.full .photo {text-align:left}
+.tech-list-box.type1 {}  /* 좌우 이미지 텍스트 구조 */
+.tech-list-box.type1 > li {margin-top:24px;}
+.tech-list-box.type1 > li:first-child {margin-top:0;}
+.tech-list-box.type1 > li .txt {position:absolute; left:0; top:0; padding-left:23px;} 
+.tech-list-box.type2 {}  /* 좌우 픽토 텍스트 구조 */
+.tech-list-box.type2 > li .photo {position:absolute; left:0; top:0;}
+.tech-list-box.type2 > li p {padding:0;} 
+.tech-list-box.type2 > li strong {padding-top:2px;} 
+.tech-list-box.type3 {}  /* 가로 full  상하 이미지 텍스트 구조 */
+.tech-list-box.type3 li {width:100%; margin-top:50px;}
+.tech-list-box.type3 li:first-child {margin-top:0;}
+.list-multi > li {margin-bottom:50px;} /* 두줄이상인 경우 */
+
+/* key tech */
+.img-tech {position:relative;padding-bottom:16px;}
+/* etc */
+.desc-space {padding-bottom:50px;}
+.img-box {position:relative; width:100%; padding:50px 0;}
+.img-box + .desc-d1 {padding-top:0;}
+.img-box + .h3-view1 {padding-top:0;}
+.num-type1 {display:block; position:relative; padding-left:15px;}
+.num-type1 em {position:absolute; left:0; top:0;}
+
+/* 자율주행 > 자율주행 */
+div#wrapper div#container section#contents article.article-auto {min-height:auto;}
+div#wrapper div#container section#contents article.article-section {margin-top:12px;}
+.tab-autonomous > li a {width:105px} /* padding:16px 22px 0;*/
+.tab-autonomous > li:nth-child(3) a {width:144px;}
+.img-box-autonomous {padding:0;}
+/* 자율주행 > 로드맵 */
+.roadmap-info {overflow:hidden;} /*background:#f8f8f9*/
+.roadmap-info .level {display:block; position:relative; float:left; width:150px; height:644px; margin-left:3px;}
+.roadmap-info .level-inner {height:110px; padding-bottom:221px; background:#6d7a8a; text-align:center;}
+.roadmap-info .level-inner p {color:#fff;}
+.roadmap-info .level-inner span {display:inline-block;}
+.roadmap-info .level-inner:after {display:block; position:absolute; left:0; top:110px; width:100%; height:221px; background:#fbfbfb url(https://www.hyundai.co.kr/images/techinnovation/ico-roadmap.png) no-repeat 0 0; content:""; }
+.roadmap-info .info-inner {position:relative; height:313px; background:url(https://www.hyundai.co.kr/images/techinnovation/bg-roadmap.png) no-repeat 0 0;}
+.roadmap-info .level-num {position:relative; padding:23px 0 7px;  font-family:"HDHarmonyM"; font-size:13px; } 
+.roadmap-info .level-num span {vertical-align:middle;}
+.roadmap-info .level-num span.num {font-size:40px; line-height:42px;}
+.roadmap-info .level-num span.num + span {margin-bottom:-8px;}
+.roadmap-info .level-txt {font-size:16px;}
+.roadmap-info .level-info {padding:18px 0 0 15px;  line-height:18px; font-size:14px; color:#222;}
+.roadmap-info .level-info + .level-info {position:absolute; left:0; bottom:25px;}
+.roadmap-info .level-info .num-type1{padding-left:12px; color:#555;}
+.roadmap-info .level-info .num-type1 + .num-type1 {margin-top:20px;}
+.roadmap-info .level0 {width:148px; margin-left:0;}
+.roadmap-info .level1 {width:147px;}
+.roadmap-info .level2 {width:149px;}
+.roadmap-info .level3 {width:149px;}
+.roadmap-info .level3 .level-inner {background:#116bde}
+.roadmap-info .level4 {width:147px;}
+.roadmap-info .level4 .level-inner {background:#116bde}
+.roadmap-info .level5 {width:149px;}
+.roadmap-info .level5 .level-inner {background:#fbfbfb url(https://www.hyundai.co.kr/images/techinnovation/bg-roadmap-level-num.png) no-repeat 100% 0;}
+.roadmap-info .level0 .level-inner:after {background-position:0 0;}
+.roadmap-info .level1 .level-inner:after {background-position:0 0;}
+.roadmap-info .level2 .level-inner:after {background-position:0 0;}
+.roadmap-info .level3 .level-inner:after {background-position:-160px 0;}
+.roadmap-info .level4 .level-inner:after {background-position:-320px 0;}
+.roadmap-info .level5 .level-inner:after {background-position:-320px 0;}
+.roadmap-info .level0 .info-inner {background-position:0 0;}
+.roadmap-info .level1 .info-inner {background-position:-151px 0;}
+.roadmap-info .level2 .info-inner {background-position:-301px 0;}
+.roadmap-info .level3 .info-inner {background-position:-453px 0;}
+.roadmap-info .level4 .info-inner {background-position:-605px 0;}
+.roadmap-info .level5 .info-inner {background-position:-755px 0;}
+.roadmap-info .level5 .level-info {position:absolute; left:0; bottom:25px;}
+/* 자율주행 > 고속도로 자율주행 */
+.list-dot-txt.list-dot-hdp {width:360px;}
+.keytech-hdp {margin-left:-26px; padding-bottom:12px; text-align:center;}
+.keytech-hdp > li {width:285px; margin:0 0 24px 25px;}
+.keytech-hdp > li strong {font-size:14px;}
+/* 자율주행 > 도심주행 */
+.keytech-cdp > li {width:328px;}
+.keytech-cdp > li:last-child {width:248px;}
+/* 자율주행 > 자율주차 */
+.keytech-avp {background:#f9f9f9; padding:0 24px;}
+.keytech-avp > li {width:196px; height:200px; margin-left:24px; text-align:center;}
+.keytech-avp > li:first-child {margin-left:0;}
+.keytech-avp > li strong {padding:40px 0 0 0; color:#000;}
+.keytech-avp > li:before {display:block; position:absolute; left:50%; top:78px; width:196px; height:100px;  margin-left:-98px; background-image:url(https://www.hyundai.co.kr/images/techinnovation/ico-avp.png); content:""; }
+.keytech-avp  .picto1:before {background-position:0 0;}
+.keytech-avp  .picto2:before {background-position:-200px 0;}
+.keytech-avp  .picto3:before {background-position:-400px 0;}
+.keytech-avp  .picto4:before {background-position:-600px 0;}
+/* 자율주행 > 능동안전 */
+.keytech-adas {margin-left:-24px;}
+.keytech-adas > li {width:285px; margin-left:24px; margin-top: 45px;}
+.keytech-adas > li:nth-child(1),
+.keytech-adas > li:nth-child(2),
+.keytech-adas > li:nth-child(3) {margin-top:0;}
+.keytech-adas > li.type-1 {width: 440px;}
+.keytech-adas > li.type-clear {clear:both;}
+.keytech-adas > li strong {font-size:14px;}
+.keytech-adas > li:last-child  {height:auto;}
+/* 자율주행 > V2X  */
+.list-v2x {margin-left:-6px; padding-bottom:40px;}
+.list-v2x > li {width:145px; margin-left:6px}
+.list-v2x > li .photo + p {padding-top:13px;}
+.list-v2x > li strong {font-size:14px; line-height:18px;}
+/* 자율주행 > 자율주행 시트  */
+.keytech-dymos {}
+.keytech-dymos {margin-left:-18px;}
+.keytech-dymos> li {width:289px; margin-left:18px;}
+/* 커넥티비티 > 커넥티비티  */
+.bg-connectivity {height:840px; padding:0; background:#fff url(https://www.hyundai.co.kr/images/techinnovation/bg-connectivity.jpg) no-repeat top center;} 
+.list-connectivity {padding:92px 40px 0;}
+.list-connectivity > li {width:50%;}
+.list-connectivity > li strong {font-size:20px;}
+.list-connectivity > li strong .sub {font-size:16px;}
+.list-connectivity > li:before {display:block; position:absolute; left:0; top:0; width:88px; height:88px;  background-image:url(https://www.hyundai.co.kr/images/techinnovation/ico-connectivity.png); content:""; }
+.list-connectivity .picto1,.list-connectivity .picto2 {height:168px;}
+.list-connectivity .picto3,.list-connectivity .picto4 {height:158px;}
+.list-connectivity .picto5 {height:88px;}
+.list-connectivity .picto1:before {background-position:0 0;}
+.list-connectivity .picto2:before {background-position:-110px 0;}
+.list-connectivity .picto3:before {background-position:-220px 0;}
+.list-connectivity .picto4:before {background-position:-330px 0;}
+.list-connectivity .picto5:before {background-position:-440px 0;}
+.list-connectivity > li.picto1 strong, .list-connectivity > li.picto2 strong {padding-top:5px;}
+.list-connectivity > li.picto3 strong, .list-connectivity > li.picto4 strong, .list-connectivity > li.picto5 strong {padding-top:0;}
+.list-connectivity p {margin-left:118px}
+/* 커넥티비티 > 인포테인먼트  */
+.img-infotainment {padding-top:0;}
+.keytech-infotainment {margin-left:-26px; }
+.keytech-infotainment > li {width:440px; margin:0 0 40px 25px; } 
+/* 커넥티비티 > 헬스케어  */
+.keytech-healthcare {margin-left:-26px; }
+.keytech-healthcare > li {width:440px; margin:0 0 40px 25px; }
+.keytech-healthcare > .last {padding-top:0;}
+.keytech-healthcare > li .list-dot-txt {margin-top:8px;}
+/* 커넥티비티 > 음성인식  */
+.keytech-voiceagent {}
+.keytech-voiceagent > li {width:100%;}
+.keytech-voiceagent > li .txt {margin-left:285px;} 
+/* 차량 전동화 > 전기차  */
+.list-ev {background:#ebf0f6; padding:0 24px;}
+.list-ev > li {width:196px; height:220px; margin-left:24px; text-align:center;}
+.list-ev > li:first-child {margin-left:0;}
+.list-ev > li strong {padding-top:40px; color:#00287a;}
+.list-ev > li:before {display:block; position:absolute; left:50%; top:66px; width:196px; height:120px;  margin-left:-98px; background-image:url(https://www.hyundai.co.kr/images/techinnovation/ico-ev.png); content:""; }
+.list-ev  .picto1:before {background-position:0 0;}
+.list-ev  .picto2:before {background-position:-200px 0;}
+.list-ev  .picto3:before {background-position:-400px 0;}
+.list-ev  .picto4:before {background-position:-600px 0;}
+.keytech-ev {margin-left:-26px; }
+.keytech-ev > li {width:440px; margin-left:25px;}
+/* 차량 전동화 > 수소전기차  */
+.list-fcev {background:#ebf0f6; padding:0 24px;}
+.list-fcev > li {width:196px; height:220px; margin-left:24px; text-align:center;}
+.list-fcev > li:first-child {margin-left:0;}
+.list-fcev > li strong {padding-top:40px; color:#00287a;}
+.list-fcev > li:before {display:block; position:absolute; left:50%; top:84px; width:196px; height:110px;  margin-left:-98px; background-image:url(https://www.hyundai.co.kr/images/techinnovation/ico-fcev.png); content:""; }
+.list-fcev  .picto1:before {background-position:0 0;}
+.list-fcev  .picto2:before, .list-fcev  .picto3:before {background-position:-200px 0;}
+.list-fcev  .picto4:before {background-position:-400px 0;}
+.keytech-fcev {margin-left:-24px; }
+.keytech-fcev > li {width:285px; margin-left:24px;}
+/* 신소재 > 경량화소재  */
+.keytech-lightmaterial {}
+.keytech-lightmaterial li {width:100%;}
+.keytech-lightmaterial li .txt {margin-left:440px;}
+/* 신소재 > 미래차혁신소재  */
+.keytech-futureauto {margin-left:-24px;}
+.keytech-futureauto li {width:440px; margin-left:24px;}
+/*.keytech-futureauto li.auto {margin-bottom:0;} */
+/* 신소재 > 고효율 에너지변환소재  */
+.keytech-highefficiency1 > li {width:100%; margin-bottom:50px;}
+.keytech-highefficiency2 {margin-top:18px;}
+.keytech-highefficiency2 > li {width:310px;}
+.keytech-highefficiency2 > li:last-child {width:284px;}
+/* 신소재 > ICME 재료개발기  */
+.keytech-icme {}
+.keytech-icme > li {width:310px;}
+.keytech-icme > li:nth-child(3), .keytech-icme > li:nth-child(6) {width:284px;}
+.keytech-icme > li p {padding-top:0;}
+/*.keytech-icme > li.last {margin-top:50px;}*/
+/* 스마트홈 > 보이스홈  */
+.keytech-voicehome {margin-left:-26px;}
+.keytech-voicehome > li {width:285px;  margin-left:25px;}
+/* 스마트홈 > 홈로봇  */
+.keytech-homerobot {}
+.keytech-homerobot > li {width:100%;}
+.keytech-homerobot > li p, .keytech-homerobot > li .list-dot-txt {margin-left:145px;}
+.keytech-homerobot > li .sub {font-family:HDharmonyL;}
+.keytech-homerobot > li  {margin-top:50px;}
+.keytech-homerobot > li:first-child {margin-top:18px;}
+.keytech-homerobot > li:before {display:block; position:absolute; left:0; top:0; width:140px; height:130px;  background-image:url(https://www.hyundai.co.kr/images/techinnovation/ico-homerobot.png); content:""; }
+.keytech-homerobot .picto1:before {background-position:0 0;}
+.keytech-homerobot .picto2:before {background-position:-160px 0;}
+.keytech-homerobot .picto3:before {background-position:-320px 0;}
+.keytech-homerobot .picto4:before {background-position:-480px 0;}
+.keytech-homerobot .picto5:before {background-position:-620px 0;}
+/* 에너지 > 조류발전  */
+.list-tidal {margin-left:-26px;}
+.list-tidal > li {width:285px; margin-left:25px;}
+.list-tidal > li strong {padding-bottom:0;}
+/* 에너지 > 해상풍력  */
+.keytech-offshorewind {}
+.keytech-offshorewind > li {width:100%;}
+.keytech-offshorewind li p, .keytech-offshorewind > li .list-dot-txt   {margin-left:285px;}
+/* 에너지 > 태양광  */
+.list-solar {margin-left:-12px;}
+.list-solar > li {width:440px; margin-left:12px;}
+.list-solar > li strong {padding-bottom:0;}
+.keytech-solar > li {width:310px;}
+.keytech-solar > li:last-child {width:284px;}
+.keytech-solar > li p {padding-top:0;}
+/* 기타 > 웨어러블 로봇  */
+.keytech-wearablerobot > li {width:100%;}
+.keytech-wearablerobot > li p, .keytech-wearablerobot > li .list-dot-txt  {margin-left:285px;}
+.keytech-wearablerobot > li .list-dot-txt li  {margin-top:0;}
+/* 기타 > 고속전철  */
+.keytech-rail > li {width:100%;}
+.keytech-rail > li .txt {margin-left:440px;}
+/* 기타 > 자기부상열차  */
+.keytech-magnetictrain > li {width:50%;}
+.keytech-magnetictrain > li p {padding-top:0;}
+/* 기타 > 스마트 팩토리  */
+.keytech-factory > li {width:100%;height:180px;}
+.keytech-factory > li .txt {margin-left:285px;}
+/* 관련소식 */
+.thumbnail-mov {display:inline-block;}
+.thumbnail-mov li {position:relative;float:left;width:447px}
+.thumbnail-mov li + li {margin-left:10px;}
+.thumbnail-mov li a img {display:block;}
+.thumbnail-mov li .tit {position:absolute; left:0; bottom:0; -webkit-box-sizing: border-box; box-sizing: border-box; width:100%; padding:20px; background-color: rgba(0,0,0,.5); font-family:'HDharmonyM';font-size:16px;color:#fff;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;}
+.thumbnail-news {}  /* padding-top:28px; */
+.thumbnail-news .thumbnail-a5 {border-top:1px solid #eee;}
+.thumbnail-news ul.thumbnail-a5 li {height:290px;}
+.thumbnail-news ul.thumbnail-a5 li a {position:relative; height:100%;}
+.thumbnail-news ul.thumbnail-a5 li a div.over-share {height:120px; margin-bottom:26px; text-align:left; background:none;}
+.thumbnail-news ul.thumbnail-a5 li a div.over-share .tit {display:block; height:65px;padding:20px;font-family:"HDHarmonyM"; font-size:16px;color:#222; background:#fff;}
+.thumbnail-news ul.thumbnail-a5 li a div.over-share .link{margin-top:-10px; padding:0 9px 0 20px;font-size:11px; background:url(https://www.hyundai.co.kr/images/comm/bu/bu-arrow7.gif) no-repeat right 1px;}
+.thumbnail-news ul.thumbnail-a5 li a span.tag {width:93px; text-indent:-9999px; background:url(https://www.hyundai.co.kr/images/techinnovation/tag-hmgjournal.png) no-repeat 0 0;}
+.thumbnail-news ul.thumbnail-a5 li:hover, 
+.thumbnail-news ul.thumbnail-a5 li:focus {background:#fff url(https://www.hyundai.co.kr/images/comm/bg/bg-line2.gif) repeat-x left bottom;} 
+.thumbnail-news ul.thumbnail-a5 li:hover a div.over-share, 
+.thumbnail-news ul.thumbnail-a5 li:focus a div.over-share {margin-bottom:0}
+.thumbnail-news ul.thumbnail-a5 li:hover a div.over-share .tit, 
+.thumbnail-news ul.thumbnail-a5 li:focus a div.over-share .tit {padding-bottom:12px;}
+.press-release > li {position:relative;}
+.press-release > li + li  {margin-top:12px;}
+.press-release .list-dot-txt li {margin-top:0;}
+.press-release p {font-family: 'dotum'; font-size: 12px; line-height: 1.66; color: #666;}
+.press-release .press-link {display:block;position:relative;height:163px;padding-left:0;}
+.press-release .press-link > div {position:absolute;top:0;right:0;width:558px;height:107px;border:1px solid #eee;padding:27px;background:#fafafa;} 
+.press-release .press-link .tit {display:block; padding-bottom:10px; font-family:'HDharmonyM';font-size:16px;font-weight:normal;color:#222;line-height:21px;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;}
+
+div#wrapper div#container section#contents header.title.type-1 {-webkit-box-sizing:border-box; box-sizing:border-box; min-height:320px;}
+.list-strategic {margin-top:15px; padding: 45px 100px 70px; background-color: #fbfbfb; font-size:0; text-align:center;}
+.list-strategic li {display:inline-block; position:relative; margin-left:99px; font-size:20px; font-family:'HDharmonyM'; color:#007b9c;}
+.list-strategic li:first-child,
+.list-strategic li:nth-child(4) {margin-left:0;}
+.list-strategic li:before {display:block; width:160px; height:160px; margin-bottom:12px; background-repeat:no-repeat; content:'';}
+.list-strategic li.li-1,
+.list-strategic li.li-3,
+.list-strategic li.li-5 {color:#116bde;}
+.list-strategic li.li-1:before {background-image:url(https://www.hyundai.co.kr/images/strategic/img-strategic-2-1.png);}
+.list-strategic li.li-2:before {background-image:url(https://www.hyundai.co.kr/images/strategic/img-strategic-2-2.png);}
+.list-strategic li.li-3:before {background-image:url(https://www.hyundai.co.kr/images/strategic/img-strategic-2-3.png);}
+.list-strategic li.li-4:before {background-image:url(https://www.hyundai.co.kr/images/strategic/img-strategic-2-4.png);}
+.list-strategic li.li-5:before {background-image:url(https://www.hyundai.co.kr/images/strategic/img-strategic-2-5.png);}
+.list-strategic li.li-6:before {background-image:url(https://www.hyundai.co.kr/images/strategic/img-strategic-2-6.png);}
+.list-portfolio {font-size:0;}
+.list-portfolio li {display:inline-block; overflow:hidden; perspective:100px; position:relative; width:208px; height:307px; margin-top:50px; margin-left:24px; cursor:pointer;}
+.list-portfolio li:after {display:block; position:absolute; bottom:32px; left:90px; width:29px; height:29px; background:url(https://www.hyundai.co.kr/images/strategic/ico-more-1.png) no-repeat; content:'';}
+.list-portfolio li:nth-child(4n + 1) {margin-left:0;}
+.list-portfolio li.on .box-portfolio-2 {opacity:1; -webkit-transform:translate3d(0,0,0); transform:translate3d(0,0,0); pointer-events:visible;} /* 191203 수정 */
+.list-portfolio li .box-portfolio-1 {border:1px solid #f2f2f2; background-color:#fbfbfb;}
+.list-portfolio li .box-portfolio-1,
+.list-portfolio li .box-portfolio-2 {-webkit-box-sizing:border-box; box-sizing:border-box; width:100%; height:100%;}
+.list-portfolio li .box-portfolio-1 .txt-tit {position:absolute; top:0; left:0; width:100%; background-color:#eaeaea; font-size:14px; line-height:38px; color:#666; text-align:center;}
+.list-portfolio li .box-portfolio-1 .img-relative {padding-top:85px; text-align:center;}
+.list-portfolio li .box-portfolio-2 {opacity:0;position:absolute;top:0;left:0;z-index:1;padding:60px 20px 0;background-color:rgba(0,40,122,.9);font-size:14px;line-height:1.42;color:#fff;text-align:center;pointer-events:none;}/* 190417 수정 */
+.list-portfolio li .box-portfolio-2 {-webkit-transition:all .2s ease-out; transition:all .2s ease-out; -webkit-transform:translate3d(0,20px,20px); transform:translate3d(0,20px,20px);}
+.list-portfolio li .box-portfolio-2 .txt-tit {display:inline-block; position:relative; padding: 6px 0; line-height:1.28; letter-spacing:-0.03em;}
+.list-portfolio li .box-portfolio-2 .txt-tit:before {display:block; position:absolute; bottom:0; left:0; width:100%; height:1px; background-color:rgba(255,255,255,.5); content:'';}
+.list-portfolio li .box-portfolio-2 .txt {margin-top:22px;letter-spacing:-0.03em;word-break:keep-all;}/* 190417 수정 */
+/* 191108 웹접근성 삭제 */
+/* .list-portfolio li .box-portfolio-2 .link {overflow:hidden; position:absolute; top:0; left:0; width:100%; height:100%;} 
+.list-portfolio li .box-portfolio-2 a {display:block; position:relative; width:100%; height:0; padding-top:307px; text-indent:-9999px;} 
+.list-portfolio li .box-portfolio-2 a:after {display:block; position:absolute; bottom:32px; left:92px; width:26px; height:26px; background:url(https://www.hyundai.co.kr/images/strategic/ico-link-1.png) no-repeat; content:'';} */
+/* //191108 웹접근성 삭제 */
+/* 191108 웹접근성 추가 */
+.list-portfolio li a {display:block;height:307px;}
+.list-portfolio li .box-portfolio-2 .link {text-indent:-9999px;}
+.list-portfolio li .box-portfolio-2 .link:after {display:block; position:absolute; bottom:32px; left:92px; width:26px; height:26px; background:url(https://www.hyundai.co.kr/images/strategic/ico-link-1.png) no-repeat; content:'';}
+/* //191108 웹접근성 추가 */
+.tech-list-box.size-2 > li {-webkit-box-sizing:border-box; box-sizing:border-box; width:50%; padding-right: 20px;}
+.tech-list-box.type-safe > li {position:relative; min-height:75px; margin-top:50px; padding-left:120px;}
+.tech-list-box.type-safe > li:first-child,
+.tech-list-box.type-safe > li:first-child + li {margin-top:0;}
+.tech-list-box.type-safe > li:before {display:block; position:absolute; top:0; left:0; width:90px; height:70px; background-repeat:no-repeat; content:'';}
+.tech-list-box.type-safe > li.li-1:before {background-image:url(https://www.hyundai.co.kr/images/techinnovation/ico-safe-2-1.png);}
+.tech-list-box.type-safe > li.li-2:before {background-image:url(https://www.hyundai.co.kr/images/techinnovation/ico-safe-2-2.png);}
+.tech-list-box.type-safe > li.li-3:before {background-image:url(https://www.hyundai.co.kr/images/techinnovation/ico-safe-2-3.png);}
+.tech-list-box.type-safe > li.li-4:before {background-image:url(https://www.hyundai.co.kr/images/techinnovation/ico-safe-2-4.png);}
+.box-safe {margin:50px 0 45px; border:1px solid #dcdcdc;}
+.box-safe .box-safe-1 {position:relative; height:435px;}
+.box-safe .box-safe-1 .logo {overflow:hidden; position:absolute; top:102px; left:211px; z-index:1; width:480px; height:0; padding-top:94px; background:url(https://www.hyundai.co.kr/images/techinnovation/logo-hicore.png) no-repeat;}
+.box-safe .box-safe-1 .txt-1,
+.box-safe .box-safe-1 .txt-2,
+.box-safe .box-safe-1 .txt-3 {position:absolute; font-size:15px; line-height:1.3; color:#222; letter-spacing:-0.05em;}
+.box-safe .box-safe-1 .txt-1 span,
+.box-safe .box-safe-1 .txt-3 span {font-family:'HDharmonyM';}
+.box-safe .box-safe-1 .txt-1 {top:338px;left: 207px;}
+.box-safe .box-safe-1 .txt-1 span {color:#02457a;}
+.box-safe .box-safe-1 .txt-3 span {color:#008cb9;}
+.box-safe .box-safe-1 .txt-2 {top:277px;left: 347px;}
+.box-safe .box-safe-1 .txt-3 {top:237px;left: 486px;}
+.box-safe .box-safe-1 .txt-1:before,
+.box-safe .box-safe-1 .txt-1:after,
+.box-safe .box-safe-1 .txt-2:before,
+.box-safe .box-safe-1 .txt-2:after,
+.box-safe .box-safe-1 .txt-3:before,
+.box-safe .box-safe-1 .txt-3:after {display:block; position:absolute; content:'';}
+.box-safe .box-safe-1 .txt-1:after,
+.box-safe .box-safe-1 .txt-2:after,
+.box-safe .box-safe-1 .txt-3:after {top:-14px; left:1px; width:7px; height:7px; border-radius:7px;}
+.box-safe .box-safe-1 .txt-1:before,
+.box-safe .box-safe-1 .txt-2:before,
+.box-safe .box-safe-1 .txt-3:before {bottom: 52px;left: 4px;width:1px;background-color:#ccc;}
+.box-safe .box-safe-1 .txt-1:after {background-color:#02457a;}
+.box-safe .box-safe-1 .txt-2:after {background-color:#01669c ;}
+.box-safe .box-safe-1 .txt-3:after {background-color:#008cb9;}
+.box-safe .box-safe-1 .txt-1:before {height: 130px;}
+.box-safe .box-safe-1 .txt-2:before {height: 69px;}
+.box-safe .box-safe-1 .txt-3:before {height: 28px;}
+.box-safe .box-safe-2 {padding:0 0 48px; border-top:1px solid #eee; background-color:#fbfbfb; text-align:center;}
+.list-safe {margin-top:12px; font-size:0; text-align:center;}
+.list-safe li {display:inline-block; position:relative; width:210px; font-size:16px; line-height:1.25; color:#222; vertical-align:top; letter-spacing:-0.05em;}
+.list-safe li span {display:block; margin-top:7px; font-size:20px; font-family:'HDHarmonyM'; color:#116bde;}
+.list-safe li.li-2 span,
+.list-safe li.li-4 span {color:#007b9c;}
+.list-safe li:before {display:block; width:120px; height:120px; margin:0 auto 17px; background-repeat:no-repeat; content:'';}
+.list-safe li.li-1:before {background-image:url(https://www.hyundai.co.kr/images/techinnovation/ico-safe-1-1.png);}
+.list-safe li.li-2:before {background-image:url(https://www.hyundai.co.kr/images/techinnovation/ico-safe-1-2.png);}
+.list-safe li.li-3:before {background-image:url(https://www.hyundai.co.kr/images/techinnovation/ico-safe-1-3.png);}
+.list-safe li.li-4:before {background-image:url(https://www.hyundai.co.kr/images/techinnovation/ico-safe-1-4.png);}
+.box-safe-graph {overflow:hidden; height:0; padding-top:57.19%; background:url(https://www.hyundai.co.kr/images/techinnovation/graph-safe-1.jpg) no-repeat; text-indent:-9999px;}
+.desc-d1.type-1 {font-family:'dotum', '돋움'; font-size:12px; line-height:1.6; color:#666; letter-spacing:-0.03em;}
+.desc-d1.type-1 .type-1 {margin-top:20px;}
+.box-gallery {overflow:hidden; position:relative; padding-bottom:50px;}
+.box-gallery .list-gallery { position:relative;}
+.box-gallery .list-gallery li {display:none; overflow:hidden; position:absolute; top:0; left:100%;}
+.box-gallery .list-gallery li img {-webkit-transform:scale(1.1); transform:scale(1.1); -webkit-transition:transform .7s cubic-bezier(.21,.53,.53,.92); transition:transform .7s cubic-bezier(.21,.53,.53,.92);}
+.box-gallery .list-gallery li.on img {-webkit-transform:scale(1); transform:scale(1);}
+.box-gallery .list-gallery li .txt {position:absolute; bottom:-45px; left:0; width:100%; height:45px; background-color:rgba(0,0,0,.7); font-family:'HDHarmonyM'; font-size:16px; line-height:45px; color:#fff; text-align:center;}
+.box-gallery .list-gallery li.on {display:block; position:relative; left:auto;}
+.box-gallery .list-gallery li.on .txt {bottom:0;}
+.box-gallery .list-gallery li.ready {display:block;}
+.box-gallery .list-arrow li {position:absolute; top:229px; width:50px; height:50px;}
+.box-gallery .list-arrow li button {display:block; overflow:hidden; width:100%; height:0; padding-top:50px; border:none; background-color:#333; background-repeat:no-repeat; background-position:50% 50%; text-indent:-9999em;}
+.box-gallery .list-arrow li.li-prev {left:0;}
+.box-gallery .list-arrow li.li-next {right:0;}
+.box-gallery .list-arrow li.li-prev button {background-image:url(https://www.hyundai.co.kr/images/techinnovation/arrow-1.png);}
+.box-gallery .list-arrow li.li-next button {background-image:url(https://www.hyundai.co.kr/images/techinnovation/arrow-2.png);}
+.box-gallery .list-indicator {margin-top:30px; font-size:0; text-align:center;}
+.box-gallery .list-indicator li {display:inline-block; width:65px; margin-left:6px;}
+.box-gallery .list-indicator li:first-child {margin-left:0;}
+.box-gallery .list-indicator li button {display:block; overflow:hidden; width:100%; height:0; padding-top:3px; border:none; background-color:#747474; text-indent:-9999em;}
+.box-gallery .list-indicator li button {-webkit-transition:all .2s ease-out; transition:all .2s ease-out;}
+.box-gallery .list-gallery li .txt {-webkit-transition:all .3s cubic-bezier(.21,.53,.53,.92) .3s; transition:all .3s cubic-bezier(.21,.53,.53,.92) .3s;}
+.box-gallery .list-indicator li.on button {background-color:#00287a;}
+
+/*  //2018 신기술추가 */  
+
+/***** 180928 추가 : 검색결과 ******************/
+.hotissue-area {width:984px;margin:0 auto;position:relative;}
+.hotissue-wrap {position:relative;padding-bottom:15px;font-family:HDHarmonyM;} /* 190104 수정 *//* 200113 edit */
+.hotissue-wrap > p {font-size:14px;display:inline-block;color:#00287a;}
+.hotissue-wrap  .hotissue-list {position:absolute;top:0;left:90px;} /* 190104 수정 */
+.hotissue-wrap  .hotissue-list li {float:left;padding-right:10px;}
+.hotissue-wrap  .hotissue-list li a {display:block;font-size:13px;text-decoration:underline;color:#333;}
+.hotissue-wrap  .hotissue-list:after {content:'';clear:both;display:block;}
+
+/* 공통 */
+.search-tit-box {margin:30px 0 40px;} /* 190104 수정 */
+.search-tit-box p.search-tit {width:984px;margin:0 auto;font-size:16px;color:#666;}
+.search-tit-box p.search-tit strong {font-size:30px;font-family:HDharmonyM;color:#333;font-weight:normal;}
+ul.tab-a1.num9 {margin-bottom:0;background:#fff;border:1px #c8c8c8 solid}
+ul.tab-a1.num9 li {background:#fff url('/images/comm/bg/bg-tab-seach.gif') no-repeat left top;}
+ul.tab-a1.num9 li:first-child {background:none;}
+ul.tab-a1.num9 a {width:109px;}
+ul.tab-a1.num9 li:first-child a {width:111px;}
+.empty {background:none !important;} /* 190115 추가 */
+.empty img{position:absolute;width:136px;height:44px;left:50%;top:50%;margin-left:-68px;margin-top:-22px;}
+
+.article-default.search-result .tab-cons-area {position:relative;}
+.article-default.search-result .tab-cons-area h2.h2-tit {font-family:HDHarmonyM;font-weight:400;font-size:26px;margin:50px 0 25px;padding:0 0 15px 20px;border-bottom:1px solid #c8c8c8;color:#333;line-height:28px;}
+.article-default.search-result .tab-cons-area h2.h2-tit:before {content:'';display:block;clear:both;position:absolute;top:3px;left:0;width:8px;height:18px;background:url('/images/comm/ico/ico_result_list.png') no-repeat;}
+.article-default.search-result .tab-cons-area h2.h2-tit span {font-size:21px;color:#666;}
+.article-default.search-result .tab-cons-area div.btn-wrap {margin-bottom:-3px;margin-top:40px;}
+.article-default.search-result .btn_more a:before,
+.article-default.search-result .btn_more a:after {-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;-o-transition:all 0.3s ease;-ms-transition:all 0.3s ease;transition:all 0.3s ease;}
+.article-default.search-result .btn_more {position:absolute;top:9px;right:0;background:#fff;}
+.article-default.search-result .btn_more a {display:block;position:relative;width:24px;height:25px;border:1px solid #bababa;font-size:0;line-height:0;text-indent:-99999em;}
+.article-default.search-result .btn_more a:before,
+.article-default.search-result .btn_more a:after {display:block;position:absolute;background-color:#666;content:'';}
+.article-default.search-result .btn_more a:before {top:7px;left:11px;width:2px;height:12px;}
+.article-default.search-result .btn_more a:after {top:12px;left:6px;width:12px;height:2px;}
+.article-default.search-result .btn_more a:hover:before,
+.article-default.search-result .btn_more a:hover:after {-webkit-transform:rotate(90deg);-moz-transform:rotate(90deg);-o-transform:rotate(90deg);-ms-transform:rotate(90deg);transform:rotate(90deg);}
+
+.non-cons-area {position:relative;min-height:470px;margin-top:33px;}
+.non-cons-area .no-data {width:984px;padding:60px 0;background:#fff;}
+.non-cons-area .no-data p {margin:0 40px;font-family:HDHarmonyM;font-weight:400;font-size:20px;color:#333;}
+.non-cons-area .no-data p > span {color:#00287a;}
+.non-cons-area .no-data ul.nodata-info-list {padding-top:20px;margin:0 40px;}
+.non-cons-area .no-data ul.nodata-info-list li {font-family:HDHarmonyM;font-size:15px;line-height:26px;color:#666;}
+
+/* 블로그 */
+.article-default.search-result ul.thumbnail-a4 {overflow:hidden;position:relative;width:1000px;}
+.article-default.search-result ul.thumbnail-a4 li {position:relative;float:left;width:320px;height:265px;background:#fff;overflow:hidden;margin-right:12px;margin-bottom:12px;}
+.article-default.search-result ul.thumbnail-a4 li a:hover {background:none;}
+.article-default.search-result ul.thumbnail-a4 li a {position:relative;display:block;height:265px;}
+.article-default.search-result ul.thumbnail-a4 li a strong.search{position:relative;width:65px;height:auto;padding:0;line-height:16px;font-family:dotum;} /* 200113 edit : 폰트 */
+.article-default.search-result ul.thumbnail-a4 li a strong {display:inline-block;position:absolute;top:0;left:0;width:85px;height:21px;margin-right:3px;padding:0;font-family:HDHarmonyM;font-size:12px;font-weight:normal;text-align:center;line-height:21px;color:#fff;} 
+.article-default.search-result ul.thumbnail-a4 li a div.over-share {position:absolute;bottom:0;left:0;background:#fff;width:320px;padding-bottom:0px;} 
+.article-default.search-result ul.thumbnail-a4 li a span.tit {display:block;height:35px;padding:25px 15px;font-size:16px;color:#333;font-family:HDHarmonyM;} 
+
+/* 보도자료 */
+.article-default.search-result ul.thumbnail-b2 li {min-height:180px;background:#f8f8f8;margin-bottom:5px;position:relative;}
+.article-default.search-result ul.thumbnail-b2 li.bg {background:#fff;}
+.article-default.search-result ul.thumbnail-b2 li a {display:block;position:relative;height:180px;padding-left:0;}
+.article-default.search-result ul.thumbnail-b2 li a div {position:absolute;top:0;right:0;width:645px;height:180px;padding-left:25px;background:#fff;}
+.article-default.search-result ul.thumbnail-b2 li a strong.tit {display:block;height:85px;padding-top:22px;padding-right:80px;font-size:20px;font-weight:400;color:#000;font-family:HDHarmonyM;width:460px;}
+.article-default.search-result ul.thumbnail-b2 li a strong.tit span {display:block;margin-top:6px;font-size:13px;color:#747474;font-weight:normal;font-family:dotum;}/* 200113 edit : 폰트 */
+.article-default.search-result ul.thumbnail-b2 li a span.pic {position:absolute;left:0;top:0;}
+.article-default.search-result ul.thumbnail-b2 li a .txt {padding-right:25px;font-style:normal;line-height:21px;color:#747474;font-family:dotum;font-size:13px;overflow:hidden;height:70px;width:630px;}/* 200113 edit : 폰트 */
+.article-default.search-result ul.thumbnail-b2 li.on {background:#f8f8f8}
+.article-default.search-result ul.thumbnail-b2 li.nodata {height:auto;min-height:0px;text-align:center;background:url(https://blog.hmgjournal.com/images_n/comm/ico_n/ico-nodata.png) center 40px no-repeat #FFF;padding:105px 0 40px 0;font-family:dotum;font-weight:bold;color:#333;font-size:16px;border-bottom:1px solid #eee;}/* 190305 수정 *//* 200113 edit : 폰트 */
+.article-default.search-result ul li .down {position:absolute;display:inline-block;top:20px;right:20px;z-index:10;}
+.article-default.search-result ul li .down a {display:inline-block;height:25px;line-height:25px;border:1px #c8c8c8 solid;padding:0 14px;background:#fff;}
+.article-default.search-result ul li .down .original {background:#fff url(https://blog.hmgjournal.com/images_n/comm/ico_n/ico_down.gif) 62px center no-repeat;padding:0 20px 0 14px;}/* 190305 수정 */
+
+/* 동영상 */
+ul.thumbnail-a7 {overflow:hidden;position:relative;width:1000px;}
+ul.thumbnail-a7 li {position:relative;float:left;width:320px;height:180px;background:#fff;overflow:hidden;margin-right:12px;margin-bottom:12px;}
+ul.thumbnail-a7 li a {display:block;position:relative;height:180px;}
+ul.thumbnail-a7 li a div.over-share {position:absolute;bottom:0;left:0;background:#000;width:320px;opacity:0.7;filter:alpha(opacity=40);} 
+ul.thumbnail-a7 li a span.tit {display:block;height:40px;padding:0 15px 0;font-size:15px;color:#fff;line-height:40px;font-family:HDHarmonyL;}
+ul.thumbnail-a7 li a span.play_ico {position:absolute;top:50%;left:50%;margin-left:-20px;margin-top:-22px;}
+ul.thumbnail-a7#listImg li a div.over-share {bottom:0 !important;} /* 190115 추가 */
+ul.thumbnail-a7#listImgTV li a div.over-share {bottom:0 !important;} /* 200206 add */
+
+/* 사진 */
+.article-default.search-result ul.thumbnail-a2 {overflow:hidden;position:relative;width:1000px;}
+.article-default.search-result ul.thumbnail-a2 li {float:left;position:relative;width:486px;height:332px;margin:0 12px 12px 0;background:#fff;}
+.article-default.search-result ul.thumbnail-a2 li a {position:relative;display:block;width:100%;height:100%;overflow:hidden;cursor:pointer;} 
+.article-default.search-result ul.thumbnail-a2 li a:hover {background:none;}
+.article-default.search-result ul.thumbnail-a2 li a div {position:absolute;bottom:0;left:0;background:#fff;padding:0 20px;width:468px;} 
+.article-default.search-result ul.thumbnail-a2 li a span.tit {padding:20px 0 0 0;display:block;font-size:16px;color:#333;height:40px;font-family:HDHarmonyM;}
+
+/* 태그 */
+.article-default.search-result ul.thumbnail-a4.tag-list li {height:265px;}/* 181231 수정 */
+.article-default.search-result ul.thumbnail-a4.tag-list li a {height:265px;}/* 181231 수정 */
+.article-default.search-result ul.thumbnail-a4.tag-list li a:hover {background:none;}
+
+/* 채용정보 */
+table.board-list-a4 {width:984px;background:#fff;}
+table.board-list-a4 tr {border-bottom:1px solid #eee;font-family:dotum;font-size:13px;text-align:left;}/* 200113 edit : 폰트 */
+table.board-list-a4 thead tr {border-top:1px solid #eee;}
+table.board-list-a4 thead th{padding:19px 0 19px 35px;color:#000;}
+table.board-list-a4 tbody td {padding:17px 0 17px 35px;color:#747474;}
+table.board-list-a4 tbody td a {color:#747474;}
+table.board-list-a4 tbody td strong {width:65px;color:#333;display:inline-block;font-weight:bold;}
+
+/* 그룹소식 +  첨부파일 */
+ul.thumbnail-a8 {position:relative;width:984px;background:#fff;}
+ul.thumbnail-a8 li {position:relative;margin:0 20px;padding:30px 0;border-bottom:1px solid #f3f3f3;}
+ul.thumbnail-a8 li a {display:block;font-family:dotum;}/* 200113 edit : 폰트 */
+ul.thumbnail-a8 li a > span.location {display:block;position:relative;padding-left:15px;}
+ul.thumbnail-a8 li a > span.location span.home {position:absolute;left:0;top:0;background:url('/images/comm/ico/ico-home.gif') no-repeat 0 1px;text-indent:0;font-size:0;line-height:0;height:15px;width:15px;} /* 190117 수정 *//* 200113 edit */
+ul.thumbnail-a8 li a > span.location span.depth {display:inline-block;background:url('/images/comm/bu/bu-arrow1-rgt1.gif') no-repeat center 4px;margin-right:-2px;width:20px;height:16px;text-indent:-99999px;}  /* 190117 수정 *//* 200113 edit */
+ul.thumbnail-a8 li a > span.desc {display:block;margin-top:15px;font-size:13px;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;color:#747474;}
+ul.thumbnail-a8 li a > span.info {display:block;font-family:dotum;font-size:13px;text-align:left;line-height:25px;color:#333;}/* 200113 edit : 폰트 */
+ul.thumbnail-a8 li a > span.info .site {display:inline-block;width:94px;height:25px;margin-right:12px;color:#fff;text-align:center;}
+ul.thumbnail-a8 li a > span.info .site.group {background:#00287a;}
+ul.thumbnail-a8 li a > span.info .site.journal {background:#1772e5;}
+ul.thumbnail-a8 li a > span.info .site.tv {background:#ff551e;}
+ul.thumbnail-a8 li a > span.download {display:block;position:relative;font-size:12px;margin-top:15px;padding-left:24px;color:#555;}
+ul.thumbnail-a8 li a > span.download:before {content:'';display:block;clear:both;position:absolute;top:0;left:0;width:12px;height:14px;background:url('/images/comm/ico/ico_down2.gif') no-repeat;}
+/***** //180928 추가 : 검색결과 ******************/
+
+/* 190114 추가 */
+/* datalist */
+.datalist {position:absolute;top:44px;left:50%;z-index:1;width:850px;margin-left:-480px;padding:8px 0;border:1px solid #bababa;border-top:none;background:#fff;} /* 191115 modify */
+.datalist li a {display:block;height:32px;padding:0 30px;font-family:'HDHarmonyL';font-size:13px;text-align:left;line-height:32px;}/* 200113 edit : 폰트 */
+.datalist > li > a {color:#333;}/* 200113 edit */
+.datalist li a:hover,
+.datalist li a:active {text-decoration:underline;}
+.datalist em{color:#00287a;}
+.search-insert .input_del {position:absolute;top:0;right:54px;width:44px;height:44px;background:none;}
+/* //190114 추가 */
+
+/* 190507 추가 : 수소전기차 */
+/* 수소에너지 */
+.img-box-fcev2 {margin:0 auto;width:842px;height:214px;padding:26px 0 0 62px;background:url('/images/techinnovation/ico-hydrogenenergy.gif') no-repeat;}
+.img-box-fcev2 li {float:left;width:222px;margin-right:38px;font-size:14px;font-family:HDHarmonyM;color:#666;line-height:18px;text-align:center;letter-spacing:-0.03em;}
+.img-box-fcev2 li:nth-child(2) {margin-right:51px;}
+.img-box-fcev2 strong {display:block;padding:0 0 117px 0;font-size:16px;font-family:HDHarmonyM;color:#00287a;}
+/* 경제성 */
+/* 190527 수정 */
+.area-economic {padding:9px 76px 0 78px;background-color:#f4f4f4;text-align:center;}
+.area-economic table {background-color:#eee;margin-bottom:13px;}
+.area-economic caption {display:table-caption;padding-bottom:16px;font-family:HDHarmonyL;font-size:20px;letter-spacing:-0.03em;}
+.area-economic table tr {font-family:HDHarmonyL;font-size:15px;letter-spacing:-0.03em;}
+.area-economic thead {border-top:2px solid #666;}
+.area-economic thead th {padding:10px 0;color:#333;}
+.area-economic tbody {border-top:1px solid #666;border-bottom:1px solid #666;}
+.area-economic thead th:nth-child(2), .area-economic tbody td:nth-child(2) {border-right:1px solid #d1d1d1;border-left:1px solid #d1d1d1;}
+.area-economic thead th:nth-child(3), .area-economic tbody td:nth-child(3) {border-right:1px solid #d1d1d1;}
+/* //190527 수정 */
+.area-economic tbody tr:nth-child(3) {background-color:#fafafa;}/* 190527 추가 */
+.area-economic tbody td {padding:10px 0;border-bottom:1px solid #666;color:#666;}/* 190527 추가 */
+.area-economic .nbl {border-right:none !important;}/* 190527 추가 */
+.area-economic .txt-refer {font-size:15px;color:#999;letter-spacing:-0.03em;}/* 190527 추가 */
+/* 수소충전소 */
+.img-box p.img-fig {font-family:HDharmonyL;font-size:15px;line-height:45px;text-align:center;}
+.tech-list-box.hydrogen-charge li {width:445px;margin-bottom:24px;}
+.tech-list-box.hydrogen-charge li:first-child {margin-right:14px;}
+/* 수소전기차 : table */
+/* 190508 수정 */
+table.fcev-tb {width:904px;background:#fff;}
+table.fcev-tb tbody td {padding:8px 0 9px 0;border-right:1px solid #c8c8c8;border-bottom:1px solid #c8c8c8;font-family:dotum;font-size:12px;line-height:20px;color:#747474;text-align:center;}
+table.fcev-tb tbody td span.check {display:inline-block;width:16px;height:11px;background:url('/images/comm/ico/ico-check.png') no-repeat;}
+table.fcev-tb .nbl {border-right:none !important;}
+table.fcev-tb.type1 thead th,table.fcev-tb.type2 thead th {padding:21px 0 23px 0;border-top:2px solid #00287a;border-right:1px solid #c8c8c8;border-bottom:1px solid #c8c8c8;background:#fafafa;font-family:dotum;font-weight:bold;font-size:12px;color:#00287a;text-align:center;}
+table.fcev-tb.type1 td {padding:8px 0 9px 60px;text-align:left;}
+table.fcev-tb.type1 td.typo-333 {background:#fafafa;font-weight:bold;color:#333;text-align:center;padding:0;}
+table.fcev-tb.type1.ac td {padding:9px 0 9px 0;text-align:center;} /* 190521 추가 */
+table.fcev-tb.type2 td {padding:19px 0 18px 0;font-weight:bold;}
+table.fcev-tb.type2 td.typo-fff {background:#65a1ee;font-weight:bold;color:#fff;}
+table.fcev-tb.type2 td.typo-333 {font-weight:bold;color:#333;text-align:center;}/* 190521 수정 */
+table.fcev-tb.type3 {width:904px;background:url('/images/techinnovation/bg-technology-1.jpg') no-repeat;}
+table.fcev-tb.type3 thead.bg-th tr {width:904px;height:111px;}
+table.fcev-tb.type3 thead th {overflow:hidden !important;width:0 !important;height:0 !important;font-size:0 !important;line-height:0 !important;text-indent:-1000px !important;}
+table.fcev-tb.type3 td {height:57px;padding:0;font-weight:bold;line-height:16px;border-right:none;}
+table.fcev-tb.type3 td.typo-333 {font-weight:bold;color:#333;text-align:center;}
+/* //190508 수정 */
+/* //190507 추가 : 수소전기차 */
+
+/* 200113 add */
+.result-option {overflow:hidden;width:984px;margin:0 auto;height:30px;}
+.result-option .sort {float:right;height:30px;line-height:30px;}
+.result-option .sort:after {display:block;clear:both;content:'';}
+.result-option .sort li {float:left;font-size:13px;font-family:HDHarmonyM;color:#747474;}
+.result-option .sort li a {position:relative;padding-left:17px;color:#747474;}
+.result-option .sort li a:before {display:inline-block;position:absolute;left:0;top:0;width:11px;height:11px;background:url('/images/comm/ico/ico_sort.png') no-repeat 0 -19px;content:'';}
+.result-option .sort li.on a:before {background:url('/images/comm/ico/ico_sort.png') no-repeat 0 3px;}
+.result-option .sort li.on a {color:#00287a;}
+.result-option .sort li a.accuracy {padding-right:16px;}
+.result-option .sort li a.new {margin-left:15px;}
+.result-option .sort li a.accuracy:after {display:inline-block;position:absolute;right:0;top:1px;width:1px;height:11px;margin-left:8px;background-color:#c8c8c8;content:'';}
+/* //200113 add */

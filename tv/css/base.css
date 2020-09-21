@@ -1,0 +1,114 @@
+@charset "utf-8";
+/* *********************************************
+Project ===== Hyundai Motor Group
+FileName === base.css
+Author ===== name
+Date ======= 2014-03-13
+Last ======= 2014-03-13
+********************************************* */
+
+
+/* --------------------------------------------
+ * default
+/* ------------------------------------------ */
+html,body{width:100%;height:100%}
+body {font-family:HDharmonyL, dotum, Arial, Helvetica, sans-serif;font-size:12px;color:#747474;background:#eee;}
+html,body,div,span,object,iframe,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,
+sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,
+figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video,h1,h2,h3,h4,h5,h6 {margin:0;padding:0;list-style:none;}
+
+
+/* --------------------------------------------
+ * html5 block
+header,footer,section,article,aside,nav,hgroup,details,figure,figcaption {display:block;}
+ ------------------------------------------ */
+
+/* --------------------------------------------
+ * link
+/* ------------------------------------------ */
+a:link      {color:#333;text-decoration:none;}
+a:visited   {color:#333;text-decoration:none;}
+a:hover {color:#333;text-decoration:none;}
+a:active    {color:#333;text-decoration:none; background-color:transparent;}
+a:focus {}/*text-decoration:underline;*/
+
+
+/* --------------------------------------------
+ * etc
+/* ------------------------------------------ */
+address,em  {font-style:normal;}
+hr              {display:none;}
+img         {border:0;}
+
+
+/* --------------------------------------------
+ * table
+/* ------------------------------------------ */
+table {width:100%;border-collapse:collapse;border-spacing:0;}
+tbody, tfoot, thead, tr, th, td {table-layout:fixed;word-break:break-all;}/* table-layout:fixed border:none; separate */
+caption {position:absolute; overflow:hidden; display:inline-block; width:0 !important; height:0 !important; padding:0 !important; margin:0 !important; font-size:0 !important; line-height:0 !important;} /* 190905 수정 */
+
+
+/* --------------------------------------------
+ * fieldset
+/* ------------------------------------------ */
+fieldset    {border:none;}
+legend  {visibility:hidden;width:0;height:0;font-size:0;line-height:0;position:absolute;left:0;top:-999999px;}
+
+
+/* --------------------------------------------
+ * form
+/* ------------------------------------------ */
+input[type=button],
+input[type=submit] {cursor:pointer;}
+input[type="radio"],
+input[type="checkbox"] {width:13px;height:13px;margin-top:-2px;padding:0;}
+button  {width:auto;overflow:visible;vertical-align:middle;cursor:pointer;}
+textarea    {resize:none;}
+select  {vertical-align:middle;font:12px "Arial";width: 108px;padding: 13px 0 11px 10px;height: 40px;background:#fff;display:inline-block;}
+
+input,button,select,textarea {vertical-align:middle;color:#747474;border:0;}
+
+
+/* --------------------------------------------
+ * web font
+/* ------------------------------------------ */
+@font-face {font-family: HDHarmonyL;src: url('../images/comm/font/HDHarmonyL.eot');}
+@font-face {font-family: HDHarmonyM;src: url('../images/comm/font/HDHarmonyM.eot');}
+
+
+@font-face {
+font-weight: normal;
+font-style: normal;
+font-family: 'HDHarmonyL';
+src: url('../images/comm/font/HDHarmonyL.eot?#iefix') format('embedded-opentype');
+src: local("☺"), url("../images/comm/font/HDHarmonyL.woff") format("woff"), url("../images/comm/font/HDHarmonyL.ttf") format("truetype");
+}
+@font-face {
+font-weight: normal;
+font-style: normal;
+font-family: 'HDHarmonyM';
+src: url('../images/comm/font/HDHarmonyM.eot?#iefix') format('embedded-opentype');
+src: local("☺"), url("../images/comm/font/HDHarmonyM.woff") format("woff"), url("../images/comm/font/HDHarmonyM.ttf") format("truetype");
+}
+
+
+
+
+
+
+
+
+
+@font-face { font-family: NanumGothicBold;src: url("=/images/font/NanumGothicBold.eot"=); /* IE9 Compat Modes */ src: url("/images/font/NanumGothicBold.eot?#iefix") format('embedded-opentype'); /* IE6-IE8 */src: local('$'), url('/images/font/NanumGothicBold.woff') format('woff'), url('/images/font/NanumGothicBold.ttf') format('truetype'); }
+
+
+/* --------------------------------------------
+ * popup
+/* ------------------------------------------ */
+#popup-wrapper {padding:30px;position:relative;display:inline-block;width:auto;background:#eee;}
+#popup-wrapper header {margin-bottom:20px;}
+#popup-wrapper header h1 {color:#333;font-size:25px;font-family:'HDHarmonyM';}
+#popup-wrapper #popup-contents {display:inline-block;width:100%;}
+
+
